@@ -1,16 +1,15 @@
-# Wyklucz środowisko wirtualne
-venv/
-
-# Pliki Pythona i cache
+# Python
 __pycache__/
 *.pyc
-
-# Pliki tymczasowe
-*.log
+*.pyo
+*.pyd
+env/
+venv/
 .env
 
-# Systemowe
-.DS_Store
-Thumbs.db
+# dbt
+target/
+dbt_modules/
 
+# Logs
 logs/
