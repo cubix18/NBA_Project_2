@@ -1,0 +1,26 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: PLAYER_DATA
+    tables:
+      - name: nba_games_full
+        description: "Surowe dane meczów NBA wczytane do Snowflake"
+
+models:
+  - name: stg_nba_games
+    description: "Stagingowa wersja tabeli nba_games z oczyszczonymi danymi"
+    columns:
+      - name: game_id
+        tests:
+          - not_null
+          - unique
+      - name: game_date
+        tests:
+          - not_null
+      - name: home_team
+        tests:
+          - not_null
+      - name: visitor_team
+        tests:
+          - not_null
