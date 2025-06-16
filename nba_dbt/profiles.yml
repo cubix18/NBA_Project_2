@@ -1,0 +1,14 @@
+nba_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: bdnuepx-uk12830
+      user: cubix199615
+      password: AbukSpox11..005
+      role: ACCOUNTADMIN
+      database: NBA_DB
+      warehouse: COMPUTE_WH
+      schema: PLAYER_DATA
+      threads: 1
+      client_session_keep_alive: False

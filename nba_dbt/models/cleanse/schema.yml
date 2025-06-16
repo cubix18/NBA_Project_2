@@ -2,14 +2,14 @@ version: 2
 
 sources:
   - name: raw
-    schema: PLAYER_DATA
+    schema: STAGING_NBA_DATA
     tables:
-      - name: nba_games_full
+      - name: STG_REG_SEASON24_API
         description: "Surowe dane meczów NBA wczytane do Snowflake"
 
 models:
-  - name: stg_nba_games
-    description: "Stagingowa wersja tabeli nba_games z oczyszczonymi danymi"
+  - name: CLS_REG_SEASON24_API
+    description: "Cleasingowa wersja tabeli stage'owej STG_REG_SEASON24_API z oczyszczonymi danymi"
     columns:
       - name: game_id
         tests:

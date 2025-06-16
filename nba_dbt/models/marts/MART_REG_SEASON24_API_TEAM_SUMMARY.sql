@@ -2,14 +2,14 @@ WITH CTE AS (
     SELECT 
         HOME_TEAM_NAME
         , AVG(HOME_SCORE) AS AVG_HOME 
-    FROM {{ ref('stg_nba_games') }}
+    FROM {{ ref('CLS_REG_SEASON24_API') }}
     GROUP BY HOME_TEAM_NAME), 
 
 CTF AS (
     SELECT 
         VISITOR_TEAM_NAME
         , AVG(VISITOR_SCORE) AS AVG_AWAY 
-    FROM {{ ref('stg_nba_games') }}
+    FROM {{ ref('CLS_REG_SEASON24_API') }}
     GROUP BY VISITOR_TEAM_NAME)
 
 SELECT 
