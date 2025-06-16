@@ -1,5 +1,6 @@
 import requests
 import snowflake.connector
+import time  
 
 # -----------------------------
 # KONFIGURACJA
@@ -25,70 +26,104 @@ SNOWFLAKE_CONFIG = {
 # FUNKCJE
 # -----------------------------
 
-def fetch_nba_games():
-    """Pobierz dane meczów NBA dla sezonu 2023/24."""
-    games = []
-    page = 1
+import time  # dodaj na górze pliku
 
-    params_base = {
-        "start_date": "2023-10-01",
-        "end_date": "2024-06-30",
-        "per_page": 500
-    }
+def fetch_all_nba_games_from_2020():
+    """Pobierz mecze NBA od sezonu 2020 do dziś."""
+    games = []
+    cursor = None
+    per_page = 100
+    target_seasons = [2024]  # tylko 2024
 
     while True:
-        params = {**params_base, "page": page}
+        params = {
+            "per_page": per_page,
+            "seasons[]": target_seasons
+        }
+        if cursor:
+            params["cursor"] = cursor
+
         response = requests.get(API_URL, headers=HEADERS, params=params)
+
+        if response.status_code == 429:
+            print("Przekroczono limit zapytań. Czekam 5 sekund...")
+            time.sleep(5)
+            continue  # spróbuj ponownie
 
         if response.status_code != 200:
             raise Exception(f"Błąd pobierania danych: {response.status_code} - {response.text}")
 
         data = response.json()
-        games_batch = data.get("data", [])
-        games.extend(games_batch)
-
+        batch = data.get("data", [])
         meta = data.get("meta", {})
-        next_page = meta.get("next_page")
+        cursor = meta.get("next_cursor")
 
-        if not next_page:
+        games.extend(batch)
+
+        if not cursor:
             break
 
-        page += 1
+        time.sleep(1)  # <-- opóźnienie między kolejnymi żądaniami
 
     return games
 
+
 def connect_to_snowflake():
-    """Połącz z bazą Snowflake."""
+    """Połączenie z Snowflake."""
     conn = snowflake.connector.connect(**SNOWFLAKE_CONFIG)
     return conn
 
 def save_to_snowflake(conn, games):
-    """Zapisz dane do Snowflake (tabela: nba_games)."""
+    """Zapisz dane do Snowflake."""
     cursor = conn.cursor()
 
     cursor.execute("""
-        CREATE TABLE IF NOT EXISTS nba_games (
+        CREATE TABLE IF NOT EXISTS nba_games_full (
             id INT,
             date STRING,
-            home_team STRING,
-            visitor_team STRING,
-            home_score INT,
-            visitor_score INT
+            datetime STRING,
+            season INT,
+            status STRING,
+            period INT,
+            time STRING,
+            postseason BOOLEAN,
+            home_team_score INT,
+            visitor_team_score INT,
+            home_team_id INT,
+            home_team_name STRING,
+            home_team_abbreviation STRING,
+            visitor_team_id INT,
+            visitor_team_name STRING,
+            visitor_team_abbreviation STRING
         )
     """)
 
     for game in games:
         try:
             cursor.execute("""
-                INSERT INTO nba_games (id, date, home_team, visitor_team, home_score, visitor_score)
-                VALUES (%s, %s, %s, %s, %s, %s)
+                INSERT INTO nba_games_full (
+                    id, date, datetime, season, status, period, time, postseason,
+                    home_team_score, visitor_team_score,
+                    home_team_id, home_team_name, home_team_abbreviation,
+                    visitor_team_id, visitor_team_name, visitor_team_abbreviation
+                ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
             """, (
                 game["id"],
                 game["date"],
-                game["home_team"]["full_name"],
-                game["visitor_team"]["full_name"],
+                game.get("datetime"),
+                game["season"],
+                game["status"],
+                game["period"],
+                game["time"],
+                game["postseason"],
                 game["home_team_score"],
-                game["visitor_team_score"]
+                game["visitor_team_score"],
+                game["home_team"]["id"],
+                game["home_team"]["full_name"],
+                game["home_team"]["abbreviation"],
+                game["visitor_team"]["id"],
+                game["visitor_team"]["full_name"],
+                game["visitor_team"]["abbreviation"]
             ))
         except Exception as e:
             print(f"Błąd zapisu meczu ID {game['id']}: {e}")
@@ -101,14 +136,14 @@ def save_to_snowflake(conn, games):
 # -----------------------------
 
 def main():
-    print("Pobieram dane sezonu 2023/24...")
-    games = fetch_nba_games()
+    print("Pobieram dane meczów NBA od 2000 roku...")
+    games = fetch_all_nba_games_from_2020()
     print(f"Pobrano {len(games)} meczów.")
 
     print("Łączenie z Snowflake...")
     conn = connect_to_snowflake()
 
-    print("Zapisuję dane...")
+    print("Zapisuję dane do bazy...")
     save_to_snowflake(conn, games)
 
     print("Zakończono!")
