@@ -1,0 +1,72 @@
+version: 2
+
+models:
+  - name: CORE_PLAYOFFS_STATS_TEAM
+    description: >
+      Model agregujący statystyki zawodników z fazy play-off na poziomie gracza i meczu.
+      Sumuje i uśrednia metryki wydajnościowe oraz zawiera podstawowe informacje o drużynie i sezonie.
+    columns:
+      - name: PLAYER_ID
+        description: Unikalny identyfikator zawodnika.
+      - name: GAME_ID
+        description: Unikalny identyfikator meczu.
+      - name: TEAM_ID
+        description: Unikalny identyfikator drużyny.
+      - name: TEAM_NAME
+        description: Pełna nazwa drużyny.
+      - name: TEAM_ABBREVATION
+        description: Skrócona nazwa drużyny.
+      - name: TEAM_CITY
+        description: Miasto drużyny.
+      - name: SEASON_YEAR
+        description: Rok sezonu.
+      - name: GAME_DATE
+        description: Data meczu.
+      - name: PLAYER_NAME
+        description: Imię i nazwisko zawodnika.
+      - name: POSITION
+        description: Pozycja zawodnika na boisku.
+      - name: COMMENT
+        description: Dodatkowe uwagi/statystyki.
+      - name: TOTAL_MINUTES
+        description: Suma minut rozegranych przez zawodnika.
+      - name: TOTAL_SECONDS
+        description: Suma sekund rozegranych przez zawodnika.
+      - name: TOTAL_FG_MADE
+        description: Suma celnych rzutów z gry.
+      - name: TOTAL_FG_ATTEMPTED
+        description: Suma rzutów z gry.
+      - name: AVG_FG_PCT
+        description: Średnia skuteczność rzutów z gry.
+      - name: TOTAL_FG3_MADE
+        description: Suma celnych rzutów za 3 punkty.
+      - name: TOTAL_FG3_ATTEMPTED
+        description: Suma rzutów za 3 punkty.
+      - name: AVG_FG3_PCT
+        description: Średnia skuteczność rzutów za 3 punkty.
+      - name: TOTAL_FT_MADE
+        description: Suma celnych rzutów wolnych.
+      - name: TOTAL_FT_ATTEMPTED
+        description: Suma rzutów wolnych.
+      - name: AVG_FT_PCT
+        description: Średnia skuteczność rzutów wolnych.
+      - name: TOTAL_OREB
+        description: Suma zbiórek ofensywnych.
+      - name: TOTAL_DREB
+        description: Suma zbiórek defensywnych.
+      - name: TOTAL_ALL_REB
+        description: Suma wszystkich zbiórek.
+      - name: TOTAL_AST
+        description: Suma asyst.
+      - name: TOTAL_STL
+        description: Suma przechwytów.
+      - name: TOTAL_BLK
+        description: Suma bloków.
+      - name: TOTAL_TOV
+        description: Suma strat.
+      - name: TOTAL_PF
+        description: Suma fauli.
+      - name: TOTAL_PTS
+        description: Suma zdobytych punktów.
+      - name: TOTAL_PLUS_MINUS
+        description: Suma współczynnika +/− (różnica punktowa, gdy zawodnik był na boisku).

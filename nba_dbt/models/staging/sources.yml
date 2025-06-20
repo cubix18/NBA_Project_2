@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: STAGING_NBA_DATA
+    schema: STAGING_NBA_DATA
+    tables:
+      - name: STG_REG_SEASON24_API
+        description: "Surowe dane meczów NBA wczytane do Snowflake"
+      - name: STG_REG_SEASON_TOTALS
+        description: "Dane od sezonu 2010 do sezonu 2024"
+      - name: STG_PLAYOFFS_STATS
+        description: "Dane z Playoffs od sezonu 2010 do sezonu 2024"

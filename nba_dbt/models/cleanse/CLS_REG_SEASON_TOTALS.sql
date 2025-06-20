@@ -1,6 +1,6 @@
 with source as (
     select * 
-    from {{ source('raw', 'STG_REG_SEASON_TOTALS') }}
+    from {{ source('STAGING_NBA_DATA', 'STG_REG_SEASON_TOTALS') }}
 ),
 
 renamed as (

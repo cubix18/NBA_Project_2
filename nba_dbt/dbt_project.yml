@@ -22,7 +22,11 @@ models:
   nba_dbt:
     +database: NBA_DB
     +schema: PLAYER_DATA  # domyślnie
+    staging:
+      +schema: STAGING_NBA_DATA
     cleanse:
       +schema: CLEANSE_NBA_DATA
+    core:
+      +schema: CORE_NBA_DATA
     marts:
       +schema: MART_NBA_DATA
