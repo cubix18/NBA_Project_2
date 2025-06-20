@@ -6,6 +6,8 @@ sources:
     tables:
       - name: STG_REG_SEASON24_API
         description: "Surowe dane meczów NBA wczytane do Snowflake"
+      - name: STG_REG_SEASON_TOTALS
+        description: "Dane od sezonu 2010 do sezonu 2024"
 
 models:
   - name: CLS_REG_SEASON24_API
