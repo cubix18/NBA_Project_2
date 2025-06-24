@@ -10,3 +10,9 @@ sources:
         description: "Dane od sezonu 2010 do sezonu 2024"
       - name: STG_PLAYOFFS_STATS
         description: "Dane z Playoffs od sezonu 2010 do sezonu 2024"
+      - name: STG_REG_SEASON_STATS_V1
+        description: "Dane z sezonu regularnego od sezonu 2010 do sezonu 2024 - część 1"
+      - name: STG_REG_SEASON_STATS_V2
+        description: "Dane z sezonu regularnego od sezonu 2010 do sezonu 2024 - część 2"
+      - name: STG_REG_SEASON_STATS_V3
+        description: "Dane z sezonu regularnego od sezonu 2010 do sezonu 2024 - część 3"
