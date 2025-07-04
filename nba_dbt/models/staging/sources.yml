@@ -16,3 +16,7 @@ sources:
         description: "Dane z sezonu regularnego od sezonu 2010 do sezonu 2024 - część 2"
       - name: STG_REG_SEASON_STATS_V3
         description: "Dane z sezonu regularnego od sezonu 2010 do sezonu 2024 - część 3"
+      - name: STG_REG_SEASON_STATS_ALL
+        description: "Dane z sezonu regularnego od sezonu 2010 do sezonu 2024 - połączone V1, V2, V3"
+      - name: STG_NBA_DRAFT_DATA
+        description: "Dane z draftów od roku 2010"
