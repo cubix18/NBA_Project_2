@@ -1,26 +1,10 @@
 version: 2
 
 models:
-  - name: CLS_REG_SEASON24_API
-    description: "Cleasingowa wersja tabeli stage'owej STG_REG_SEASON24_API z oczyszczonymi danymi"
-    columns:
-      - name: game_id
-        tests:
-          - not_null
-          - unique
-      - name: game_date
-        tests:
-          - not_null
-      - name: home_team
-        tests:
-          - not_null
-      - name: visitor_team
-        tests:
-          - not_null
-  - name: cls_reg_season_totals
+  - name: CLS_SEASON_TEAM_STATS
     description: >
       Oczyszczone dane ze statystyk drużyn NBA w sezonie regularnym.
-      Dane pochodzą ze źródła STG_REG_SEASON_TOTALS i zostały poddane podstawowej transformacji:
+      Dane pochodzą ze źródła STG_SEASON_TEAM_STATS i zostały poddane podstawowej transformacji:
       zmiana formatu daty, konwersje typów liczbowych oraz zmiana nazw kolumn na czytelne aliasy.
       Model zawiera metadane dotyczące daty ładowania danych (`load_date`).
     columns:

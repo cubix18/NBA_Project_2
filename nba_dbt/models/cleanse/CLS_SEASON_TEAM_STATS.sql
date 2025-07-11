@@ -1,9 +1,9 @@
 with source as (
     select * 
-    from {{ source('STAGING_NBA_DATA', 'STG_PLAYOFFS_STATS') }}
+    from {{ source('STAGING_NBA_DATA', 'STG_SEASON_TEAM_STATS') }}
 ),
 
-CLS_PLAYOFFS_STATS as (
+CLS_SEASON_TEAM_STATS as (
     SELECT 
         CAST(PERSONID AS NUMBER) AS PLAYER_ID
         , CAST(GAMEID AS NUMBER) AS GAME_ID
@@ -44,4 +44,4 @@ CLS_PLAYOFFS_STATS as (
     from source
 )
 
-select * from CLS_PLAYOFFS_STATS
+select * from CLS_SEASON_TEAM_STATS

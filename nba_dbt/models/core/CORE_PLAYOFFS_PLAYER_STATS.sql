@@ -1,7 +1,7 @@
 -- models/core/CORE_PLAYOFFS_STATS_TEAM.sql
 
 with base as (
-    select * from {{ ref('CLS_PLAYOFFS_STATS') }}
+    select * from {{ ref('CLS_PLAYOFFS_PLAYER_STATS') }}
 ),
 
 CORE_PLAYOFFS_STATS as (

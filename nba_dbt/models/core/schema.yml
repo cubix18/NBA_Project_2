@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: CORE_PLAYOFFS_STATS_TEAM
+  - name: CORE_PLAYOFFS_PLAYER_STATS
     description: >
       Model agregujący statystyki zawodników z fazy play-off na poziomie gracza i meczu.
       Sumuje i uśrednia metryki wydajnościowe oraz zawiera podstawowe informacje o drużynie i sezonie.

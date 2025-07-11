@@ -1,6 +1,6 @@
 with source as (
     select * 
-    from {{ source('STAGING_NBA_DATA', 'STG_REG_SEASON_STATS_ALL') }}
+    from {{ source('STAGING_NBA_DATA', 'STG_SEASON_PLAYER_STATS') }}
 ),
 
 CLS_REG_SEASON_STATS_ALL as (

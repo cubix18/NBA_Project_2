@@ -24,9 +24,13 @@ models:
     +schema: PLAYER_DATA  # domyślnie
     staging:
       +schema: STAGING_NBA_DATA
+      +materialized: table
     cleanse:
       +schema: CLEANSE_NBA_DATA
+      +materialized: table
     core:
       +schema: CORE_NBA_DATA
+      +materialized: table
     marts:
       +schema: MART_NBA_DATA
+      +materialized: table

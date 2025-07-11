@@ -1,5 +1,5 @@
 with base as (
-    select * from {{ ref('CLS_NBA_DRAFT_DATA') }}
+    select * from {{ ref('CLS_DRAFT_PLAYER_STATS') }}
 )
 
 SELECT 
