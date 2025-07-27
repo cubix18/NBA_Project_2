@@ -57,3 +57,96 @@ Runtime Error
 [0m23:33:13.697557 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022377A3FC10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022377A3EB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022377A3F190>]}
 [0m23:33:13.698552 [debug] [MainThread]: Flushing usage events
 [0m23:33:14.205385 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:45:49.169021 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012B98F03D50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012B988D8310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012B98F32E90>]}
+
+
+============================== 22:45:49.178003 | 80a515c2-b155-46da-acbd-a0b54f2ddf0b ==============================
+[0m22:45:49.178003 [info ] [MainThread]: Running with dbt=1.9.0
+[0m22:45:49.180994 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\LEN\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt run --select CLS_REG_SEASON_STATS_ALL', 'send_anonymous_usage_stats': 'True'}
+[0m22:45:49.181994 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\LEN\Desktop\NBA Project\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m22:45:49.185017 [debug] [MainThread]: Command `dbt run` failed at 22:45:49.185017 after 0.52 seconds
+[0m22:45:49.186017 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012B98D58B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012B98F02710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012B98F03D50>]}
+[0m22:45:49.187015 [debug] [MainThread]: Flushing usage events
+[0m22:45:49.704661 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:22:48.656050 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014937053AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014937053890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014937053350>]}
+
+
+============================== 21:22:48.664081 | de7397a8-b778-457a-99e6-ed8e4dc4623e ==============================
+[0m21:22:48.664081 [info ] [MainThread]: Running with dbt=1.9.0
+[0m21:22:48.667073 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\LEN\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:22:48.729542 [info ] [MainThread]: dbt version: 1.9.0
+[0m21:22:48.731537 [info ] [MainThread]: python version: 3.11.0
+[0m21:22:48.732534 [info ] [MainThread]: python path: c:\Users\LEN\Desktop\NBA Project\.venv\Scripts\python.exe
+[0m21:22:48.733532 [info ] [MainThread]: os info: Windows-10-10.0.17134-SP0
+[0m21:22:49.422816 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.duckdb'
+[0m21:22:49.426799 [info ] [MainThread]: Using profiles dir at C:\Users\LEN\.dbt
+[0m21:22:49.427797 [info ] [MainThread]: Using profiles.yml file at C:\Users\LEN\.dbt\profiles.yml
+[0m21:22:49.428822 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\LEN\Desktop\NBA Project\dbt_project.yml
+[0m21:22:49.430795 [info ] [MainThread]: Configuration:
+[0m21:22:49.431789 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m21:22:49.433784 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:22:49.434780 [info ] [MainThread]: Required dependencies:
+[0m21:22:49.435745 [debug] [MainThread]: Executing "git --help"
+[0m21:22:49.680414 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:22:49.681445 [debug] [MainThread]: STDERR: "b''"
+[0m21:22:49.682410 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:22:49.683438 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m21:22:49.685400 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m21:22:49.686398 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dbt_project", target "dev" invalid: Runtime Error
+    Could not find adapter type duckdb!
+
+
+[0m21:22:49.688392 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\LEN\Desktop\NBA Project\dbt_project.yml> not found
+
+[0m21:22:49.691385 [debug] [MainThread]: Command `dbt debug` failed at 21:22:49.691385 after 1.55 seconds
+[0m21:22:49.692382 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000149370C3E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001493099CE90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014936397C90>]}
+[0m21:22:49.693380 [debug] [MainThread]: Flushing usage events
+[0m21:22:50.237441 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:24:34.841908 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021F22043D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021F22042E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021F220435D0>]}
+
+
+============================== 21:24:34.846925 | 16296b85-5b29-499a-a6b2-778e3ed8d32e ==============================
+[0m21:24:34.846925 [info ] [MainThread]: Running with dbt=1.9.0
+[0m21:24:34.848900 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\LEN\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m21:24:34.871860 [info ] [MainThread]: dbt version: 1.9.0
+[0m21:24:34.873823 [info ] [MainThread]: python version: 3.11.0
+[0m21:24:34.874818 [info ] [MainThread]: python path: c:\Users\LEN\Desktop\NBA Project\.venv\Scripts\python.exe
+[0m21:24:34.875848 [info ] [MainThread]: os info: Windows-10-10.0.17134-SP0
+[0m21:24:35.405432 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.duckdb'
+[0m21:24:35.409680 [info ] [MainThread]: Using profiles dir at C:\Users\LEN\.dbt
+[0m21:24:35.411419 [info ] [MainThread]: Using profiles.yml file at C:\Users\LEN\.dbt\profiles.yml
+[0m21:24:35.412432 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\LEN\Desktop\NBA Project\dbt_project.yml
+[0m21:24:35.414412 [info ] [MainThread]: Configuration:
+[0m21:24:35.415408 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m21:24:35.417054 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:24:35.418055 [info ] [MainThread]: Required dependencies:
+[0m21:24:35.419082 [debug] [MainThread]: Executing "git --help"
+[0m21:24:35.496842 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:24:35.498835 [debug] [MainThread]: STDERR: "b''"
+[0m21:24:35.499849 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:24:35.501828 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m21:24:35.502825 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m21:24:35.504819 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dbt_project", target "dev" invalid: Runtime Error
+    Could not find adapter type duckdb!
+
+
+[0m21:24:35.505816 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\LEN\Desktop\NBA Project\dbt_project.yml> not found
+
+[0m21:24:35.508810 [debug] [MainThread]: Command `dbt debug` failed at 21:24:35.508810 after 1.18 seconds
+[0m21:24:35.510807 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021F1B92CE90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021F220901D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021F2203F150>]}
+[0m21:24:35.511802 [debug] [MainThread]: Flushing usage events
+[0m21:24:36.005459 [debug] [MainThread]: An error was encountered while trying to flush usage events
