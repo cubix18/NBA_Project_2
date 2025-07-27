@@ -1,0 +1,38 @@
+with source as (
+    select * 
+    from {{ source('STAGING_NBA_DATA', 'STG_SEASON_TEAM_SUMMARY2425') }}
+),
+
+CLS_SEASON_TEAM_SUMMARY2425 as (
+    SELECT 
+        REPLACE(TEAM, '*', '') AS TEAM_NAME
+        , G AS TEAM_GAMES_PLAYED
+        , MP AS TEAM_MINUTES_PLAYED
+        , FG AS TEAM_FG_MADE
+        , FGA AS TEAM_FG_ATTEMPTED
+        , "FG%" AS TEAM_FG_PCT
+        , "3PTM" AS "TEAM_3PT_MADE"
+        , "3PTA" AS "TEAM_3PT_ATTEMPTED"
+        , "3P%" AS "TEAM_3PT_PCT"
+        , "2PTM" AS "TEAM_2PT_MADE"
+        , "2PTA" AS "TEAM_2PT_ATTEMPTED"
+        , "2P%" AS "TEAM_2PT_PCT"
+        , FT AS TEAM_FT_MADE
+        , FTA AS TEAM_FT_ATTEMPTED
+        , "FT%" AS TEAM_FT_PCT
+        , ORB AS TEAM_OFF_REB
+        , DRB AS TEAM_DEF_REB
+        , TRB AS TEAM_TOTAL_REB
+        , AST AS TEAM_ASSISTS
+        , STL AS TEAM_STEALS
+        , BLK AS TEAM_BLOCKS
+        , TOV AS TEAM_TURNOVERS
+        , PF AS TEAM_PERSONAL_FOULS
+        , PTS AS TEAM_PTS
+        , 1 AS IS_VALID
+        , TO_TIMESTAMP(CURRENT_TIMESTAMP ) AS LOAD_DATE
+        , 'STAGING_NBA_DATA.STG_SEASON_TEAM_SUMMARY2425' AS SOURCE_TABLE
+    from source
+)
+
+select * from CLS_SEASON_TEAM_SUMMARY2425

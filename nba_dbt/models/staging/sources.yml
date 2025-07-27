@@ -20,3 +20,25 @@ sources:
         description: "Dane drużyn z Playoffs od sezonu 2010 do 2024"
       - name: STG_DRAFT_PLAYER_STATS
         description: "Dane z draftów od roku 2010"
+      - name: STG_ALL_COMMON_PLAYER_INFO
+        description: "Dane dotyczące zawodników. Zawiera całą historię zawodników"
+      - name: STG_ALL_PLAYER_DETAILINFO
+        description: "Tabela podobna co COMMON_PLAYER_INFO tylko, że z mniejszą ilością informacji. "
+      - name: STG_ALL_TEAM_ARENA_ATTENDANCE
+        description: "Tabela dotycząca zespołów z ilością widzów na danym meczu"
+      - name: STG_ALL_TEAM_SCORELINE
+        description: "Tabela z wynikami meczów o 1946 do 2024 roku"
+      - name: STG_DRAFT_PLAYER_COMBINE_STATS
+        description: "Tabela z wynikami z DRAFT COMBINE"
+      - name: STG_DRAFT_PLAYER_HISTORY
+        description: "Historia draftowa, bardzo szczegółowa."
+      - name: STG_SEASON_TEAM_DETAILS
+        description: "Bardzo detaliczne wiadomości o zespołach"
+      - name: STG_SEASON_TEAM_GAMES_ALL
+        description: "Dane na poziomie zespołów, zawierają wszystkie mecze od 1946 do 2025 z podziałem na playffs i regular season"
+      - name: STG_SEASON_TEAM_HISTORY
+        description: "Dane historyczne, aktywne zespoły do 2019 roku, info o nieaktywnych."
+      - name: STG_SEASON_TEAM_NAMES
+        description: "Dane dotyczące zespołów. Zawiera podstawowe informacje oraz rok założenia."
+      - name: STG_SEASON_TEAM_SUMMARY2425
+        description: "Sumaryczne statystyki na sezon 24-25 z basketball reference. Jako dodatek"
