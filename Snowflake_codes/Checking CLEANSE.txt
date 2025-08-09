@@ -1,0 +1,106 @@
+SELECT season_year, count(season_year) FROM NBA_DB.CLEANSE_NBA_DATA.CLS_SEASON_PLAYER_STATS
+group by season_year
+order by 1;
+
+WITH CTE AS (SELECT DISTINCT(PERSONID), PERSONNAME FROM NBA_DB.STAGING_NBA_DATA.STG_SEASON_TEAM_STATS),
+CTF AS (SELECT DISTINCT(PERSONID), PERSONNAME FROM NBA_DB.STAGING_NBA_DATA.STG_SEASON_TEAM_STATS)
+
+SELECT * FROM CTE
+LEFT JOIN CTF ON CTE.PERSONNAME = CTF.PERSONNAME;
+--Imię i nazwiska zawodników się nie powtarzają
+
+
+WITH CTE AS (SELECT DISTINCT(PLAYER_ID), PLAYER_NAME FROM NBA_DB.CLEANSE_NBA_DATA.CLS_DRAFT_PLAYER_STATS),
+CTF AS (SELECT DISTINCT(PLAYER_ID), PLAYER_NAME FROM NBA_DB.CLEANSE_NBA_DATA.CLS_DRAFT_PLAYER_STATS)
+
+SELECT 
+    CTE.PLAYER_NAME
+    , ROW_NUMBER() OVER(PARTITION BY CTE.PLAYER_NAME ORDER BY CTE.PLAYER_NAME) AS RN 
+    , MD5(CTE.PLAYER_NAME)
+FROM CTE
+LEFT JOIN CTF ON CTE.PLAYER_NAME = CTF.PLAYER_NAME
+QUALIFY RN > 1;
+
+SELECT *, MD5(CONCAT(PLAYER_NAME, DRAFT_YEAR)) AS HASH1, MD5(PLAYER_NAME) AS HASH2 FROM NBA_DB.CLEANSE_NBA_DATA.CLS_DRAFT_PLAYER_STATS
+WHERE PLAYER_NAME in ('Justin Jackson','Dee Brown','Marcus Williams','Marcus Thornton','Corey Brewer')
+ORDER BY PLAYER_NAME, DRAFT_YEAR;
+
+
+SELECT DISTINCT(DATA) FROM NBA_DB.STAGING_NBA_DATA.STG_SEASON_PLAYER_STATS2425
+ORDER BY 1;
+
+
+--
+
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_SEASON_TEAM_STATS;
+--Ta tabela jest już wrzucona do CLEANSE.
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_SEASON_TEAM_NAMES;
+--Dane dotyczące zespołów. Zawiera podstawowe informacje oraz rok założenia.
+--Wartościowe dane: CITY, STATE, YEAR_FOUNDED
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_SEASON_TEAM_HISTORY;
+--Wartościowe dane:Dane historyczne, aktywne zespoły do 2019 roku, info o nieaktywnych.
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_SEASON_TEAM_DETAILS;
+--Wartościowe dane: ArenaCapacity, Owner, GeneralManager, HeadCoach, DLeagueAffiliation, 
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_PLAYOFFS_PLAYER_STATS;
+--Ta tabela jest już wrzucona do CLEANSE.
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_SEASON_PLAYER_STATS2425;
+--Dane niekompletne, do usunięcia, bo tylko do 07.02
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_SEASON_PLAYER_STATS;
+--Główna tabela na sezon regularny na poziomie zawodnika.
+--Dane od 2010 do końca sezonu 2023-24. Należy do niej skombinowac dane na 2024-25.
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_PLAYOFFS_TEAM_STATS;
+--Główna tabela na playoffs na poziomie drużyny.
+--Dane od 2010 do końca sezonu 2023-24 odnośnie playoffs. Należy do niej skombinowac dane na 2024-25.
+
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_PLAYOFFS_PLAYER_STATS;
+--Główna tabela na playoffs na poziomie zawodnika.
+--Dane od 2010 do końca sezonu 2023-24 odnośnie playoffs. Należy do niej skombinowac dane na 2024-25.
+
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_DRAFT_PLAYER_STATS;
+--Tabela draftowa na poziomie zawodnika. 
+--Wrzucona już do CLEANSE.
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_DRAFT_PLAYER_HISTORY;
+-- Dane draftowe z większą liczbą danych, bo od 1947 roku.
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_DRAFT_PLAYER_COMBINE_STATS;
+-- Dane rozszerzające informacje z draftu, ale w draft combine. 
+
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_ALL_TEAM_SCORELINE
+WHERE year(GAME_DATE_EST) = 2018;
+-- Dane historyczne od 1947 roku łączące dane historyczne z sezonu regularnego i playoffs.
+
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_ALL_COMMON_PLAYER_INFO;
+--Dane do oczyszczenia, ale wyglądają bardzo fajnie. Mogą się przydać.
+
+/*
+Plan działania:
+
+-- Informacyjnie - Porównać działanie modelu gwiazdy z tabelą zdenormalizowaną (pod kątem odpytywania danych)
+-- Przesortować dane i wydzielić te które są potrzebne
+-- Dodać dane z folderu 47+ do Snowflake. Sprawdzić jakie tam dane są
+-- Poszukać danych na 24-25 jeśli nie istnieją
+-- Załadować dane z .xlsx jeśli 
+
+
+1. Wyznaczyć co na podstawie tych danych chciałbym przygotować
+2. Zastanowić się, które dane mi się przydadzą, a które należy odrzucić lub wydzielić do innej tabeli (chciałbym przerobić wszystkie tabele)
+3. Dodać kolumny, które są w formacie XLSX
+4. Wrzucić te tabele do Snowflake. 
+5. Wyczyścić te dane
+6. Stworzyć w warstwie CORE tabele, z których będę robić schemat gwiazdy
+7. Rozdzielenie na schemat gwiazdy wraz z pokazaniem danych w MART.
+
+*/

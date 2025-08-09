@@ -1,0 +1,139 @@
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_ALL_COMMON_PLAYER_INFO;
+--Dane do oczyszczenia, ale wyglądają bardzo fajnie. Mogą się przydać.
+
+
+SELECT DRAFTYEAR, COUNT(DRAFTYEAR) FROM NBA_DB.STAGING_NBA_DATA.STG_ALL_PLAYER_DETAILINFO
+GROUP BY DRAFTYEAR
+ORDER BY 1;
+--Jedyna tabel z wzrostem, wagą, opisem zawodników itp. 
+--Rozpiętrość draftowa jest dość duża, ale trzeba sprawdzić czy są wszyscy.
+
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_ALL_TEAM_ARENA_ATTENDANCE;
+--Dane odnośnie aren - zajebiście przydatne
+
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_ALL_TEAM_SCHEDULE;
+--Dane odnośnie meczów. Można pod to fajnie podpiąć godziny meczów itp.
+
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_ALL_TEAM_SCORELINE
+WHERE year(GAME_DATE_EST) = 2018;
+-- Dane historyczne od 1947 roku łączące dane historyczne z sezonu regularnego i playoffs.
+
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_DRAFT_PLAYER_COMBINE_STATS;
+-- Dane rozszerzające informacje z draftu, ale w draft combine. 
+
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_DRAFT_PLAYER_HISTORY;
+-- Dane draftowe z większą liczbą danych, bo od 1947 roku.
+
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_DRAFT_PLAYER_STATS;
+--Tabela draftowa na poziomie zawodnika. 
+--Wrzucona już do CLEANSE.
+
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_PLAYOFFS_PLAYER_STATS;
+--Ta tabela jest już wrzucona do CLEANSE.
+--Główna tabela na playoffs na poziomie zawodnika.
+--Dane od 2010 do końca sezonu 2023-24 odnośnie playoffs. Należy do niej skombinowac dane na 2024-25.
+
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_PLAYOFFS_TEAM_STATS;
+--Główna tabela na playoffs na poziomie drużyny.
+--Dane od 2010 do końca sezonu 2023-24 odnośnie playoffs. Należy do niej skombinowac dane na 2024-25.
+
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_SEASON_PLAYER_STATS;
+--Główna tabela na sezon regularny na poziomie zawodnika.
+--Dane od 2010 do końca sezonu 2023-24. Należy do niej skombinowac dane na 2024-25.
+
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_SEASON_PLAYER_STATSBBALWITH;
+--Popracować nad tą tabelą, ponieważ dane z , są zagregowane na daty (Excel xDDD)
+--Tabela bardziej jako ciekawostka
+
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_SEASON_TEAM_DETAILS;
+--Wartościowe dane: ArenaCapacity, Owner, GeneralManager, HeadCoach, DLeagueAffiliation, 
+
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_SEASON_TEAM_GAMES_ALL;
+--Dane dodane w drugiej turze.
+--Dane na poziomie zespołów, zawierają wszystkie mecze od 1946 do 2025 z podziałem na playffs i regular season.
+
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_SEASON_TEAM_HISTORY;
+--Wartościowe dane:Dane historyczne, aktywne zespoły do 2019 roku, info o nieaktywnych.
+
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_SEASON_TEAM_NAMES;
+--Dane dotyczące zespołów. Zawiera podstawowe informacje oraz rok założenia.
+--Wartościowe dane: CITY, STATE, YEAR_FOUNDED
+
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_SEASON_TEAM_STATS;
+--Ta tabela jest już wrzucona do CLEANSE.
+
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_DRAFT_PLAYER_COMBINE_STATS;
+-- Dane rozszerzające informacje z draftu, ale w draft combine. 
+
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_SEASON_TEAM_SUMMARY2425;
+--Sumaryczne statystyki na sezon 24-25 z basketball reference. Jako dodatek
+
+
+/*
+Plan działania:
+
+Cel projektu:
+    Stworzenie projektów pokazujących jak najwięcej danych pod kątem zawodnika i zespołu.
+    Spróbować połączyć te finalne tabele zawodników i drużyn i pokazać je w raporcie.
+    Porównać performance dla modelu gwiazdy z tabelą zdenormalizowaną (pod kątem odpytywania danych)
+
+
+Zadania mniejsze, wychodzące w czasie:
+-- Poopisywać pozostałe tabele (stworzyć plik odnoszący się do: ZAKRES DAT, POZIOM GRANULACJI, RODZAJ DANYCH, ZAAWANSOWANIE SEZONU ITP) w osobnym pliku np Excelu.
+-- Poukładanie krótkich opisów tabel
+-- Zastanowić się nad zasadnością nazw po analizie tabel.
+-- Pogrupować dane w oparciu o informacje o zawodnikach, zespołach itp.
+-- Zastanowić się nad zasadnością danych dla zawodników 24-25 przez błąd z datami jako FG% itp.
+-- W miarę opisu kolumn stworzyć Excela z ujednoliconymi nazwami kolumn
+
+
+Etapy działania:
+1. Dodawanie źródeł do STAGE:
+-- Przesortować dane i wydzielić te które są potrzebne -> DONE
+-- Dodać dane z folderu 47+ do Snowflake. Sprawdzić jakie tam dane są -> DONE
+-- Poszukać danych na 24-25 jeśli istnieją -> DONE
+-- Załadować dane z .xlsx -> DONE 
+-- Posortowanie danych w skoroszycie -> DONE
+
+2. Analiza źródeł ze stage
+
+
+1. Wyznaczyć co na podstawie tych danych chciałbym przygotować
+2. Zastanowić się, które dane mi się przydadzą, a które należy odrzucić lub wydzielić do innej tabeli (chciałbym przerobić wszystkie tabele)
+3. Dodać kolumny, które są w formacie XLSX
+4. Wrzucić te tabele do Snowflake. 
+5. Wyczyścić te dane
+6. Stworzyć w warstwie CORE tabele, z których będę robić schemat gwiazdy
+7. Rozdzielenie na schemat gwiazdy wraz z pokazaniem danych w MART.
+
+
+Obserwacje:
+a) W przyszłości dodawać kolumnę ze źródłem, bo przy dużej ilości danych wrzucanych przez .CSV mylą się źródła.
+
+
+
+Pytania:
+a) PYTANIE:Czy ze strefy STAGE przenosi się wszystkie kolumny do CLEANSE czy można tutaj wywalać kolumny? 
+b) ODPOWIEDŹ: Nie, nie musisz przenosić wszystkich kolumn. To w CLEANSE możesz (a nawet powinieneś!) już czyścić, filtrować, usuwać zbędne kolumny i przygotowywać dane pod logiczny model.
+
+*/
+
+
+

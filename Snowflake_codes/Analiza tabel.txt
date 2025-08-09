@@ -1,0 +1,97 @@
+SELECT DISPLAY_FIRST_LAST, DRAFT_YEAR FROM NBA_DB.STAGING_NBA_DATA.STG_ALL_COMMON_PLAYER_INFO;
+--Dane do oczyszczenia, ale wyglądają bardzo fajnie. Mogą się przydać.
+--Na pewno do ujednolicenia nazwy zawodników (nie potrzeba tak dużo detali). 
+--Ważne dane: DISPLAY_FIRST_LAST, BIRTHDATE, SCHOOL, COUNTRY, LAST_AFFILIATION, HEIGHT, WEIGHT, SEASON_EXP, ROSTERSTATUS, TEAM_NAME, TEAM_ABREVIATION, TEAM_CITY, FROM_YEAR, TO_YEAR, DRAFT_YEAR, DRAFT_ROUND, DRAFT_NUMBER
+--Dane bardziej detaliczne jednak jest ich mniej. Trzeba będzie połączyć z tabelą poniżej, tzn. STG_ALL_PLAYER_DETAILINFO, żeby mieć jak największą ilość graczy.
+
+
+SELECT *, CONCAT(FIRSTNAME, ' ', LASTNAME) AS FULLNAME FROM NBA_DB.STAGING_NBA_DATA.STG_ALL_PLAYER_DETAILINFO;
+--Tabela bardzo podobna do STG_ALL_COMMON_PLAYER_INFO. Zawiera mniej informacji.
+--Rozpiętrość draftowa jest dość duża, ale trzeba sprawdzić czy są wszyscy.
+
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_ALL_TEAM_ARENA_ATTENDANCE;
+--Dane odnośnie aren - zajebiście przydatne
+-- Ważne kolumny: DATE, START, VISITOR, PTS_HOME, HOME, PTS_VISITOR, Unnamed:7, ATTENDANCE, ARENA, NOTES
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_ALL_TEAM_SCHEDULE;
+-- Kalendarz na cały rok. Można spróbować nazwy zespołów po kluczach podstawowych, dołączyć te informacje do tabel głównych jako dodatek
+-- Dane odnośnie meczów. Można pod to fajnie podpiąć godziny meczów itp.
+-- Ważne kolumny: GAMEDATETIMEEST, ARENACITY, ARENANAME, GAMELABEL, GAMESUBTYPE, SERIESGAMENUMBER
+-- Przykładowe ID zespołu : 1610612743
+
+SELECT *  FROM NBA_DB.STAGING_NBA_DATA.STG_ALL_TEAM_SCORELINE;
+-- Dane historyczne od 1947 roku łączące dane historyczne z sezonu regularnego i playoffs.
+-- Dość dobre sane obejmujące zakres od 1466 do 2023 roku. 
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_DRAFT_PLAYER_COMBINE_STATS;
+-- Dane rozszerzające informacje z draftu, ale w draft combine. 
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_DRAFT_PLAYER_HISTORY;
+-- Dane draftowe z większą liczbą danych, bo od 1947 roku.
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_DRAFT_PLAYER_STATS;--DONE
+--Dane od 1990 do 2021 roku draftowe ze wszystkimi średnimi dla zawodnika na poziomie kariery.
+--Tabela draftowa na poziomie zawodnika. 
+--Wrzucona już do CLEANSE.
+
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_PLAYOFFS_PLAYER_STATS;--DONE
+--Ta tabela jest już wrzucona do CLEANSE.
+--Główna tabela na playoffs na poziomie zawodnika.
+--Dane od 2010 do końca sezonu 2023-24 odnośnie playoffs. Należy do niej skombinowac dane na 2024-25.
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_SEASON_PLAYER_STATS;--DONE
+--Ta tabela jest już wrzucona do CLEANSE.
+--Najbardziej detaliczna tabela dla zawodników
+--Główna tabela na sezon regularny na poziomie zawodnika.
+--Dane od 2010 do końca sezonu 2023-24. Należy do niej skombinowac dane na 2024-25.
+
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_SEASON_TEAM_DETAILS;
+--Wartościowe dane: ArenaCapacity, Owner, GeneralManager, HeadCoach, DLeagueAffiliation, 
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_SEASON_TEAM_GAMES_ALL;
+--Dane dodane w drugiej turze.
+--Dane na poziomie zespołów, zawierają wszystkie mecze od 1946 do 2025 z podziałem na playffs i regular season.
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_SEASON_TEAM_HISTORY;
+--WHERE TEAM_ID = '1610612743';
+--Wartościowe dane:Dane historyczne, aktywne zespoły do 2019 roku, info o nieaktywnych.
+--Tutaj trzeba będzie zaktualizować dane, jeśli tabela się przyda.
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_SEASON_TEAM_NAMES;
+--Dane dotyczące zespołów. Zawiera podstawowe informacje oraz rok założenia.
+--Wartościowe dane: CITY, STATE, YEAR_FOUNDED
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_SEASON_TEAM_STATS;
+--Ta tabela jest już wrzucona do CLEANSE.
+
+SELECT * FROM NBA_DB.STAGING_NBA_DATA.STG_SEASON_TEAM_SUMMARY2425;
+--Sumaryczne statystyki na sezon 24-25 z basketball reference. Jako dodatek
+
+/*
+Zakres zawodnicy - draft
+NBA_DB.STAGING_NBA_DATA.STG_DRAFT_PLAYER_HISTORY - główna tabela draftowa
+NBA_DB.STAGING_NBA_DATA.STG_DRAFT_PLAYER_STATS - dodatkowa tabela dostarczająca dane numeryczne dla graczy 1990-2021
+NBA_DB.STAGING_NBA_DATA.STG_DRAFT_PLAYER_COMBINE_STATS - dodatkowa tabela z draft combine od 2001 roku do 2023
+
+
+--Zakres zawodnicy
+NBA_DB.STAGING_NBA_DATA.STG_ALL_COMMON_PLAYER_INFO + NBA_DB.STAGING_NBA_DATA.STG_ALL_PLAYER_DETAILINFO -> połączenie
+STG_ALL_PLAYER_DETAILINFO mniej informacji, ale większy zakres
+NBA_DB.STAGING_NBA_DATA.STG_PLAYOFFS_PLAYER_STATS + NBA_DB.STAGING_NBA_DATA.STG_SEASON_PLAYER_STATS - UNION, dane na poziomie meczu
+
+--Zakres zespoły
+NBA_DB.STAGING_NBA_DATA.STG_ALL_TEAM_SCORELINE - Na ten moment główna tabela dla zawodników
+NBA_DB.STAGING_NBA_DATA.STG_SEASON_TEAM_GAMES_ALL - Możliwe, że też główna tabela -> DO ROZSTRYGNIĘCIA
+NBA_DB.STAGING_NBA_DATA.STG_SEASON_TEAM_STATS + NBA_DB.STAGING_NBA_DATA.STG_PLAYOFFS_TEAM_STATS - Też może być główna, jest w CLEANSE
+NBA_DB.STAGING_NBA_DATA.STG_ALL_TEAM_ARENA_ATTENDANCE - dodatkowa tabela z arenami
+STG_ALL_TEAM_SCHEDULE - dodatkowa tabela, do dodania, ID przykładowego zespołu 1610612743 (można dołączyć nazwy z STG_ALL_TEAM_SCORELINE)
+NBA_DB.STAGING_NBA_DATA.STG_SEASON_TEAM_DETAILS - dodatkowa tabela ze szczegółami 
+NBA_DB.STAGING_NBA_DATA.STG_SEASON_TEAM_HISTORY - dodatkowa tabela (JEŚLI POTRZEBNA). Zawiera zakresy aktualności.
+NBA_DB.STAGING_NBA_DATA.STG_SEASON_TEAM_NAMES - dodatkowa tabela, wyciągnąć state
+NBA_DB.STAGING_NBA_DATA.STG_SEASON_TEAM_SUMMARY2425 - dodatkowa tabela z BBal reference z sumarycznymi statami
+*/
+
+--Wyciągnąć dane z 2024-25 sezonu dla zawodników na poziomie np. średnich.
