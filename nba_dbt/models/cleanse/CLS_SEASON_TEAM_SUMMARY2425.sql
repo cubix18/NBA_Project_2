@@ -11,11 +11,11 @@ CLS_SEASON_TEAM_SUMMARY2425 as (
         , FG AS TEAM_FG_MADE
         , FGA AS TEAM_FG_ATTEMPTED
         , "FG%" AS TEAM_FG_PCT
-        , "3PTM" AS "TEAM_3PT_MADE"
-        , "3PTA" AS "TEAM_3PT_ATTEMPTED"
+        , "3P" AS "TEAM_3PT_MADE"
+        , "3PA" AS "TEAM_3PT_ATTEMPTED"
         , "3P%" AS "TEAM_3PT_PCT"
-        , "2PTM" AS "TEAM_2PT_MADE"
-        , "2PTA" AS "TEAM_2PT_ATTEMPTED"
+        , "2P" AS "TEAM_2PT_MADE"
+        , "2PA" AS "TEAM_2PT_ATTEMPTED"
         , "2P%" AS "TEAM_2PT_PCT"
         , FT AS TEAM_FT_MADE
         , FTA AS TEAM_FT_ATTEMPTED

@@ -12,7 +12,7 @@ CTE AS (
 
 CLS_DRAFT_PLAYER_HISTORY as (
     SELECT 
-        PLAYER_NAME AS PLAYER_FULL_NAME
+        {{ normalize_name('PLAYER_NAME') }} AS PLAYER_FULL_NAME
         , SEASON AS DRAFT_YEAR
         , ROUND_NUMBER
         , ROUND_PICK

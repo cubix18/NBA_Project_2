@@ -1,0 +1,941 @@
+"('Unnamed: 0_level_0', 'Season')","('Unnamed: 1_level_0', 'Lg')","('Unnamed: 2_level_0', 'Player')","('Unnamed: 3_level_0', 'Voting')","('Unnamed: 4_level_0', 'Age')","('Unnamed: 5_level_0', 'Tm')","('Unnamed: 6_level_0', 'G')","('Per Game', 'MP')","('Per Game', 'PTS')","('Per Game', 'TRB')","('Per Game', 'AST')","('Per Game', 'STL')","('Per Game', 'BLK')","('Shooting', 'FG%')","('Shooting', '3P%')","('Shooting', 'FT%')","('Advanced', 'WS')","('Advanced', 'WS/48')","('AWARD', '')",Season,Lg,Tm,Voting,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,AWARD
+2024-25,NBA,Shai Gilgeous-Alexander,(V),26.0,OKC,76.0,34.2,32.7,5.0,6.4,1.7,1.0,0.519,0.375,0.898,16.7,0.309,MVP,,,,,,,,,,
+2023-24,NBA,Nikola JokiÄ,(V),28.0,DEN,79.0,34.6,26.4,12.4,9.0,1.4,0.9,0.583,0.359,0.817,17.0,0.299,MVP,,,,,,,,,,
+2022-23,NBA,Joel Embiid,(V),28.0,PHI,66.0,34.6,33.1,10.2,4.2,1.0,1.7,0.548,0.33,0.857,12.3,0.259,MVP,,,,,,,,,,
+2021-22,NBA,Nikola JokiÄ,(V),26.0,DEN,74.0,33.5,27.1,13.8,7.9,1.5,0.9,0.583,0.337,0.81,15.2,0.296,MVP,,,,,,,,,,
+2020-21,NBA,Nikola JokiÄ,(V),25.0,DEN,72.0,34.6,26.4,10.8,8.3,1.3,0.7,0.566,0.388,0.868,15.6,0.301,MVP,,,,,,,,,,
+2019-20,NBA,Giannis Antetokounmpo,(V),25.0,MIL,63.0,30.4,29.5,13.6,5.6,1.0,1.0,0.553,0.304,0.633,11.1,0.279,MVP,,,,,,,,,,
+2018-19,NBA,Giannis Antetokounmpo,(V),24.0,MIL,72.0,32.8,27.7,12.5,5.9,1.3,1.5,0.578,0.256,0.729,14.4,0.292,MVP,,,,,,,,,,
+2017-18,NBA,James Harden,(V),28.0,HOU,72.0,35.4,30.4,5.4,8.8,1.8,0.7,0.449,0.367,0.858,15.4,0.289,MVP,,,,,,,,,,
+2016-17,NBA,Russell Westbrook,(V),28.0,OKC,81.0,34.6,31.6,10.7,10.4,1.6,0.4,0.425,0.343,0.845,13.1,0.224,MVP,,,,,,,,,,
+2015-16,NBA,Stephen Curry,(V),27.0,GSW,79.0,34.2,30.1,5.4,6.7,2.1,0.2,0.504,0.454,0.908,17.9,0.318,MVP,,,,,,,,,,
+2014-15,NBA,Stephen Curry,(V),26.0,GSW,80.0,32.7,23.8,4.3,7.7,2.0,0.2,0.487,0.443,0.914,15.7,0.288,MVP,,,,,,,,,,
+2013-14,NBA,Kevin Durant,(V),25.0,OKC,81.0,38.5,32.0,7.4,5.5,1.3,0.7,0.503,0.391,0.873,19.2,0.295,MVP,,,,,,,,,,
+2012-13,NBA,LeBron James,(V),28.0,MIA,76.0,37.9,26.8,8.0,7.3,1.7,0.9,0.565,0.406,0.753,19.3,0.322,MVP,,,,,,,,,,
+2011-12,NBA,LeBron James,(V),27.0,MIA,62.0,37.5,27.1,7.9,6.2,1.9,0.8,0.531,0.362,0.771,14.5,0.298,MVP,,,,,,,,,,
+2010-11,NBA,Derrick Rose,(V),22.0,CHI,81.0,37.4,25.0,4.1,7.7,1.0,0.6,0.445,0.332,0.858,13.1,0.208,MVP,,,,,,,,,,
+2009-10,NBA,LeBron James,(V),25.0,CLE,76.0,39.0,29.7,7.3,8.6,1.6,1.0,0.503,0.333,0.767,18.5,0.299,MVP,,,,,,,,,,
+2008-09,NBA,LeBron James,(V),24.0,CLE,81.0,37.7,28.4,7.6,7.2,1.7,1.1,0.489,0.344,0.78,20.3,0.318,MVP,,,,,,,,,,
+2007-08,NBA,Kobe Bryant,(V),29.0,LAL,82.0,38.9,28.3,6.3,5.4,1.8,0.5,0.459,0.361,0.84,13.8,0.208,MVP,,,,,,,,,,
+2006-07,NBA,Dirk Nowitzki,(V),28.0,DAL,78.0,36.2,24.6,8.9,3.4,0.7,0.8,0.502,0.416,0.904,16.3,0.278,MVP,,,,,,,,,,
+2005-06,NBA,Steve Nash,(V),31.0,PHO,79.0,35.4,18.8,4.2,10.5,0.8,0.2,0.512,0.439,0.921,12.4,0.212,MVP,,,,,,,,,,
+2004-05,NBA,Steve Nash,(V),30.0,PHO,75.0,34.3,15.5,3.3,11.5,1.0,0.1,0.502,0.431,0.887,10.9,0.203,MVP,,,,,,,,,,
+2003-04,NBA,Kevin Garnett,(V),27.0,MIN,82.0,39.4,24.2,13.9,5.0,1.5,2.2,0.499,0.256,0.791,18.3,0.272,MVP,,,,,,,,,,
+2002-03,NBA,Tim Duncan,(V),26.0,SAS,81.0,39.3,23.3,12.9,3.9,0.7,2.9,0.513,0.273,0.71,16.5,0.248,MVP,,,,,,,,,,
+2001-02,NBA,Tim Duncan,(V),25.0,SAS,82.0,40.6,25.5,12.7,3.7,0.7,2.5,0.508,0.1,0.799,17.8,0.257,MVP,,,,,,,,,,
+2000-01,NBA,Allen Iverson,(V),25.0,PHI,71.0,42.0,31.1,3.8,4.6,2.5,0.3,0.42,0.32,0.814,11.8,0.19,MVP,,,,,,,,,,
+1999-00,NBA,Shaquille O'Neal,(V),27.0,LAL,79.0,40.0,29.7,13.6,3.8,0.5,3.0,0.574,0.0,0.524,18.6,0.283,MVP,,,,,,,,,,
+1998-99,NBA,Karl Malone,(V),35.0,UTA,49.0,37.4,23.8,9.4,4.1,1.3,0.6,0.493,0.0,0.788,9.6,0.252,MVP,,,,,,,,,,
+1997-98,NBA,Michael Jordan,(V),34.0,CHI,82.0,38.8,28.7,5.8,3.5,1.7,0.5,0.465,0.238,0.784,15.8,0.238,MVP,,,,,,,,,,
+1996-97,NBA,Karl Malone,(V),33.0,UTA,82.0,36.6,27.4,9.9,4.5,1.4,0.6,0.55,0.0,0.755,16.7,0.268,MVP,,,,,,,,,,
+1995-96,NBA,Michael Jordan,(V),32.0,CHI,82.0,37.7,30.4,6.6,4.3,2.2,0.5,0.495,0.427,0.834,20.4,0.317,MVP,,,,,,,,,,
+1994-95,NBA,David Robinson,(V),29.0,SAS,81.0,38.0,27.6,10.8,2.9,1.7,3.2,0.53,0.3,0.774,17.5,0.273,MVP,,,,,,,,,,
+1993-94,NBA,Hakeem Olajuwon,(V),31.0,HOU,80.0,41.0,27.3,11.9,3.6,1.6,3.7,0.528,0.421,0.716,14.3,0.21,MVP,,,,,,,,,,
+1992-93,NBA,Charles Barkley,(V),29.0,PHO,76.0,37.6,25.6,12.2,5.1,1.6,1.0,0.52,0.305,0.765,14.4,0.242,MVP,,,,,,,,,,
+1991-92,NBA,Michael Jordan,(V),28.0,CHI,80.0,38.8,30.1,6.4,6.1,2.3,0.9,0.519,0.27,0.832,17.7,0.274,MVP,,,,,,,,,,
+1990-91,NBA,Michael Jordan,(V),27.0,CHI,82.0,37.0,31.5,6.0,5.5,2.7,1.0,0.539,0.312,0.851,20.3,0.321,MVP,,,,,,,,,,
+1989-90,NBA,Magic Johnson,(V),30.0,LAL,79.0,37.2,22.3,6.6,11.5,1.7,0.4,0.48,0.384,0.89,16.5,0.27,MVP,,,,,,,,,,
+1988-89,NBA,Magic Johnson,(V),29.0,LAL,77.0,37.5,22.5,7.9,12.8,1.8,0.3,0.509,0.314,0.911,16.1,0.267,MVP,,,,,,,,,,
+1987-88,NBA,Michael Jordan,(V),24.0,CHI,82.0,40.4,35.0,5.5,5.9,3.2,1.6,0.535,0.132,0.841,21.2,0.308,MVP,,,,,,,,,,
+1986-87,NBA,Magic Johnson,(V),27.0,LAL,80.0,36.3,23.9,6.3,12.2,1.7,0.5,0.522,0.205,0.848,15.9,0.263,MVP,,,,,,,,,,
+1985-86,NBA,Larry Bird,(V),29.0,BOS,82.0,38.0,25.8,9.8,6.8,2.0,0.6,0.496,0.423,0.896,15.8,0.244,MVP,,,,,,,,,,
+1984-85,NBA,Larry Bird,(V),28.0,BOS,80.0,39.5,28.7,10.5,6.6,1.6,1.2,0.522,0.427,0.882,15.7,0.238,MVP,,,,,,,,,,
+1983-84,NBA,Larry Bird,(V),27.0,BOS,79.0,38.3,24.2,10.1,6.6,1.8,0.9,0.492,0.247,0.888,13.6,0.215,MVP,,,,,,,,,,
+1982-83,NBA,Moses Malone,(V),27.0,PHI,78.0,37.5,24.5,15.3,1.3,1.1,2.0,0.501,0.0,0.761,15.1,0.248,MVP,,,,,,,,,,
+1981-82,NBA,Moses Malone,(V),26.0,HOU,81.0,42.0,31.1,14.7,1.8,0.9,1.5,0.519,0.0,0.762,15.4,0.218,MVP,,,,,,,,,,
+1980-81,NBA,Julius Erving,(V),30.0,PHI,82.0,35.0,24.6,8.0,4.4,2.1,1.8,0.521,0.222,0.787,13.8,0.231,MVP,,,,,,,,,,
+1979-80,NBA,Kareem Abdul-Jabbar,(V),32.0,LAL,82.0,38.3,24.8,10.8,4.5,1.0,3.4,0.604,0.0,0.765,14.8,0.227,MVP,,,,,,,,,,
+1978-79,NBA,Moses Malone,(V),23.0,HOU,82.0,41.3,24.8,17.6,1.8,1.0,1.5,0.54,,0.739,14.1,0.2,MVP,,,,,,,,,,
+1977-78,NBA,Bill Walton,(V),25.0,POR,58.0,33.3,18.9,13.2,5.0,1.0,2.5,0.522,,0.72,8.4,0.209,MVP,,,,,,,,,,
+1976-77,NBA,Kareem Abdul-Jabbar,(V),29.0,LAL,82.0,36.8,26.2,13.3,3.9,1.2,3.2,0.579,,0.701,17.8,0.283,MVP,,,,,,,,,,
+1975-76,NBA,Kareem Abdul-Jabbar,(V),28.0,LAL,82.0,41.2,27.7,16.9,5.0,1.5,4.1,0.529,,0.703,17.0,0.242,MVP,,,,,,,,,,
+1974-75,NBA,Bob McAdoo,(V),23.0,BUF,82.0,43.2,34.5,14.1,2.2,1.1,2.1,0.512,,0.805,17.8,0.242,MVP,,,,,,,,,,
+1973-74,NBA,Kareem Abdul-Jabbar,(V),26.0,MIL,81.0,43.8,27.0,14.5,4.8,1.4,3.5,0.539,,0.702,18.4,0.25,MVP,,,,,,,,,,
+1972-73,NBA,Dave Cowens,(V),24.0,BOS,82.0,41.8,20.5,16.2,4.1,,,0.452,,0.779,12.0,0.168,MVP,,,,,,,,,,
+1971-72,NBA,Kareem Abdul-Jabbar,(V),24.0,MIL,81.0,44.2,34.8,16.6,4.6,,,0.574,,0.689,25.4,0.34,MVP,,,,,,,,,,
+1970-71,NBA,Kareem Abdul-Jabbar,(V),23.0,MIL,82.0,40.1,31.7,16.0,3.3,,,0.577,,0.69,22.3,0.326,MVP,,,,,,,,,,
+1969-70,NBA,Willis Reed,(V),27.0,NYK,81.0,38.1,21.7,13.9,2.0,,,0.507,,0.756,14.6,0.227,MVP,,,,,,,,,,
+1968-69,NBA,Wes Unseld,(V),22.0,BAL,82.0,36.2,13.8,18.2,2.6,,,0.476,,0.605,10.8,0.175,MVP,,,,,,,,,,
+1967-68,NBA,Wilt Chamberlain,(V),31.0,PHI,82.0,46.8,24.3,23.8,8.6,,,0.595,,0.38,20.4,0.255,MVP,,,,,,,,,,
+1966-67,NBA,Wilt Chamberlain,(V),30.0,PHI,81.0,45.5,24.1,24.2,7.8,,,0.683,,0.441,21.9,0.285,MVP,,,,,,,,,,
+1965-66,NBA,Wilt Chamberlain,(V),29.0,PHI,79.0,47.3,33.5,24.6,5.2,,,0.54,,0.513,21.4,0.275,MVP,,,,,,,,,,
+1964-65,NBA,Bill Russell,(V),30.0,BOS,78.0,44.4,14.1,24.1,5.3,,,0.438,,0.573,16.9,0.233,MVP,,,,,,,,,,
+1963-64,NBA,Oscar Robertson,(V),25.0,CIN,79.0,45.1,31.4,9.9,11.0,,,0.483,,0.853,20.6,0.278,MVP,,,,,,,,,,
+1962-63,NBA,Bill Russell,(V),28.0,BOS,78.0,44.9,16.8,23.6,4.5,,,0.432,,0.555,13.5,0.185,MVP,,,,,,,,,,
+1961-62,NBA,Bill Russell,(V),27.0,BOS,76.0,45.2,18.9,23.6,4.5,,,0.457,,0.595,15.5,0.217,MVP,,,,,,,,,,
+1960-61,NBA,Bill Russell,(V),26.0,BOS,78.0,44.3,16.9,23.9,3.4,,,0.426,,0.55,13.0,0.181,MVP,,,,,,,,,,
+1959-60,NBA,Wilt Chamberlain,(V),23.0,PHW,72.0,46.4,37.6,27.0,2.3,,,0.461,,0.582,17.0,0.245,MVP,,,,,,,,,,
+1958-59,NBA,Bob Pettit,(V),26.0,STL,72.0,39.9,29.2,16.4,3.1,,,0.438,,0.759,14.8,0.246,MVP,,,,,,,,,,
+1957-58,NBA,Bill Russell,(V),23.0,BOS,69.0,38.3,16.6,22.7,2.9,,,0.442,,0.519,11.3,0.206,MVP,,,,,,,,,,
+1956-57,NBA,Bob Cousy,(V),28.0,BOS,64.0,36.9,20.6,4.8,7.5,,,0.378,,0.821,8.8,0.178,MVP,,,,,,,,,,
+1955-56,NBA,Bob Pettit,(V),23.0,STL,72.0,38.8,25.7,16.2,2.6,,,0.429,,0.736,13.8,0.236,MVP,,,,,,,,,,
+2024-25,NBA,Evan Mobley,(V),23.0,CLE,71.0,30.5,18.5,9.3,3.2,0.9,1.6,0.557,0.37,0.725,9.0,0.2,Defensive Player of the Year,,,,,,,,,,
+2023-24,NBA,Rudy Gobert,(V),31.0,MIN,76.0,34.1,14.0,12.9,1.3,0.7,2.1,0.661,0.0,0.638,11.6,0.216,Defensive Player of the Year,,,,,,,,,,
+2022-23,NBA,Jaren Jackson Jr.,(V),23.0,MEM,63.0,28.4,18.6,6.8,1.0,1.0,3.0,0.506,0.355,0.788,6.6,0.177,Defensive Player of the Year,,,,,,,,,,
+2021-22,NBA,Marcus Smart,(V),27.0,BOS,71.0,32.3,12.1,3.8,5.9,1.7,0.3,0.418,0.331,0.793,5.6,0.116,Defensive Player of the Year,,,,,,,,,,
+2020-21,NBA,Rudy Gobert,(V),28.0,UTA,71.0,30.8,14.3,13.5,1.3,0.6,2.7,0.675,0.0,0.623,11.3,0.248,Defensive Player of the Year,,,,,,,,,,
+2019-20,NBA,Giannis Antetokounmpo,(V),25.0,MIL,63.0,30.4,29.5,13.6,5.6,1.0,1.0,0.553,0.304,0.633,11.1,0.279,Defensive Player of the Year,,,,,,,,,,
+2018-19,NBA,Rudy Gobert,(V),26.0,UTA,81.0,31.8,15.9,12.9,2.0,0.8,2.3,0.669,,0.636,14.4,0.268,Defensive Player of the Year,,,,,,,,,,
+2017-18,NBA,Rudy Gobert,(V),25.0,UTA,56.0,32.4,13.5,10.7,1.4,0.8,2.3,0.622,,0.682,8.1,0.214,Defensive Player of the Year,,,,,,,,,,
+2016-17,NBA,Draymond Green,(V),26.0,GSW,76.0,32.5,10.2,7.9,7.0,2.0,1.4,0.418,0.308,0.709,8.2,0.16,Defensive Player of the Year,,,,,,,,,,
+2015-16,NBA,Kawhi Leonard,(V),24.0,SAS,72.0,33.1,21.2,6.8,2.6,1.8,1.0,0.506,0.443,0.874,13.7,0.277,Defensive Player of the Year,,,,,,,,,,
+2014-15,NBA,Kawhi Leonard,(V),23.0,SAS,64.0,31.8,16.5,7.2,2.5,2.3,0.8,0.479,0.349,0.802,8.6,0.204,Defensive Player of the Year,,,,,,,,,,
+2013-14,NBA,Joakim Noah,(V),28.0,CHI,80.0,35.3,12.6,11.3,5.4,1.2,1.5,0.475,0.0,0.737,11.2,0.19,Defensive Player of the Year,,,,,,,,,,
+2012-13,NBA,Marc Gasol,(V),28.0,MEM,80.0,35.0,14.1,7.8,4.0,1.0,1.7,0.494,0.071,0.848,11.5,0.197,Defensive Player of the Year,,,,,,,,,,
+2011-12,NBA,Tyson Chandler,(V),29.0,NYK,62.0,33.2,11.3,9.9,0.9,0.9,1.4,0.679,0.0,0.689,9.5,0.22,Defensive Player of the Year,,,,,,,,,,
+2010-11,NBA,Dwight Howard,(V),25.0,ORL,78.0,37.6,22.9,14.1,1.4,1.4,2.4,0.593,0.0,0.596,14.4,0.235,Defensive Player of the Year,,,,,,,,,,
+2009-10,NBA,Dwight Howard,(V),24.0,ORL,82.0,34.7,18.3,13.2,1.8,0.9,2.8,0.612,0.0,0.592,13.2,0.223,Defensive Player of the Year,,,,,,,,,,
+2008-09,NBA,Dwight Howard,(V),23.0,ORL,79.0,35.7,20.6,13.8,1.4,1.0,2.9,0.572,0.0,0.594,13.8,0.234,Defensive Player of the Year,,,,,,,,,,
+2007-08,NBA,Kevin Garnett,(V),31.0,BOS,71.0,32.8,18.8,9.2,3.4,1.4,1.3,0.539,0.0,0.801,12.9,0.265,Defensive Player of the Year,,,,,,,,,,
+2006-07,NBA,Marcus Camby,(V),32.0,DEN,70.0,33.8,11.2,11.7,3.2,1.2,3.3,0.473,0.0,0.729,7.6,0.155,Defensive Player of the Year,,,,,,,,,,
+2005-06,NBA,Ben Wallace,(V),31.0,DET,82.0,35.2,7.3,11.3,1.9,1.8,2.2,0.51,0.0,0.416,10.1,0.168,Defensive Player of the Year,,,,,,,,,,
+2004-05,NBA,Ben Wallace,(V),30.0,DET,74.0,36.1,9.7,12.2,1.7,1.4,2.4,0.453,0.111,0.428,8.5,0.153,Defensive Player of the Year,,,,,,,,,,
+2003-04,NBA,Metta World Peace,(V),24.0,IND,73.0,37.2,18.3,5.3,3.7,2.1,0.7,0.421,0.31,0.733,8.0,0.141,Defensive Player of the Year,,,,,,,,,,
+2002-03,NBA,Ben Wallace,(V),28.0,DET,73.0,39.4,6.9,15.4,1.6,1.4,3.2,0.481,0.167,0.45,10.6,0.176,Defensive Player of the Year,,,,,,,,,,
+2001-02,NBA,Ben Wallace,(V),27.0,DET,80.0,36.5,7.6,13.0,1.4,1.7,3.5,0.531,0.0,0.423,11.6,0.19,Defensive Player of the Year,,,,,,,,,,
+2000-01,NBA,Dikembe Mutombo,(V),34.0,TOT,75.0,34.5,10.0,13.5,1.0,0.4,2.7,0.484,,0.725,8.1,0.151,Defensive Player of the Year,,,,,,,,,,
+1999-00,NBA,Alonzo Mourning,(V),29.0,MIA,79.0,34.8,21.7,9.5,1.6,0.5,3.7,0.551,0.0,0.711,12.9,0.226,Defensive Player of the Year,,,,,,,,,,
+1998-99,NBA,Alonzo Mourning,(V),28.0,MIA,46.0,38.1,20.1,11.0,1.6,0.7,3.9,0.511,0.0,0.652,7.9,0.216,Defensive Player of the Year,,,,,,,,,,
+1997-98,NBA,Dikembe Mutombo,(V),31.0,ATL,82.0,35.6,13.4,11.4,1.0,0.4,3.4,0.537,,0.67,10.8,0.177,Defensive Player of the Year,,,,,,,,,,
+1996-97,NBA,Dikembe Mutombo,(V),30.0,ATL,80.0,37.2,13.3,11.6,1.4,0.6,3.3,0.527,,0.705,11.3,0.183,Defensive Player of the Year,,,,,,,,,,
+1995-96,NBA,Gary Payton,(V),27.0,SEA,81.0,39.0,19.3,4.2,7.5,2.9,0.2,0.484,0.328,0.748,11.5,0.174,Defensive Player of the Year,,,,,,,,,,
+1994-95,NBA,Dikembe Mutombo,(V),28.0,DEN,82.0,37.8,11.5,12.5,1.4,0.5,3.9,0.556,,0.654,8.7,0.135,Defensive Player of the Year,,,,,,,,,,
+1993-94,NBA,Hakeem Olajuwon,(V),31.0,HOU,80.0,41.0,27.3,11.9,3.6,1.6,3.7,0.528,0.421,0.716,14.3,0.21,Defensive Player of the Year,,,,,,,,,,
+1992-93,NBA,Hakeem Olajuwon,(V),30.0,HOU,82.0,39.5,26.1,13.0,3.5,1.8,4.2,0.529,0.0,0.779,15.8,0.234,Defensive Player of the Year,,,,,,,,,,
+1991-92,NBA,David Robinson,(V),26.0,SAS,68.0,37.7,23.2,12.2,2.7,2.3,4.5,0.551,0.125,0.701,13.9,0.26,Defensive Player of the Year,,,,,,,,,,
+1990-91,NBA,Dennis Rodman,(V),29.0,DET,82.0,33.5,8.2,12.5,1.0,0.8,0.7,0.493,0.2,0.631,8.7,0.151,Defensive Player of the Year,,,,,,,,,,
+1989-90,NBA,Dennis Rodman,(V),28.0,DET,82.0,29.0,8.8,9.7,0.9,0.6,0.7,0.581,0.111,0.654,9.3,0.189,Defensive Player of the Year,,,,,,,,,,
+1988-89,NBA,Mark Eaton,(V),32.0,UTA,82.0,35.5,6.2,10.3,1.0,0.5,3.8,0.462,,0.66,6.6,0.108,Defensive Player of the Year,,,,,,,,,,
+1987-88,NBA,Michael Jordan,(V),24.0,CHI,82.0,40.4,35.0,5.5,5.9,3.2,1.6,0.535,0.132,0.841,21.2,0.308,Defensive Player of the Year,,,,,,,,,,
+1986-87,NBA,Michael Cooper,(V),30.0,LAL,82.0,27.5,10.5,3.1,4.5,1.0,0.5,0.438,0.385,0.851,6.1,0.131,Defensive Player of the Year,,,,,,,,,,
+1985-86,NBA,Alvin Robertson,(V),23.0,SAS,82.0,35.1,17.0,6.3,5.5,3.7,0.5,0.514,0.276,0.795,8.6,0.143,Defensive Player of the Year,,,,,,,,,,
+1984-85,NBA,Mark Eaton,(V),28.0,UTA,82.0,34.3,9.7,11.3,1.5,0.4,5.6,0.449,,0.712,5.4,0.093,Defensive Player of the Year,,,,,,,,,,
+1983-84,NBA,Sidney Moncrief,(V),26.0,MIL,79.0,38.9,20.9,6.7,4.5,1.4,0.3,0.498,0.278,0.848,12.7,0.198,Defensive Player of the Year,,,,,,,,,,
+1982-83,NBA,Sidney Moncrief,(V),25.0,MIL,76.0,35.7,22.5,5.8,3.9,1.5,0.3,0.524,0.1,0.826,13.2,0.233,Defensive Player of the Year,,,,,,,,,,
+2024-25,NBA,Payton Pritchard,(V),27.0,BOS,80.0,28.4,14.3,3.8,3.5,0.9,0.2,0.472,0.407,0.845,8.6,0.183,Sixth Man of the Year,,,,,,,,,,
+2023-24,NBA,Naz Reid,(V),24.0,MIN,81.0,24.2,13.5,5.2,1.3,0.8,0.9,0.477,0.414,0.736,4.9,0.12,Sixth Man of the Year,,,,,,,,,,
+2022-23,NBA,Malcolm Brogdon,(V),30.0,BOS,67.0,26.0,14.9,4.2,3.7,0.7,0.3,0.484,0.444,0.87,5.8,0.161,Sixth Man of the Year,,,,,,,,,,
+2021-22,NBA,Tyler Herro,(V),22.0,MIA,66.0,32.6,20.7,5.0,4.0,0.7,0.1,0.447,0.399,0.868,3.8,0.084,Sixth Man of the Year,,,,,,,,,,
+2020-21,NBA,Jordan Clarkson,(V),28.0,UTA,68.0,26.7,18.4,4.0,2.5,0.9,0.1,0.425,0.347,0.896,4.2,0.111,Sixth Man of the Year,,,,,,,,,,
+2019-20,NBA,Montrezl Harrell,(V),26.0,LAC,63.0,27.8,18.6,7.1,1.7,0.6,1.1,0.58,0.0,0.658,7.0,0.191,Sixth Man of the Year,,,,,,,,,,
+2018-19,NBA,Lou Williams,(V),32.0,LAC,75.0,26.6,20.0,3.0,5.4,0.8,0.1,0.425,0.361,0.876,5.1,0.123,Sixth Man of the Year,,,,,,,,,,
+2017-18,NBA,Lou Williams,(V),31.0,LAC,79.0,32.8,22.6,2.5,5.3,1.1,0.2,0.435,0.359,0.88,6.7,0.125,Sixth Man of the Year,,,,,,,,,,
+2016-17,NBA,Eric Gordon,(V),28.0,HOU,75.0,31.0,16.2,2.7,2.5,0.6,0.5,0.406,0.372,0.84,3.8,0.079,Sixth Man of the Year,,,,,,,,,,
+2015-16,NBA,Jamal Crawford,(V),35.0,LAC,79.0,26.9,14.2,1.8,2.3,0.7,0.2,0.404,0.34,0.904,3.3,0.076,Sixth Man of the Year,,,,,,,,,,
+2014-15,NBA,Lou Williams,(V),28.0,TOR,80.0,25.2,15.5,1.9,2.1,1.1,0.1,0.404,0.34,0.861,6.6,0.157,Sixth Man of the Year,,,,,,,,,,
+2013-14,NBA,Jamal Crawford,(V),33.0,LAC,69.0,30.3,18.6,2.3,3.2,0.9,0.2,0.416,0.361,0.866,5.3,0.122,Sixth Man of the Year,,,,,,,,,,
+2012-13,NBA,J.R. Smith,(V),27.0,NYK,80.0,33.5,18.1,5.3,2.7,1.3,0.3,0.422,0.356,0.762,6.7,0.12,Sixth Man of the Year,,,,,,,,,,
+2011-12,NBA,James Harden,(V),22.0,OKC,62.0,31.4,16.8,4.1,3.7,1.0,0.2,0.491,0.39,0.846,9.3,0.23,Sixth Man of the Year,,,,,,,,,,
+2010-11,NBA,Lamar Odom,(V),31.0,LAL,82.0,32.2,14.4,8.7,3.0,0.6,0.7,0.53,0.382,0.675,10.1,0.184,Sixth Man of the Year,,,,,,,,,,
+2009-10,NBA,Jamal Crawford,(V),29.0,ATL,79.0,31.1,18.0,2.5,3.0,0.8,0.2,0.449,0.382,0.857,7.3,0.143,Sixth Man of the Year,,,,,,,,,,
+2008-09,NBA,Jason Terry,(V),31.0,DAL,74.0,33.7,19.6,2.4,3.4,1.3,0.3,0.463,0.366,0.88,7.3,0.14,Sixth Man of the Year,,,,,,,,,,
+2007-08,NBA,Manu GinÃ³bili,(V),30.0,SAS,74.0,31.1,19.5,4.8,4.5,1.5,0.4,0.46,0.401,0.86,11.1,0.232,Sixth Man of the Year,,,,,,,,,,
+2006-07,NBA,Leandro Barbosa,(V),24.0,PHO,80.0,32.7,18.1,2.7,4.0,1.2,0.2,0.476,0.434,0.845,8.2,0.151,Sixth Man of the Year,,,,,,,,,,
+2005-06,NBA,Mike Miller,(V),25.0,MEM,74.0,30.6,13.7,5.4,2.7,0.7,0.4,0.466,0.407,0.8,7.4,0.157,Sixth Man of the Year,,,,,,,,,,
+2004-05,NBA,Ben Gordon,(V),21.0,CHI,82.0,24.4,15.1,2.6,2.0,0.6,0.1,0.411,0.405,0.863,3.5,0.084,Sixth Man of the Year,,,,,,,,,,
+2003-04,NBA,Antawn Jamison,(V),27.0,DAL,82.0,29.0,14.8,6.3,0.9,1.0,0.4,0.535,0.4,0.748,9.0,0.183,Sixth Man of the Year,,,,,,,,,,
+2002-03,NBA,Bobby Jackson,(V),29.0,SAC,59.0,28.4,15.2,3.7,3.1,1.2,0.1,0.464,0.379,0.846,5.5,0.157,Sixth Man of the Year,,,,,,,,,,
+2001-02,NBA,Corliss Williamson,(V),28.0,DET,78.0,21.8,13.6,4.1,1.2,0.6,0.3,0.51,0.2,0.805,5.1,0.144,Sixth Man of the Year,,,,,,,,,,
+2000-01,NBA,Aaron McKie,(V),28.0,PHI,76.0,31.5,11.6,4.1,5.0,1.4,0.1,0.473,0.312,0.768,5.9,0.118,Sixth Man of the Year,,,,,,,,,,
+1999-00,NBA,Rodney Rogers,(V),28.0,PHO,82.0,27.9,13.8,5.5,2.1,1.1,0.6,0.486,0.439,0.639,7.4,0.154,Sixth Man of the Year,,,,,,,,,,
+1998-99,NBA,Darrell Armstrong,(V),30.0,ORL,50.0,30.0,13.8,3.6,6.7,2.2,0.1,0.441,0.365,0.904,6.4,0.205,Sixth Man of the Year,,,,,,,,,,
+1997-98,NBA,Danny Manning,(V),31.0,PHO,70.0,25.6,13.5,5.6,2.0,1.0,0.7,0.516,0.0,0.739,6.5,0.174,Sixth Man of the Year,,,,,,,,,,
+1996-97,NBA,John Starks,(V),31.0,NYK,77.0,26.5,13.8,2.7,2.8,1.2,0.1,0.431,0.369,0.769,5.8,0.136,Sixth Man of the Year,,,,,,,,,,
+1995-96,NBA,Toni KukoÄ,(V),27.0,CHI,81.0,26.0,13.1,4.0,3.5,0.8,0.3,0.49,0.403,0.772,10.1,0.231,Sixth Man of the Year,,,,,,,,,,
+1994-95,NBA,Anthony Mason,(V),28.0,NYK,77.0,32.4,9.9,8.4,3.1,0.9,0.3,0.566,0.0,0.641,8.6,0.166,Sixth Man of the Year,,,,,,,,,,
+1993-94,NBA,Dell Curry,(V),29.0,CHH,82.0,26.5,16.3,3.2,2.7,1.2,0.3,0.455,0.402,0.873,5.0,0.11,Sixth Man of the Year,,,,,,,,,,
+1992-93,NBA,Clifford Robinson,(V),26.0,POR,82.0,31.4,19.1,6.6,2.2,1.2,2.0,0.473,0.247,0.69,6.8,0.127,Sixth Man of the Year,,,,,,,,,,
+1991-92,NBA,Detlef Schrempf,(V),29.0,IND,80.0,32.6,17.3,9.6,3.9,0.8,0.5,0.536,0.324,0.828,9.8,0.181,Sixth Man of the Year,,,,,,,,,,
+1990-91,NBA,Detlef Schrempf,(V),28.0,IND,82.0,32.1,16.1,8.0,3.7,0.7,0.3,0.52,0.375,0.818,9.0,0.165,Sixth Man of the Year,,,,,,,,,,
+1989-90,NBA,Ricky Pierce,(V),30.0,MIL,59.0,29.0,23.0,2.8,2.3,0.8,0.1,0.51,0.346,0.839,5.8,0.163,Sixth Man of the Year,,,,,,,,,,
+1988-89,NBA,Eddie Johnson,(V),29.0,PHO,70.0,29.2,21.5,4.4,2.3,0.7,0.1,0.497,0.413,0.868,6.5,0.152,Sixth Man of the Year,,,,,,,,,,
+1987-88,NBA,Roy Tarpley,(V),23.0,DAL,81.0,28.5,13.5,11.8,1.1,1.3,1.1,0.5,0.0,0.74,7.8,0.163,Sixth Man of the Year,,,,,,,,,,
+1986-87,NBA,Ricky Pierce,(V),27.0,MIL,79.0,31.7,19.5,3.4,1.8,0.8,0.3,0.534,0.107,0.88,9.4,0.18,Sixth Man of the Year,,,,,,,,,,
+1985-86,NBA,Bill Walton,(V),33.0,BOS,80.0,19.3,7.6,6.8,2.1,0.5,1.3,0.562,,0.713,5.0,0.157,Sixth Man of the Year,,,,,,,,,,
+1984-85,NBA,Kevin McHale,(V),27.0,BOS,79.0,33.6,19.8,9.0,1.8,0.4,1.5,0.57,0.0,0.76,11.0,0.199,Sixth Man of the Year,,,,,,,,,,
+1983-84,NBA,Kevin McHale,(V),26.0,BOS,82.0,31.4,18.4,7.4,1.3,0.3,1.5,0.556,0.333,0.765,10.5,0.196,Sixth Man of the Year,,,,,,,,,,
+1982-83,NBA,Bobby Jones,,31.0,PHI,74.0,23.6,9.0,4.6,1.9,1.1,1.2,0.543,0.0,0.793,6.4,0.175,Sixth Man of the Year,,,,,,,,,,
+2024-25,NBA,Dyson Daniels,(V),21.0,ATL,76.0,33.8,14.1,5.9,4.4,3.0,0.7,0.493,0.34,0.593,5.0,0.093,Most Improved Player,,,,,,,,,,
+2023-24,NBA,Tyrese Maxey,(V),23.0,PHI,70.0,37.5,25.9,3.7,6.2,1.0,0.5,0.45,0.373,0.868,8.1,0.147,Most Improved Player,,,,,,,,,,
+2022-23,NBA,Lauri Markkanen,(V),25.0,UTA,66.0,34.4,25.6,8.6,1.9,0.6,0.6,0.499,0.391,0.875,8.2,0.173,Most Improved Player,,,,,,,,,,
+2021-22,NBA,Ja Morant,(V),22.0,MEM,57.0,33.1,27.4,5.7,6.7,1.2,0.4,0.493,0.344,0.761,6.7,0.171,Most Improved Player,,,,,,,,,,
+2020-21,NBA,Julius Randle,(V),26.0,NYK,71.0,37.6,24.1,10.2,6.0,0.9,0.3,0.456,0.411,0.811,7.8,0.14,Most Improved Player,,,,,,,,,,
+2019-20,NBA,Brandon Ingram,(V),22.0,NOP,62.0,33.9,23.8,6.1,4.2,1.0,0.6,0.463,0.391,0.851,5.1,0.115,Most Improved Player,,,,,,,,,,
+2018-19,NBA,Pascal Siakam,(V),24.0,TOR,80.0,31.9,16.9,6.9,3.1,0.9,0.7,0.549,0.369,0.785,9.3,0.175,Most Improved Player,,,,,,,,,,
+2017-18,NBA,Victor Oladipo,(V),25.0,IND,75.0,34.0,23.1,5.2,4.3,2.4,0.8,0.477,0.371,0.799,8.2,0.155,Most Improved Player,,,,,,,,,,
+2016-17,NBA,Giannis Antetokounmpo,(V),22.0,MIL,80.0,35.6,22.9,8.8,5.4,1.6,1.9,0.521,0.272,0.77,12.4,0.21,Most Improved Player,,,,,,,,,,
+2015-16,NBA,CJ McCollum,(V),24.0,POR,80.0,34.8,20.8,3.2,4.3,1.2,0.3,0.448,0.417,0.827,6.0,0.104,Most Improved Player,,,,,,,,,,
+2014-15,NBA,Jimmy Butler,(V),25.0,CHI,65.0,38.7,20.0,5.8,3.3,1.8,0.6,0.462,0.378,0.834,11.2,0.214,Most Improved Player,,,,,,,,,,
+2013-14,NBA,Goran DragiÄ,(V),27.0,PHO,76.0,35.1,20.3,3.2,5.9,1.4,0.3,0.505,0.408,0.76,10.3,0.186,Most Improved Player,,,,,,,,,,
+2012-13,NBA,Paul George,(V),22.0,IND,79.0,37.6,17.4,7.6,4.1,1.8,0.6,0.419,0.362,0.807,9.0,0.145,Most Improved Player,,,,,,,,,,
+2011-12,NBA,Ryan Anderson,(V),23.0,ORL,61.0,32.2,16.1,7.7,0.9,0.8,0.4,0.439,0.393,0.877,8.9,0.219,Most Improved Player,,,,,,,,,,
+2010-11,NBA,Kevin Love,(V),22.0,MIN,73.0,35.8,20.2,15.2,2.5,0.6,0.4,0.47,0.417,0.85,11.4,0.21,Most Improved Player,,,,,,,,,,
+2009-10,NBA,Aaron Brooks,(V),25.0,HOU,82.0,35.6,19.6,2.6,5.3,0.8,0.2,0.432,0.398,0.822,5.5,0.091,Most Improved Player,,,,,,,,,,
+2008-09,NBA,Danny Granger,(V),25.0,IND,67.0,36.2,25.8,5.1,2.7,1.0,1.4,0.447,0.404,0.878,8.0,0.158,Most Improved Player,,,,,,,,,,
+2007-08,NBA,Hedo TÃ¼rkoÄlu,(V),28.0,ORL,82.0,36.9,19.5,5.7,5.0,0.9,0.3,0.456,0.4,0.829,9.0,0.143,Most Improved Player,,,,,,,,,,
+2006-07,NBA,Monta Ellis,(V),21.0,GSW,77.0,34.3,16.5,3.2,4.1,1.7,0.3,0.475,0.273,0.763,4.0,0.072,Most Improved Player,,,,,,,,,,
+2005-06,NBA,Boris Diaw,(V),23.0,PHO,81.0,35.5,13.3,6.9,6.2,0.7,1.0,0.526,0.267,0.731,8.9,0.149,Most Improved Player,,,,,,,,,,
+2004-05,NBA,Bobby Simmons,(V),24.0,LAC,75.0,37.3,16.4,5.9,2.7,1.4,0.2,0.466,0.435,0.846,6.8,0.117,Most Improved Player,,,,,,,,,,
+2003-04,NBA,Zach Randolph,(V),22.0,POR,81.0,37.9,20.1,10.5,2.0,0.8,0.5,0.485,0.2,0.761,7.1,0.111,Most Improved Player,,,,,,,,,,
+2002-03,NBA,Gilbert Arenas,(V),21.0,GSW,82.0,35.0,18.3,4.7,6.3,1.5,0.2,0.431,0.348,0.791,6.5,0.109,Most Improved Player,,,,,,,,,,
+2001-02,NBA,Jermaine O'Neal,(V),23.0,IND,72.0,37.6,19.0,10.5,1.6,0.6,2.3,0.479,0.071,0.688,6.4,0.113,Most Improved Player,,,,,,,,,,
+2000-01,NBA,Tracy McGrady,(V),21.0,ORL,77.0,40.1,26.8,7.5,4.6,1.5,1.5,0.457,0.355,0.733,12.2,0.189,Most Improved Player,,,,,,,,,,
+1999-00,NBA,Jalen Rose,(V),27.0,IND,80.0,37.2,18.2,4.8,4.0,1.1,0.6,0.471,0.393,0.827,7.3,0.118,Most Improved Player,,,,,,,,,,
+1998-99,NBA,Darrell Armstrong,(V),30.0,ORL,50.0,30.0,13.8,3.6,6.7,2.2,0.1,0.441,0.365,0.904,6.4,0.205,Most Improved Player,,,,,,,,,,
+1997-98,NBA,Alan Henderson,(V),25.0,ATL,69.0,29.0,14.3,6.4,1.1,0.6,0.5,0.485,0.5,0.652,6.0,0.144,Most Improved Player,,,,,,,,,,
+1996-97,NBA,Isaac Austin,(V),27.0,MIA,82.0,22.9,9.7,5.8,1.2,0.5,0.5,0.502,0.0,0.664,4.0,0.102,Most Improved Player,,,,,,,,,,
+1995-96,NBA,Gheorghe MureÈan,(V),24.0,WSB,76.0,29.5,14.5,9.6,0.7,0.7,2.3,0.584,0.0,0.619,8.0,0.172,Most Improved Player,,,,,,,,,,
+1994-95,NBA,Dana Barros,(V),27.0,PHI,82.0,40.5,20.6,3.3,7.5,1.8,0.0,0.49,0.464,0.899,12.7,0.183,Most Improved Player,,,,,,,,,,
+1993-94,NBA,Don MacLean,(V),24.0,WSB,75.0,33.2,18.2,6.2,2.1,0.6,0.3,0.502,0.143,0.824,5.6,0.108,Most Improved Player,,,,,,,,,,
+1992-93,NBA,Mahmoud Abdul-Rauf,(V),23.0,DEN,81.0,33.5,19.2,2.8,4.2,1.0,0.1,0.45,0.355,0.935,5.1,0.091,Most Improved Player,,,,,,,,,,
+1991-92,NBA,Pervis Ellison,(V),24.0,WSB,66.0,38.0,20.0,11.2,2.9,0.9,2.7,0.539,0.333,0.728,6.9,0.131,Most Improved Player,,,,,,,,,,
+1990-91,NBA,Scott Skiles,(V),26.0,ORL,79.0,34.4,17.2,3.4,8.4,1.1,0.1,0.445,0.408,0.902,7.0,0.124,Most Improved Player,,,,,,,,,,
+1989-90,NBA,Rony Seikaly,(V),24.0,MIA,74.0,32.6,16.6,10.4,1.1,1.1,1.7,0.502,0.0,0.594,3.2,0.063,Most Improved Player,,,,,,,,,,
+1988-89,NBA,Kevin Johnson,(V),22.0,PHO,81.0,39.2,20.4,4.2,12.2,1.7,0.3,0.505,0.091,0.882,12.2,0.184,Most Improved Player,,,,,,,,,,
+1987-88,NBA,Kevin Duckworth,(V),23.0,POR,78.0,28.5,15.8,7.4,0.8,0.4,0.4,0.496,,0.77,5.2,0.112,Most Improved Player,,,,,,,,,,
+1986-87,NBA,Dale Ellis,(V),26.0,SEA,82.0,37.5,24.9,5.5,2.9,1.3,0.4,0.516,0.358,0.787,9.3,0.145,Most Improved Player,,,,,,,,,,
+1985-86,NBA,Alvin Robertson,(V),23.0,SAS,82.0,35.1,17.0,6.3,5.5,3.7,0.5,0.514,0.276,0.795,8.6,0.143,Most Improved Player,,,,,,,,,,
+2024-25,NBA,Stephon Castle,(V),20.0,SAS,81.0,26.7,14.7,3.7,4.1,0.9,0.3,0.428,0.285,0.724,1.1,0.025,Rookie of the Year,,,,,,,,,,
+2023-24,NBA,Victor Wembanyama,(V),20.0,SAS,71.0,29.7,21.4,10.6,3.9,1.2,3.6,0.465,0.325,0.796,3.7,0.085,Rookie of the Year,,,,,,,,,,
+2022-23,NBA,Paolo Banchero,(V),20.0,ORL,72.0,33.8,20.0,6.9,3.7,0.8,0.5,0.427,0.298,0.738,2.4,0.047,Rookie of the Year,,,,,,,,,,
+2021-22,NBA,Scottie Barnes,(V),20.0,TOR,74.0,35.4,15.3,7.5,3.5,1.1,0.7,0.492,0.301,0.735,6.6,0.122,Rookie of the Year,,,,,,,,,,
+2020-21,NBA,LaMelo Ball,(V),19.0,CHO,51.0,28.8,15.7,5.9,6.1,1.6,0.4,0.436,0.352,0.758,2.8,0.093,Rookie of the Year,,,,,,,,,,
+2019-20,NBA,Ja Morant,(V),20.0,MEM,67.0,31.0,17.8,3.9,7.3,0.9,0.3,0.477,0.335,0.776,3.8,0.088,Rookie of the Year,,,,,,,,,,
+2018-19,NBA,Luka DonÄiÄ,(V),19.0,DAL,72.0,32.2,21.2,7.8,6.0,1.1,0.3,0.427,0.327,0.713,4.9,0.101,Rookie of the Year,,,,,,,,,,
+2017-18,NBA,Ben Simmons,(V),21.0,PHI,81.0,33.7,15.8,8.1,8.2,1.7,0.9,0.545,0.0,0.56,9.2,0.162,Rookie of the Year,,,,,,,,,,
+2016-17,NBA,Malcolm Brogdon,(V),24.0,MIL,75.0,26.4,10.2,2.8,4.2,1.1,0.2,0.457,0.404,0.865,4.1,0.1,Rookie of the Year,,,,,,,,,,
+2015-16,NBA,Karl-Anthony Towns,(V),20.0,MIN,82.0,32.0,18.3,10.5,2.0,0.7,1.7,0.542,0.341,0.811,8.3,0.151,Rookie of the Year,,,,,,,,,,
+2014-15,NBA,Andrew Wiggins,(V),19.0,MIN,82.0,36.2,16.9,4.6,2.1,1.0,0.6,0.437,0.31,0.76,2.1,0.034,Rookie of the Year,,,,,,,,,,
+2013-14,NBA,Michael Carter-Williams,(V),22.0,PHI,70.0,34.5,16.7,6.2,6.3,1.9,0.6,0.405,0.264,0.703,1.3,0.026,Rookie of the Year,,,,,,,,,,
+2012-13,NBA,Damian Lillard,(V),22.0,POR,82.0,38.6,19.0,3.1,6.5,0.9,0.2,0.429,0.368,0.844,5.8,0.088,Rookie of the Year,,,,,,,,,,
+2011-12,NBA,Kyrie Irving,(V),19.0,CLE,51.0,30.5,18.5,3.7,5.4,1.1,0.4,0.469,0.399,0.872,4.1,0.125,Rookie of the Year,,,,,,,,,,
+2010-11,NBA,Blake Griffin,(V),21.0,LAC,82.0,38.0,22.5,12.1,3.8,0.8,0.5,0.506,0.292,0.642,9.8,0.152,Rookie of the Year,,,,,,,,,,
+2009-10,NBA,Tyreke Evans,(V),20.0,SAC,72.0,37.2,20.1,5.3,5.8,1.5,0.4,0.458,0.255,0.748,5.4,0.097,Rookie of the Year,,,,,,,,,,
+2008-09,NBA,Derrick Rose,(V),20.0,CHI,81.0,37.0,16.8,3.9,6.3,0.8,0.2,0.475,0.222,0.788,4.9,0.078,Rookie of the Year,,,,,,,,,,
+2007-08,NBA,Kevin Durant,(V),19.0,SEA,80.0,34.6,20.3,4.4,2.4,1.0,0.9,0.43,0.288,0.873,2.3,0.04,Rookie of the Year,,,,,,,,,,
+2006-07,NBA,Brandon Roy,(V),22.0,POR,57.0,35.4,16.8,4.4,4.0,1.2,0.2,0.456,0.377,0.838,4.8,0.114,Rookie of the Year,,,,,,,,,,
+2005-06,NBA,Chris Paul,(V),20.0,NOK,78.0,36.0,16.1,5.1,7.8,2.2,0.1,0.43,0.282,0.847,10.4,0.178,Rookie of the Year,,,,,,,,,,
+2004-05,NBA,Emeka Okafor,(V),22.0,CHA,73.0,35.6,15.1,10.9,0.9,0.8,1.7,0.447,0.0,0.609,4.0,0.074,Rookie of the Year,,,,,,,,,,
+2003-04,NBA,LeBron James,(V),19.0,CLE,79.0,39.5,20.9,5.5,5.9,1.6,0.7,0.417,0.29,0.754,5.1,0.078,Rookie of the Year,,,,,,,,,,
+2002-03,NBA,Amar'e Stoudemire,(V),20.0,PHO,82.0,31.3,13.5,8.8,1.0,0.8,1.1,0.472,0.2,0.661,6.2,0.116,Rookie of the Year,,,,,,,,,,
+2001-02,NBA,Pau Gasol,(V),21.0,MEM,82.0,36.7,17.6,8.9,2.7,0.5,2.1,0.518,0.2,0.709,7.6,0.121,Rookie of the Year,,,,,,,,,,
+2000-01,NBA,Mike Miller,(V),20.0,ORL,82.0,29.1,11.9,4.0,1.7,0.6,0.2,0.436,0.407,0.711,5.3,0.106,Rookie of the Year,,,,,,,,,,
+1999-00,NBA,Steve Francis (Tie),(V),22.0,HOU,77.0,36.1,18.0,5.3,6.6,1.5,0.4,0.445,0.345,0.786,6.4,0.111,Rookie of the Year,,,,,,,,,,
+1999-00,NBA,Elton Brand (Tie),(V),20.0,CHI,81.0,37.0,20.1,10.0,1.9,0.8,1.6,0.482,0.0,0.685,7.5,0.121,Rookie of the Year,,,,,,,,,,
+1998-99,NBA,Vince Carter,(V),22.0,TOR,50.0,35.2,18.3,5.7,3.0,1.1,1.5,0.45,0.288,0.761,5.0,0.136,Rookie of the Year,,,,,,,,,,
+1997-98,NBA,Tim Duncan,(V),21.0,SAS,82.0,39.1,21.1,11.9,2.7,0.7,2.5,0.549,0.0,0.662,12.8,0.192,Rookie of the Year,,,,,,,,,,
+1996-97,NBA,Allen Iverson,(V),21.0,PHI,76.0,40.1,23.5,4.1,7.5,2.1,0.3,0.416,0.341,0.702,4.1,0.065,Rookie of the Year,,,,,,,,,,
+1995-96,NBA,Damon Stoudamire,(V),22.0,TOR,70.0,40.9,19.0,4.0,9.3,1.4,0.3,0.426,0.395,0.797,4.3,0.072,Rookie of the Year,,,,,,,,,,
+1994-95,NBA,Jason Kidd (Tie),(V),21.0,DAL,79.0,33.8,11.7,5.4,7.7,1.9,0.3,0.385,0.272,0.698,3.7,0.066,Rookie of the Year,,,,,,,,,,
+1994-95,NBA,Grant Hill (Tie),(V),22.0,DET,70.0,38.3,19.9,6.4,5.0,1.8,0.9,0.477,0.148,0.732,5.4,0.097,Rookie of the Year,,,,,,,,,,
+1993-94,NBA,Chris Webber,(V),20.0,GSW,76.0,32.1,17.5,9.1,3.6,1.2,2.2,0.552,0.0,0.532,7.8,0.154,Rookie of the Year,,,,,,,,,,
+1992-93,NBA,Shaquille O'Neal,(V),20.0,ORL,81.0,37.9,23.4,13.9,1.9,0.7,3.5,0.562,0.0,0.592,10.4,0.163,Rookie of the Year,,,,,,,,,,
+1991-92,NBA,Larry Johnson,(V),22.0,CHH,82.0,37.2,19.2,11.0,3.6,1.0,0.6,0.49,0.227,0.829,8.9,0.14,Rookie of the Year,,,,,,,,,,
+1990-91,NBA,Derrick Coleman,(V),23.0,NJN,74.0,35.2,18.4,10.3,2.2,1.0,1.3,0.467,0.342,0.731,5.8,0.108,Rookie of the Year,,,,,,,,,,
+1989-90,NBA,David Robinson,(V),24.0,SAS,82.0,36.6,24.3,12.0,2.0,1.7,3.9,0.531,0.0,0.732,15.1,0.241,Rookie of the Year,,,,,,,,,,
+1988-89,NBA,Mitch Richmond,(V),23.0,GSW,79.0,34.4,22.0,5.9,4.2,1.0,0.2,0.468,0.367,0.81,5.6,0.098,Rookie of the Year,,,,,,,,,,
+1987-88,NBA,Mark Jackson,(V),22.0,NYK,82.0,39.6,13.6,4.8,10.6,2.5,0.1,0.432,0.254,0.774,7.6,0.113,Rookie of the Year,,,,,,,,,,
+1986-87,NBA,Chuck Person,(V),22.0,IND,82.0,36.0,18.8,8.3,3.6,1.1,0.2,0.468,0.355,0.747,5.4,0.088,Rookie of the Year,,,,,,,,,,
+1985-86,NBA,Patrick Ewing,(V),23.0,NYK,50.0,35.4,20.0,9.0,2.0,1.1,2.1,0.474,0.0,0.739,3.1,0.084,Rookie of the Year,,,,,,,,,,
+1984-85,NBA,Michael Jordan,(V),21.0,CHI,82.0,38.3,28.2,6.5,5.9,2.4,0.8,0.515,0.173,0.845,14.0,0.213,Rookie of the Year,,,,,,,,,,
+1983-84,NBA,Ralph Sampson,(V),23.0,HOU,82.0,32.8,21.0,11.1,2.0,0.9,2.4,0.523,0.25,0.661,6.0,0.108,Rookie of the Year,,,,,,,,,,
+1982-83,NBA,Terry Cummings,(V),21.0,SDC,70.0,36.2,23.7,10.6,2.5,1.8,0.9,0.523,0.0,0.709,8.7,0.164,Rookie of the Year,,,,,,,,,,
+1981-82,NBA,Buck Williams,(V),21.0,NJN,82.0,34.5,15.5,12.3,1.3,1.0,1.0,0.582,0.0,0.624,8.9,0.152,Rookie of the Year,,,,,,,,,,
+1980-81,NBA,Darrell Griffith,(V),22.0,UTA,81.0,35.4,20.6,3.6,2.4,1.3,0.5,0.464,0.192,0.716,0.4,0.006,Rookie of the Year,,,,,,,,,,
+1979-80,NBA,Larry Bird,(V),23.0,BOS,82.0,36.0,21.3,10.4,4.5,1.7,0.6,0.474,0.406,0.836,11.2,0.182,Rookie of the Year,,,,,,,,,,
+1978-79,NBA,Phil Ford,(V),22.0,KCK,79.0,34.5,15.9,2.3,8.6,2.2,0.1,0.465,,0.813,5.7,0.101,Rookie of the Year,,,,,,,,,,
+1977-78,NBA,Walter Davis,(V),23.0,PHO,81.0,32.0,24.2,6.0,3.4,1.4,0.2,0.526,,0.83,10.1,0.187,Rookie of the Year,,,,,,,,,,
+1976-77,NBA,Adrian Dantley,(V),21.0,BUF,77.0,36.6,20.3,7.6,1.9,1.2,0.2,0.52,,0.818,9.8,0.167,Rookie of the Year,,,,,,,,,,
+1975-76,NBA,Alvan Adams,(V),21.0,PHO,80.0,33.2,19.0,9.1,5.6,1.5,1.5,0.469,,0.735,7.2,0.13,Rookie of the Year,,,,,,,,,,
+1974-75,NBA,Jamaal Wilkes,(V),21.0,GSW,82.0,30.7,14.2,8.2,2.2,1.3,0.3,0.442,,0.734,5.1,0.097,Rookie of the Year,,,,,,,,,,
+1973-74,NBA,Ernie DiGregorio,(V),23.0,BUF,81.0,35.9,15.2,2.7,8.2,0.7,0.1,0.421,,0.902,1.2,0.021,Rookie of the Year,,,,,,,,,,
+1972-73,NBA,Bob McAdoo,(V),21.0,BUF,80.0,32.0,18.0,9.1,1.7,,,0.452,,0.774,3.8,0.071,Rookie of the Year,,,,,,,,,,
+1971-72,NBA,Sidney Wicks,(V),22.0,POR,82.0,39.6,24.5,11.5,4.3,,,0.427,,0.71,2.3,0.034,Rookie of the Year,,,,,,,,,,
+1970-71,NBA,Geoff Petrie (Tie),(V),22.0,POR,82.0,37.0,24.8,3.4,4.8,,,0.443,,0.772,6.2,0.099,Rookie of the Year,,,,,,,,,,
+1970-71,NBA,Dave Cowens (Tie),(V),22.0,BOS,81.0,38.0,17.0,15.0,2.8,,,0.422,,0.732,6.4,0.1,Rookie of the Year,,,,,,,,,,
+1969-70,NBA,Kareem Abdul-Jabbar,(V),22.0,MIL,82.0,43.1,28.8,14.5,4.1,,,0.518,,0.653,13.8,0.187,Rookie of the Year,,,,,,,,,,
+1968-69,NBA,Wes Unseld,(V),22.0,BAL,82.0,36.2,13.8,18.2,2.6,,,0.476,,0.605,10.8,0.175,Rookie of the Year,,,,,,,,,,
+1967-68,NBA,Earl Monroe,(V),23.0,BAL,82.0,36.7,24.3,5.7,4.3,,,0.453,,0.781,9.3,0.148,Rookie of the Year,,,,,,,,,,
+1966-67,NBA,Dave Bing,(V),23.0,DET,80.0,34.5,20.0,4.5,4.1,,,0.436,,0.738,5.3,0.092,Rookie of the Year,,,,,,,,,,
+1965-66,NBA,Rick Barry,(V),21.0,SFW,80.0,37.4,25.7,10.6,2.2,,,0.439,,0.862,10.4,0.167,Rookie of the Year,,,,,,,,,,
+1964-65,NBA,Willis Reed,(V),22.0,NYK,80.0,38.0,19.5,14.7,1.7,,,0.432,,0.742,5.5,0.087,Rookie of the Year,,,,,,,,,,
+1963-64,NBA,Jerry Lucas,(V),23.0,CIN,79.0,41.4,17.7,17.4,2.6,,,0.527,,0.779,12.7,0.187,Rookie of the Year,,,,,,,,,,
+1962-63,NBA,Terry Dischinger,,22.0,CHZ,57.0,40.2,25.5,8.0,3.1,,,0.512,,0.77,9.2,0.192,Rookie of the Year,,,,,,,,,,
+1961-62,NBA,Walt Bellamy,,22.0,CHP,79.0,42.3,31.6,19.0,2.7,,,0.519,,0.644,16.3,0.233,Rookie of the Year,,,,,,,,,,
+1960-61,NBA,Oscar Robertson,,22.0,CIN,71.0,42.7,30.5,10.1,9.7,,,0.473,,0.822,13.2,0.21,Rookie of the Year,,,,,,,,,,
+1959-60,NBA,Wilt Chamberlain,,23.0,PHW,72.0,46.4,37.6,27.0,2.3,,,0.461,,0.582,17.0,0.245,Rookie of the Year,,,,,,,,,,
+1958-59,NBA,Elgin Baylor,(V),24.0,MNL,70.0,40.8,24.9,15.0,4.1,,,0.408,,0.777,9.8,0.165,Rookie of the Year,,,,,,,,,,
+1957-58,NBA,Woody Sauldsberry,,23.0,PHW,71.0,33.5,12.8,10.3,0.8,,,0.36,,0.615,0.3,0.007,Rookie of the Year,,,,,,,,,,
+1956-57,NBA,Tom Heinsohn,,22.0,BOS,72.0,29.9,16.2,9.8,1.6,,,0.397,,0.79,7.1,0.16,Rookie of the Year,,,,,,,,,,
+1955-56,NBA,Maurice Stokes,,22.0,ROC,67.0,34.7,16.8,16.3,4.9,,,0.354,,0.714,6.0,0.125,Rookie of the Year,,,,,,,,,,
+1954-55,NBA,Bob Pettit,,22.0,MLH,72.0,36.9,20.4,13.8,3.2,,,0.407,,0.751,10.7,0.194,Rookie of the Year,,,,,,,,,,
+1953-54,NBA,Ray Felix,,23.0,BLB,72.0,37.1,17.6,13.3,1.1,,,0.417,,0.638,8.6,0.155,Rookie of the Year,,,,,,,,,,
+1952-53,NBA,Monk Meineke,,22.0,FTW,68.0,33.1,10.7,6.9,2.2,,,0.381,,0.783,6.1,0.13,Rookie of the Year,,,,,,,,,,
+1951-52,NBA,Mel Hutchins (Tie) *,,23.0,MLH,66.0,39.7,9.2,13.3,2.9,,,0.365,,0.644,3.8,0.069,Rookie of the Year,,,,,,,,,,
+1951-52,NBA,Bill Tosheff (Tie) *,,25.0,INO,65.0,31.6,9.4,3.3,3.4,,,0.327,,0.824,2.9,0.068,Rookie of the Year,,,,,,,,,,
+1950-51,NBA,Paul Arizin *,,22.0,PHW,65.0,,17.2,9.8,2.1,,,0.407,,0.793,13.7,,Rookie of the Year,,,,,,,,,,
+1949-50,NBA,Alex Groza *,,23.0,INO,64.0,,23.4,,2.5,,,0.478,,0.729,17.9,,Rookie of the Year,,,,,,,,,,
+1948-49,BAA,Howie Shannon *,,25.0,PRO,55.0,,13.4,,2.3,,,0.364,,0.804,3.4,,Rookie of the Year,,,,,,,,,,
+1947-48,BAA,Paul Hoffman *,,22.0,BLB,37.0,,10.5,,0.6,,,0.348,,0.662,4.7,,Rookie of the Year,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,2024-25,NBA,1st,(V),Nikola JokiÄ C,Giannis Antetokounmpo F,Jayson Tatum F,Shai Gilgeous-Alexander G,Donovan Mitchell G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2024-25,NBA,2nd,(V),Evan Mobley C,LeBron James F,Stephen Curry G,Anthony Edwards G,Jalen Brunson G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2024-25,NBA,3rd,(V),Karl-Anthony Towns C,Jalen Williams F,Cade Cunningham G,Tyrese Haliburton G,James Harden G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2023-24,NBA,1st,(V),Nikola JokiÄ C,Giannis Antetokounmpo F,Jayson Tatum F,Luka DonÄiÄ G,Shai Gilgeous-Alexander G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2023-24,NBA,2nd,(V),Anthony Davis C,Kevin Durant F,Kawhi Leonard F,Jalen Brunson G,Anthony Edwards G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2023-24,NBA,3rd,(V),LeBron James F,Domantas Sabonis F,Devin Booker G,Stephen Curry G,Tyrese Haliburton G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2022-23,NBA,1st,(V),Joel Embiid C,Giannis Antetokounmpo F,Jayson Tatum F,Luka DonÄiÄ G,Shai Gilgeous-Alexander G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2022-23,NBA,2nd,(V),Nikola JokiÄ C,Jimmy Butler F,Jaylen Brown F,Donovan Mitchell G,Stephen Curry G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2022-23,NBA,3rd,(V),Domantas Sabonis C,LeBron James F,Julius Randle F,De'Aaron Fox G,Damian Lillard G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2021-22,NBA,1st,(V),Nikola JokiÄ C,Giannis Antetokounmpo F,Jayson Tatum F,Luka DonÄiÄ G,Devin Booker G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2021-22,NBA,2nd,(V),Joel Embiid C,Kevin Durant F,DeMar DeRozan F,Ja Morant G,Stephen Curry G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2021-22,NBA,3rd,(V),Karl-Anthony Towns C,LeBron James F,Pascal Siakam F,Chris Paul G,Trae Young G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2020-21,NBA,1st,(V),Nikola JokiÄ C,Giannis Antetokounmpo F,Kawhi Leonard F,Stephen Curry G,Luka DonÄiÄ G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2020-21,NBA,2nd,(V),Joel Embiid C,Julius Randle F,LeBron James F,Chris Paul G,Damian Lillard G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2020-21,NBA,3rd,(V),Rudy Gobert C,Jimmy Butler F,Paul George F,Bradley Beal G,Kyrie Irving G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2019-20,NBA,1st,(V),Anthony Davis C,Giannis Antetokounmpo F,LeBron James F,James Harden G,Luka DonÄiÄ G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2019-20,NBA,2nd,(V),Nikola JokiÄ C,Kawhi Leonard F,Pascal Siakam F,Damian Lillard G,Chris Paul G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2019-20,NBA,3rd,(V),Rudy Gobert C,Jayson Tatum F,Jimmy Butler F,Ben Simmons G,Russell Westbrook G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2018-19,NBA,1st,(V),Nikola JokiÄ C,Giannis Antetokounmpo F,Paul George F,James Harden G,Stephen Curry G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2018-19,NBA,2nd,(V),Joel Embiid C,Kevin Durant F,Kawhi Leonard F,Damian Lillard G,Kyrie Irving G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2018-19,NBA,3rd,(V),Rudy Gobert C,LeBron James F,Blake Griffin F,Kemba Walker G,Russell Westbrook G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2017-18,NBA,1st,(V),Anthony Davis C,LeBron James F,Kevin Durant F,Damian Lillard G,James Harden G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2017-18,NBA,2nd,(V),Joel Embiid C,Giannis Antetokounmpo F,LaMarcus Aldridge F,Russell Westbrook G,DeMar DeRozan G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2017-18,NBA,3rd,(V),Karl-Anthony Towns C,Jimmy Butler F,Paul George F,Stephen Curry G,Victor Oladipo G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2016-17,NBA,1st,(V),Anthony Davis C,LeBron James F,Kawhi Leonard F,James Harden G,Russell Westbrook G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2016-17,NBA,2nd,(V),Rudy Gobert C,Giannis Antetokounmpo F,Kevin Durant F,Stephen Curry G,Isaiah Thomas G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2016-17,NBA,3rd,(V),DeAndre Jordan C,Draymond Green F,Jimmy Butler F,John Wall G,DeMar DeRozan G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2015-16,NBA,1st,(V),DeAndre Jordan C,LeBron James F,Kawhi Leonard F,Stephen Curry G,Russell Westbrook G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2015-16,NBA,2nd,(V),DeMarcus Cousins C,Kevin Durant F,Draymond Green F,Chris Paul G,Damian Lillard G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2015-16,NBA,3rd,(V),Andre Drummond C,Paul George F,LaMarcus Aldridge F,Klay Thompson G,Kyle Lowry G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2014-15,NBA,1st,(V),Marc Gasol C,LeBron James F,Anthony Davis F,Stephen Curry G,James Harden G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2014-15,NBA,2nd,(V),DeMarcus Cousins C,Pau Gasol C,LaMarcus Aldridge F,Russell Westbrook G,Chris Paul G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2014-15,NBA,3rd,(V),DeAndre Jordan C,Blake Griffin F,Tim Duncan F,Klay Thompson G,Kyrie Irving G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2013-14,NBA,1st,(V),Joakim Noah C,Kevin Durant F,LeBron James F,James Harden G,Chris Paul G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2013-14,NBA,2nd,(V),Dwight Howard C,Blake Griffin F,Kevin Love F,Stephen Curry G,Tony Parker G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2013-14,NBA,3rd,(V),Al Jefferson C,Paul George F,LaMarcus Aldridge F,Goran DragiÄ G,Damian Lillard G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2012-13,NBA,1st,(V),Tim Duncan C,Kevin Durant F,LeBron James F,Kobe Bryant G,Chris Paul G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2012-13,NBA,2nd,(V),Marc Gasol C,Carmelo Anthony F,Blake Griffin F,Tony Parker G,Russell Westbrook G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2012-13,NBA,3rd,(V),Dwight Howard C,Paul George F,David Lee F,James Harden G,Dwyane Wade G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2011-12,NBA,1st,(V),Dwight Howard C,Kevin Durant F,LeBron James F,Kobe Bryant G,Chris Paul G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2011-12,NBA,2nd,(V),Andrew Bynum C,Blake Griffin F,Kevin Love F,Tony Parker G,Russell Westbrook G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2011-12,NBA,3rd,(V),Tyson Chandler C,Carmelo Anthony F,Dirk Nowitzki F,Rajon Rondo G,Dwyane Wade G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2010-11,NBA,1st,(V),Dwight Howard C,Kevin Durant F,LeBron James F,Kobe Bryant G,Derrick Rose G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2010-11,NBA,2nd,(V),Amar'e Stoudemire C,Pau Gasol F,Dirk Nowitzki F,Dwyane Wade G,Russell Westbrook G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2010-11,NBA,3rd,(V),Al Horford C,LaMarcus Aldridge F,Zach Randolph F,Manu GinÃ³bili G,Chris Paul G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2009-10,NBA,1st,(V),Dwight Howard C,Kevin Durant F,LeBron James F,Kobe Bryant G,Dwyane Wade G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2009-10,NBA,2nd,(V),Amar'e Stoudemire C,Carmelo Anthony F,Dirk Nowitzki F,Steve Nash G,Deron Williams G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2009-10,NBA,3rd,(V),Andrew Bogut C,Tim Duncan F,Pau Gasol F,Joe Johnson G,Brandon Roy G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2008-09,NBA,1st,(V),Dwight Howard C,LeBron James F,Dirk Nowitzki F,Kobe Bryant G,Dwyane Wade G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2008-09,NBA,2nd,(V),Yao Ming C,Tim Duncan F,Paul Pierce F,Chris Paul G,Brandon Roy G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2008-09,NBA,3rd,(V),Shaquille O'Neal C,Carmelo Anthony F,Pau Gasol F,Chauncey Billups G,Tony Parker G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2007-08,NBA,1st,(V),Dwight Howard C,Kevin Garnett F,LeBron James F,Kobe Bryant G,Chris Paul G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2007-08,NBA,2nd,(V),Amar'e Stoudemire C,Tim Duncan F,Dirk Nowitzki F,Steve Nash G,Deron Williams G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2007-08,NBA,3rd,(V),Yao Ming C,Carlos Boozer F,Paul Pierce F,Manu GinÃ³bili G,Tracy McGrady G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2006-07,NBA,1st,(V),Amar'e Stoudemire C,Tim Duncan F,Dirk Nowitzki F,Kobe Bryant G,Steve Nash G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2006-07,NBA,2nd,(V),Yao Ming C,Chris Bosh F,LeBron James F,Gilbert Arenas G,Tracy McGrady G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2006-07,NBA,3rd,(V),Dwight Howard C,Carmelo Anthony F,Kevin Garnett F,Chauncey Billups G,Dwyane Wade G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2005-06,NBA,1st,(V),Shaquille O'Neal C,LeBron James F,Dirk Nowitzki F,Kobe Bryant G,Steve Nash G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2005-06,NBA,2nd,(V),Ben Wallace C,Elton Brand F,Tim Duncan F,Chauncey Billups G,Dwyane Wade G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2005-06,NBA,3rd,(V),Yao Ming C,Carmelo Anthony F,Shawn Marion F,Gilbert Arenas G,Allen Iverson G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2004-05,NBA,1st,(V),Shaquille O'Neal C,Tim Duncan F,Dirk Nowitzki F,Allen Iverson G,Steve Nash G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2004-05,NBA,2nd,(V),Amar'e Stoudemire C,Kevin Garnett F,LeBron James F,Ray Allen G,Dwyane Wade G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2004-05,NBA,3rd,(V),Ben Wallace C,Shawn Marion F,Tracy McGrady F,Gilbert Arenas G,Kobe Bryant G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2003-04,NBA,1st,(V),Shaquille O'Neal C,Tim Duncan F,Kevin Garnett F,Kobe Bryant G,Jason Kidd G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2003-04,NBA,2nd,(V),Ben Wallace C,Jermaine O'Neal F,Peja StojakoviÄ F,Sam Cassell G,Tracy McGrady G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2003-04,NBA,3rd,(V),Yao Ming C,Metta World Peace F,Dirk Nowitzki F,Baron Davis G,Michael Redd G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2002-03,NBA,1st,(V),Shaquille O'Neal C,Tim Duncan F,Kevin Garnett F,Kobe Bryant G,Tracy McGrady G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2002-03,NBA,2nd,(V),Ben Wallace C,Dirk Nowitzki F,Chris Webber F,Allen Iverson G,Jason Kidd G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2002-03,NBA,3rd,(V),Jermaine O'Neal C,Jamal Mashburn F,Paul Pierce F,Stephon Marbury G,Steve Nash G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2001-02,NBA,1st,(V),Shaquille O'Neal C,Tim Duncan F,Tracy McGrady F,Kobe Bryant G,Jason Kidd G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2001-02,NBA,2nd,(V),Dirk Nowitzki C,Kevin Garnett F,Chris Webber F,Allen Iverson G,Gary Payton G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2001-02,NBA,3rd,(V),Dikembe Mutombo C,Jermaine O'Neal F,Ben Wallace F,Steve Nash G,Paul Pierce G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2000-01,NBA,1st,(V),Shaquille O'Neal C,Tim Duncan F,Chris Webber F,Allen Iverson G,Jason Kidd G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2000-01,NBA,2nd,(V),Dikembe Mutombo C,Vince Carter F,Kevin Garnett F,Kobe Bryant G,Tracy McGrady G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2000-01,NBA,3rd,(V),David Robinson C,Karl Malone F,Dirk Nowitzki F,Ray Allen G,Gary Payton G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1999-00,NBA,1st,(V),Shaquille O'Neal C,Tim Duncan F,Kevin Garnett F,Jason Kidd G,Gary Payton G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1999-00,NBA,2nd,(V),Alonzo Mourning C,Grant Hill F,Karl Malone F,Kobe Bryant G,Allen Iverson G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1999-00,NBA,3rd,(V),David Robinson C,Vince Carter F,Chris Webber F,Eddie Jones G,Stephon Marbury G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1998-99,NBA,1st,(V),Alonzo Mourning C,Tim Duncan F,Karl Malone F,Allen Iverson G,Jason Kidd G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1998-99,NBA,2nd,(V),Shaquille O'Neal C,Grant Hill F,Chris Webber F,Tim Hardaway G,Gary Payton G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1998-99,NBA,3rd,(V),Hakeem Olajuwon C,Kevin Garnett F,Antonio McDyess F,Kobe Bryant G,John Stockton G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1997-98,NBA,1st,(V),Shaquille O'Neal C,Tim Duncan F,Karl Malone F,Michael Jordan G,Gary Payton G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1997-98,NBA,2nd,(V),David Robinson C,Vin Baker F,Grant Hill F,Tim Hardaway G,Rod Strickland G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1997-98,NBA,3rd,(V),Dikembe Mutombo C,Scottie Pippen F,Glen Rice F,Reggie Miller G,Mitch Richmond G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1996-97,NBA,1st,(V),Hakeem Olajuwon C,Grant Hill F,Karl Malone F,Tim Hardaway G,Michael Jordan G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1996-97,NBA,2nd,(V),Patrick Ewing C,Scottie Pippen F,Glen Rice F,Gary Payton G,Mitch Richmond G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1996-97,NBA,3rd,(V),Shaquille O'Neal C,Vin Baker F,Anthony Mason F,Anfernee Hardaway G,John Stockton G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1995-96,NBA,1st,(V),David Robinson C,Karl Malone F,Scottie Pippen F,Anfernee Hardaway G,Michael Jordan G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1995-96,NBA,2nd,(V),Hakeem Olajuwon C,Grant Hill F,Shawn Kemp F,Gary Payton G,John Stockton G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1995-96,NBA,3rd,(V),Shaquille O'Neal C,Charles Barkley F,Juwan Howard F,Reggie Miller G,Mitch Richmond G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1994-95,NBA,1st,(V),David Robinson C,Karl Malone F,Scottie Pippen F,Anfernee Hardaway G,John Stockton G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1994-95,NBA,2nd,(V),Shaquille O'Neal C,Charles Barkley F,Shawn Kemp F,Gary Payton G,Mitch Richmond G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1994-95,NBA,3rd,(V),Hakeem Olajuwon C,Dennis Rodman F,Detlef Schrempf F,Clyde Drexler G,Reggie Miller G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1993-94,NBA,1st,(V),Hakeem Olajuwon C,Karl Malone F,Scottie Pippen F,Latrell Sprewell G,John Stockton G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1993-94,NBA,2nd,(V),David Robinson C,Charles Barkley F,Shawn Kemp F,Kevin Johnson G,Mitch Richmond G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1993-94,NBA,3rd,(V),Shaquille O'Neal C,Derrick Coleman F,Dominique Wilkins F,Gary Payton G,Mark Price G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1992-93,NBA,1st,(V),Hakeem Olajuwon C,Charles Barkley F,Karl Malone F,Michael Jordan G,Mark Price G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1992-93,NBA,2nd,(V),Patrick Ewing C,Larry Johnson F,Dominique Wilkins F,Joe Dumars G,John Stockton G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1992-93,NBA,3rd,(V),David Robinson C,Derrick Coleman F,Scottie Pippen F,Tim Hardaway G,DraÅ¾en PetroviÄ G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1991-92,NBA,1st,(V),David Robinson C,Karl Malone F,Chris Mullin F,Clyde Drexler G,Michael Jordan G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1991-92,NBA,2nd,(V),Patrick Ewing C,Charles Barkley F,Scottie Pippen F,Tim Hardaway G,John Stockton G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1991-92,NBA,3rd,(V),Brad Daugherty C,Dennis Rodman F,Kevin Willis F,Kevin Johnson G,Mark Price G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1990-91,NBA,1st,(V),David Robinson C,Charles Barkley F,Karl Malone F,Magic Johnson G,Michael Jordan G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1990-91,NBA,2nd,(V),Patrick Ewing C,Chris Mullin F,Dominique Wilkins F,Clyde Drexler G,Kevin Johnson G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1990-91,NBA,3rd,(V),Hakeem Olajuwon C,Bernard King F,James Worthy F,Joe Dumars G,John Stockton G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1989-90,NBA,1st,(V),Patrick Ewing C,Charles Barkley F,Karl Malone F,Magic Johnson G,Michael Jordan G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1989-90,NBA,2nd,(V),Hakeem Olajuwon C,Larry Bird F,Tom Chambers F,Kevin Johnson G,John Stockton G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1989-90,NBA,3rd,(V),David Robinson C,Chris Mullin F,James Worthy F,Clyde Drexler G,Joe Dumars G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1988-89,NBA,1st,(V),Hakeem Olajuwon C,Charles Barkley F,Karl Malone F,Magic Johnson G,Michael Jordan G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1988-89,NBA,2nd,(V),Patrick Ewing C,Tom Chambers F,Chris Mullin F,Kevin Johnson G,John Stockton G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1988-89,NBA,3rd,(V),Robert Parish C,Terry Cummings F,Dominique Wilkins F,Dale Ellis G,Mark Price G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1987-88,NBA,1st,(V),Hakeem Olajuwon C,Charles Barkley F,Larry Bird F,Magic Johnson G,Michael Jordan G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1987-88,NBA,2nd,(V),Patrick Ewing C,Karl Malone F,Dominique Wilkins F,Clyde Drexler G,John Stockton G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1986-87,NBA,1st,(V),Hakeem Olajuwon C,Larry Bird F,Kevin McHale F,Magic Johnson G,Michael Jordan G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1986-87,NBA,2nd,(V),Moses Malone C,Charles Barkley F,Dominique Wilkins F,Fat Lever G,Isiah Thomas G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1985-86,NBA,1st,(V),Kareem Abdul-Jabbar C,Larry Bird F,Dominique Wilkins F,Magic Johnson G,Isiah Thomas G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1985-86,NBA,2nd,(V),Hakeem Olajuwon C,Charles Barkley F,Alex English F,Sidney Moncrief G,Alvin Robertson G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1984-85,NBA,1st,(V),Moses Malone C,Larry Bird F,Bernard King F,Magic Johnson G,Isiah Thomas G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1984-85,NBA,2nd,(V),Kareem Abdul-Jabbar C,Terry Cummings F,Ralph Sampson F,Michael Jordan G,Sidney Moncrief G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1983-84,NBA,1st,(V),Kareem Abdul-Jabbar C,Larry Bird F,Bernard King F,Magic Johnson G,Isiah Thomas G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1983-84,NBA,2nd,(V),Moses Malone C,Adrian Dantley F,Julius Erving F,Sidney Moncrief G,Jim Paxson G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1982-83,NBA,1st,(V),Moses Malone C,Larry Bird F,Julius Erving F,Magic Johnson G,Sidney Moncrief G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1982-83,NBA,2nd,(V),Kareem Abdul-Jabbar C,Alex English F,Buck Williams F,George Gervin G,Isiah Thomas G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1981-82,NBA,1st,(V),Moses Malone C,Larry Bird F,Julius Erving F,George Gervin G,Gus Williams G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1981-82,NBA,2nd,(V),Robert Parish C,Alex English F,Bernard King F,Magic Johnson G,Sidney Moncrief G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1980-81,NBA,1st,(V),Kareem Abdul-Jabbar C,Larry Bird F,Julius Erving F,George Gervin G,Dennis Johnson G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1980-81,NBA,2nd,(V),Moses Malone C,Adrian Dantley F,Marques Johnson F,Tiny Archibald G,Otis Birdsong G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1979-80,NBA,1st,(V),Kareem Abdul-Jabbar C,Larry Bird F,Julius Erving F,George Gervin G,Paul Westphal G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1979-80,NBA,2nd,(V),Moses Malone C,Marques Johnson F,Dan Roundfield F,Dennis Johnson G,Gus Williams G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1978-79,NBA,1st,(V),Moses Malone C,Elvin Hayes F,Marques Johnson F,George Gervin G,Paul Westphal G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1978-79,NBA,2nd,(V),Kareem Abdul-Jabbar C,Bob Dandridge F,Walter Davis F,Phil Ford G,World B. Free G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1977-78,NBA,1st,(V),Bill Walton C,Julius Erving F,Truck Robinson F,George Gervin G,David Thompson G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1977-78,NBA,2nd,(V),Kareem Abdul-Jabbar C,Walter Davis F,Maurice Lucas F,Pete Maravich G,Paul Westphal G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1976-77,NBA,1st,(V),Kareem Abdul-Jabbar C,Elvin Hayes F,David Thompson F,Pete Maravich G,Paul Westphal G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1976-77,NBA,2nd,(V),Bill Walton C,Julius Erving F,George McGinnis F,George Gervin G,Jo Jo White G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1975-76,NBA,1st,(V),Kareem Abdul-Jabbar C,Rick Barry F,George McGinnis F,Tiny Archibald G,Pete Maravich G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1975-76,NBA,2nd,(V),Dave Cowens C,John Havlicek F,Elvin Hayes F,Phil Smith G,Randy Smith G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1975-76,ABA,1st,,Artis Gilmore C,Julius Erving F,Billy Knight F,James Silas G,Ralph Simpson G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1975-76,ABA,2nd,,Dan Issel C,Bobby Jones F,David Thompson F,Don Buse G,George Gervin G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1974-75,NBA,1st,(V),Bob McAdoo C,Rick Barry F,Elvin Hayes F,Tiny Archibald G,Walt Frazier G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1974-75,NBA,2nd,(V),Dave Cowens C,John Havlicek F,Spencer Haywood F,Phil Chenier G,Jo Jo White G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1974-75,ABA,1st,,Artis Gilmore C,Julius Erving F,George McGinnis F,Ron Boone G,Mack Calvin G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1974-75,ABA,2nd,,Swen Nater C,Marvin Barnes F,George Gervin F,James Silas G,Brian Taylor G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1973-74,NBA,1st,(V),Kareem Abdul-Jabbar C,Rick Barry F,John Havlicek F,Walt Frazier G,Gail Goodrich G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1973-74,NBA,2nd,(V),Bob McAdoo C,Elvin Hayes F,Spencer Haywood F,Dave Bing G,Norm Van Lier G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1973-74,ABA,1st,,Artis Gilmore C,Julius Erving F,George McGinnis F,Mack Calvin G,Jimmy Jones G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1973-74,ABA,2nd,,Swen Nater C,Dan Issel F,Willie Wise F,Ron Boone G,Louie Dampier G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1972-73,NBA,1st,(V),Kareem Abdul-Jabbar C,John Havlicek F,Spencer Haywood F,Tiny Archibald G,Jerry West G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1972-73,NBA,2nd,(V),Dave Cowens C,Rick Barry F,Elvin Hayes F,Walt Frazier G,Pete Maravich G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1972-73,ABA,1st,,Artis Gilmore C,Billy Cunningham F,Julius Erving F,Warren Jabali G,Jimmy Jones G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1972-73,ABA,2nd,,Mel Daniels C,Dan Issel F,George McGinnis F,Mack Calvin G,Ralph Simpson G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1971-72,NBA,1st,(V),Kareem Abdul-Jabbar C,John Havlicek F,Spencer Haywood F,Walt Frazier G,Jerry West G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1971-72,NBA,2nd,(V),Wilt Chamberlain C,Billy Cunningham F,Bob Love F,Tiny Archibald G,Archie Clark G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1971-72,ABA,1st,,Artis Gilmore C,Rick Barry F,Dan Issel F,Donnie Freeman G,Bill Melchionni G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1971-72,ABA,2nd,,Zelmo Beaty C,Julius Erving F,Willie Wise F,Charlie Scott G,Ralph Simpson G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1970-71,NBA,1st,(V),Kareem Abdul-Jabbar C,Billy Cunningham F,John Havlicek F,Dave Bing G,Jerry West G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1970-71,NBA,2nd,(V),Willis Reed C,Gus Johnson F,Bob Love F,Walt Frazier G,Oscar Robertson G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1970-71,ABA,1st,,Mel Daniels C,Rick Barry F,Roger Brown F,Mack Calvin G,Charlie Scott G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1970-71,ABA,2nd,,John Brisker F,Joe Caldwell F,Larry Cannon G,Donnie Freeman G,"Zelmo Beaty C, Dan Issel C (T)",All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1969-70,NBA,1st,(V),Willis Reed C,Billy Cunningham F,Connie Hawkins F,Walt Frazier G,Jerry West G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1969-70,NBA,2nd,(V),Kareem Abdul-Jabbar C,John Havlicek F,Gus Johnson F,Lou Hudson G,Oscar Robertson G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1969-70,ABA,1st,,Mel Daniels C,Rick Barry F,Spencer Haywood F,Larry Jones G,Bob Verga G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1969-70,ABA,2nd,,Red Robbins C,Roger Brown F,Bob Netolicky F,Louie Dampier G,Donnie Freeman G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1968-69,NBA,1st,(V),Wes Unseld C,Elgin Baylor F,Billy Cunningham F,Earl Monroe G,Oscar Robertson G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1968-69,NBA,2nd,(V),Willis Reed C,Dave DeBusschere F,John Havlicek F,Hal Greer G,Jerry West G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1968-69,ABA,1st,,Mel Daniels C,Rick Barry F,Connie Hawkins F,Jimmy Jones G,Larry Jones G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1968-69,ABA,2nd,,Red Robbins C,John Beasley F,Doug Moe F,Louie Dampier G,Donnie Freeman G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1967-68,NBA,1st,(V),Wilt Chamberlain C,Elgin Baylor F,Jerry Lucas F,Dave Bing G,Oscar Robertson G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1967-68,NBA,2nd,(V),Bill Russell C,John Havlicek F,Willis Reed F,Hal Greer G,Jerry West G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1967-68,ABA,1st,,Mel Daniels C,Connie Hawkins F,Doug Moe F,Larry Jones G,Charles Williams G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1967-68,ABA,2nd,,John Beasley C,Roger Brown F,Cincy Powell F,Larry Brown G,Louie Dampier G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1966-67,NBA,1st,(V),Wilt Chamberlain C,Rick Barry F,Elgin Baylor F,Oscar Robertson G,Jerry West G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1966-67,NBA,2nd,(V),Bill Russell C,Jerry Lucas F,Willis Reed F,Hal Greer G,Sam Jones G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1965-66,NBA,1st,,Wilt Chamberlain C,Rick Barry F,Jerry Lucas F,Oscar Robertson G,Jerry West G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1965-66,NBA,2nd,,Bill Russell C,John Havlicek F,Gus Johnson F,Hal Greer G,Sam Jones G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1964-65,NBA,1st,,Bill Russell C,Elgin Baylor F,Jerry Lucas F,Oscar Robertson G,Jerry West G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1964-65,NBA,2nd,,Wilt Chamberlain C,Gus Johnson F,Bob Pettit F,Hal Greer G,Sam Jones G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1963-64,NBA,1st,,Wilt Chamberlain C,Elgin Baylor F,Bob Pettit F,Oscar Robertson G,Jerry West G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1963-64,NBA,2nd,,Bill Russell C,Tom Heinsohn F,Jerry Lucas F,Hal Greer G,John Havlicek G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1962-63,NBA,1st,,Bill Russell C,Elgin Baylor F,Bob Pettit F,Oscar Robertson G,Jerry West G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1962-63,NBA,2nd,,Wilt Chamberlain C,Tom Heinsohn F,Bailey Howell F,Bob Cousy G,Hal Greer G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1961-62,NBA,1st,,Wilt Chamberlain C,Elgin Baylor F,Bob Pettit F,Oscar Robertson G,Jerry West G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1961-62,NBA,2nd,,Bill Russell C,Tom Heinsohn F,Jack Twyman F,Bob Cousy G,Richie Guerin G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1960-61,NBA,1st,,Wilt Chamberlain C,Elgin Baylor F,Bob Pettit F,Bob Cousy G,Oscar Robertson G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1960-61,NBA,2nd,,Bill Russell C,Tom Heinsohn F,Dolph Schayes F,Larry Costello G,Gene Shue G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1959-60,NBA,1st,,Wilt Chamberlain C,Elgin Baylor F,Bob Pettit F,Bob Cousy G,Gene Shue G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1959-60,NBA,2nd,,Bill Russell C,Dolph Schayes F,Jack Twyman F,Richie Guerin G,Bill Sharman G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1958-59,NBA,1st,,Bill Russell C,Elgin Baylor F,Bob Pettit F,Bob Cousy G,Bill Sharman G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1958-59,NBA,2nd,,Dolph Schayes C,Paul Arizin F,Cliff Hagan F,Richie Guerin G,Slater Martin G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1957-58,NBA,1st,,Bob Pettit C,Dolph Schayes F,George Yardley F,Bob Cousy G,Bill Sharman G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1957-58,NBA,2nd,,Bill Russell C,Cliff Hagan F,Maurice Stokes F,Tom Gola G,Slater Martin G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1956-57,NBA,1st,,Bob Pettit C,Paul Arizin F,Dolph Schayes F,Bob Cousy G,Bill Sharman G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1956-57,NBA,2nd,,Neil Johnston C,Maurice Stokes F,George Yardley F,Dick Garmaker G,Slater Martin G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1955-56,NBA,1st,,Neil Johnston C,Paul Arizin F,Bob Pettit F,Bob Cousy G,Bill Sharman G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1955-56,NBA,2nd,,Clyde Lovellette C,Dolph Schayes F,Maurice Stokes F,Jack George G,Slater Martin G,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1954-55,NBA,1st,,Bob Cousy,Larry Foust,Neil Johnston,Bob Pettit,Dolph Schayes,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1954-55,NBA,2nd,,Harry Gallatin,Slater Martin,Vern Mikkelsen,Paul Seymour,Bill Sharman,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1953-54,NBA,1st,,Bob Cousy,Harry Gallatin,Neil Johnston,George Mikan,Dolph Schayes,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1953-54,NBA,2nd,,Carl Braun,Ed Macauley,Jim Pollard,Paul Seymour,Bobby Wanzer,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1952-53,NBA,1st,,Bob Cousy,Neil Johnston,Ed Macauley,George Mikan,Dolph Schayes,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1952-53,NBA,2nd,,Bob Davies,Vern Mikkelsen,Andy Phillip,Bill Sharman,Bobby Wanzer,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1951-52,NBA,1st,,Paul Arizin,Bob Cousy,Ed Macauley,George Mikan,"Bob Davies , Dolph Schayes (T)",All-NBA Team
+,,,,,,,,,,,,,,,,,,,1951-52,NBA,2nd,,Larry Foust,Vern Mikkelsen,Andy Phillip,Jim Pollard,Bobby Wanzer,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1950-51,NBA,1st,,Ralph Beard,Bob Davies,Alex Groza,Ed Macauley,George Mikan,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1950-51,NBA,2nd,,Frankie Brian,Joe Fulks,Dick McGuire,Vern Mikkelsen,Dolph Schayes,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1949-50,NBA,1st,,Bob Davies,Alex Groza,George Mikan,Jim Pollard,Max Zaslofsky,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1949-50,NBA,2nd,,Ralph Beard,Frankie Brian,Al Cervi,Fred Schaus,Dolph Schayes,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1948-49,BAA,1st,,Bob Davies,Joe Fulks,George Mikan,Jim Pollard,Max Zaslofsky,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1948-49,BAA,2nd,,Bob Feerick,John Logan,Bones McKinney,Arnie Risen,Kenny Sailors,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1947-48,BAA,1st,,Howie Dallmar,Bob Feerick,Joe Fulks,Ed Sadowski,Max Zaslofsky,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1947-48,BAA,2nd,,Carl Braun,Buddy Jeannette,John Logan,Stan Miasek,Fred Scolari,All-NBA Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1946-47,BAA,1st,,Bob Feerick,Joe Fulks,Bones McKinney,Stan Miasek,Max Zaslofsky,All-NBA Team
+,,,,,,,,,,,,,,,,,,,1946-47,BAA,2nd,,Frankie Baumholtz,Ernie Calverley,Chick Halbert,John Logan,Fred Scolari,All-NBA Team
+,,,,,,,,,,,,,,,,,,,2024-25,NBA,1st,(V),Dyson Daniels,Luguentz Dort,Draymond Green,Evan Mobley,Amen Thompson,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2024-25,NBA,2nd,(V),Toumani Camara,Rudy Gobert,Jaren Jackson,Jalen Williams,Ivica Zubac,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2023-24,NBA,1st,(V),Rudy Gobert,Victor Wembanyama,Bam Adebayo,Herbert Jones,Anthony Davis,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2023-24,NBA,2nd,(V),Alex Caruso,Jalen Suggs,Derrick White,Jaden McDaniels,Jrue Holiday,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2022-23,NBA,1st,(V),Alex Caruso,Jrue Holiday,Jaren Jackson,Brook Lopez,Evan Mobley,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2022-23,NBA,2nd,(V),Bam Adebayo,OG Anunoby,Dillon Brooks,Draymond Green,Derrick White,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2021-22,NBA,1st,(V),Giannis Antetokounmpo,Mikal Bridges,Rudy Gobert,Jaren Jackson,Marcus Smart,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2021-22,NBA,2nd,(V),Bam Adebayo,Draymond Green,Jrue Holiday,Matisse Thybulle,Robert Williams,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2020-21,NBA,1st,(V),Rudy Gobert,Ben Simmons,Draymond Green,Jrue Holiday,Giannis Antetokounmpo,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2020-21,NBA,2nd,(V),Bam Adebayo,Jimmy Butler,Joel Embiid,Matisse Thybulle,Kawhi Leonard,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2019-20,NBA,1st,(V),Giannis Antetokounmpo,Anthony Davis,Ben Simmons,Rudy Gobert,Marcus Smart,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2019-20,NBA,2nd,(V),Kawhi Leonard,Brook Lopez,Bam Adebayo,Patrick Beverley,Eric Bledsoe,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2018-19,NBA,1st,(V),Rudy Gobert,Paul George,Giannis Antetokounmpo,Marcus Smart,Eric Bledsoe,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2018-19,NBA,2nd,(V),Jrue Holiday,Klay Thompson,Joel Embiid,Draymond Green,Kawhi Leonard,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2017-18,NBA,1st,(V),Rudy Gobert,Anthony Davis,Victor Oladipo,Robert Covington,Jrue Holiday,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2017-18,NBA,2nd,(V),Joel Embiid,Draymond Green,Al Horford,Dejounte Murray,Jimmy Butler,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2016-17,NBA,1st,(V),Kawhi Leonard,Draymond Green,Rudy Gobert,Patrick Beverley,Chris Paul,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2016-17,NBA,2nd,(V),Tony Allen,Danny Green,Andre Roberson,Anthony Davis,Giannis Antetokounmpo,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2015-16,NBA,1st,(V),Kawhi Leonard,Draymond Green,DeAndre Jordan,Avery Bradley,Chris Paul,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2015-16,NBA,2nd,(V),Paul Millsap,Paul George,Hassan Whiteside,Tony Allen,Jimmy Butler,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2014-15,NBA,1st,(V),Kawhi Leonard,Draymond Green,Tony Allen,DeAndre Jordan,Chris Paul,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2014-15,NBA,2nd,(V),Anthony Davis,Jimmy Butler,Andrew Bogut,John Wall,Tim Duncan,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2013-14,NBA,1st,(V),Joakim Noah,Paul George,Chris Paul,Serge Ibaka,Andre Iguodala,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2013-14,NBA,2nd,(V),LeBron James,Patrick Beverley,Jimmy Butler,Kawhi Leonard,Roy Hibbert,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2012-13,NBA,1st,(V),Tony Allen,Serge Ibaka,LeBron James,Chris Paul,"Tyson Chandler, Joakim Noah (T)",All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2012-13,NBA,2nd,(V),Avery Bradley,Mike Conley,Tim Duncan,Marc Gasol,Paul George,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2011-12,NBA,1st,(V),Tony Allen,Dwight Howard,Serge Ibaka,LeBron James,Chris Paul,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2011-12,NBA,2nd,(V),Kobe Bryant,Tyson Chandler,Luol Deng,Kevin Garnett,Rajon Rondo,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2010-11,NBA,1st,(V),Kobe Bryant,Kevin Garnett,Dwight Howard,LeBron James,Rajon Rondo,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2010-11,NBA,2nd,(V),Tony Allen,Tyson Chandler,Andre Iguodala,Joakim Noah,Chris Paul,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2009-10,NBA,1st,(V),Kobe Bryant,Dwight Howard,LeBron James,Rajon Rondo,Gerald Wallace,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2009-10,NBA,2nd,(V),Tim Duncan,Thabo Sefolosha,Josh Smith,Anderson VarejÃ£o,Dwyane Wade,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2008-09,NBA,1st,(V),Kobe Bryant,Kevin Garnett,Dwight Howard,LeBron James,Chris Paul,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2008-09,NBA,2nd,(V),Metta World Peace,Shane Battier,Tim Duncan,Rajon Rondo,Dwyane Wade,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2007-08,NBA,1st,(V),Bruce Bowen,Kobe Bryant,Marcus Camby,Tim Duncan,Kevin Garnett,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2007-08,NBA,2nd,(V),Shane Battier,Raja Bell,Dwight Howard,Chris Paul,Tayshaun Prince,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2006-07,NBA,1st,(V),Raja Bell,Bruce Bowen,Kobe Bryant,Marcus Camby,Tim Duncan,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2006-07,NBA,2nd,(V),Kevin Garnett,Kirk Hinrich,Jason Kidd,Tayshaun Prince,Ben Wallace,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2005-06,NBA,1st,(V),Metta World Peace,Bruce Bowen,Andrei Kirilenko,Ben Wallace,"Kobe Bryant, Jason Kidd (T)",All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2005-06,NBA,2nd,(V),Chauncey Billups,Marcus Camby,Tim Duncan,Kevin Garnett,Tayshaun Prince,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2004-05,NBA,1st,(V),Bruce Bowen,Tim Duncan,Kevin Garnett,Larry Hughes,Ben Wallace,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2004-05,NBA,2nd,(V),Chauncey Billups,Marcus Camby,Andrei Kirilenko,Tayshaun Prince,"Jason Kidd, Dwyane Wade (T)",All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2003-04,NBA,1st,(V),Metta World Peace,Bruce Bowen,Kobe Bryant,Kevin Garnett,Ben Wallace,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2003-04,NBA,2nd,(V),Doug Christie,Tim Duncan,Jason Kidd,Andrei Kirilenko,Theo Ratliff,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2002-03,NBA,1st,(V),Kobe Bryant,Doug Christie,Tim Duncan,Kevin Garnett,Ben Wallace,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2002-03,NBA,2nd,(V),Metta World Peace,Bruce Bowen,Jason Kidd,Shaquille O'Neal,Eric Snow,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2001-02,NBA,1st,(V),Tim Duncan,Kevin Garnett,Jason Kidd,Gary Payton,Ben Wallace,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2001-02,NBA,2nd,(V),Bruce Bowen,Kobe Bryant,Doug Christie,Dikembe Mutombo,Clifford Robinson,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2000-01,NBA,1st,(V),Tim Duncan,Kevin Garnett,Jason Kidd,Dikembe Mutombo,Gary Payton,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2000-01,NBA,2nd,(V),Bruce Bowen,P.J. Brown,Kobe Bryant,Doug Christie,Shaquille O'Neal,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1999-00,NBA,1st,(V),Kobe Bryant,Tim Duncan,Kevin Garnett,Alonzo Mourning,Gary Payton,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1999-00,NBA,2nd,(V),Eddie Jones,Jason Kidd,Shaquille O'Neal,Scottie Pippen,Clifford Robinson,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1998-99,NBA,1st,(V),Tim Duncan,Jason Kidd,Alonzo Mourning,Gary Payton,"Karl Malone, Scottie Pippen (T)",All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1998-99,NBA,2nd,(V),Mookie Blaylock,P.J. Brown,Eddie Jones,Dikembe Mutombo,Theo Ratliff,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1997-98,NBA,1st,(V),Michael Jordan,Karl Malone,Dikembe Mutombo,Gary Payton,Scottie Pippen,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1997-98,NBA,2nd,(V),Mookie Blaylock,Tim Duncan,Eddie Jones,Charles Oakley,David Robinson,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1996-97,NBA,1st,(V),Michael Jordan,Karl Malone,Dikembe Mutombo,Gary Payton,Scottie Pippen,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1996-97,NBA,2nd,(V),Mookie Blaylock,P.J. Brown,Anthony Mason,Hakeem Olajuwon,John Stockton,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1995-96,NBA,1st,(V),Michael Jordan,Gary Payton,Scottie Pippen,David Robinson,Dennis Rodman,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1995-96,NBA,2nd,(V),Mookie Blaylock,Horace Grant,Derrick McKey,Hakeem Olajuwon,Bobby Phills,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1994-95,NBA,1st,(V),Mookie Blaylock,Gary Payton,Scottie Pippen,David Robinson,Dennis Rodman,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1994-95,NBA,2nd,(V),Horace Grant,Derrick McKey,Nate McMillan,Dikembe Mutombo,John Stockton,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1993-94,NBA,1st,(V),Mookie Blaylock,Charles Oakley,Hakeem Olajuwon,Gary Payton,Scottie Pippen,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1993-94,NBA,2nd,(V),Horace Grant,Nate McMillan,David Robinson,Dennis Rodman,Latrell Sprewell,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1992-93,NBA,1st,(V),Joe Dumars,Michael Jordan,Hakeem Olajuwon,Scottie Pippen,Dennis Rodman,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1992-93,NBA,2nd,(V),Horace Grant,Dan Majerle,Larry Nance,David Robinson,John Starks,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1991-92,NBA,1st,(V),Joe Dumars,Michael Jordan,Scottie Pippen,David Robinson,Dennis Rodman,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1991-92,NBA,2nd,(V),Patrick Ewing,Larry Nance,John Stockton,Buck Williams,Micheal Williams,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1990-91,NBA,1st,(V),Michael Jordan,Alvin Robertson,David Robinson,Dennis Rodman,Buck Williams,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1990-91,NBA,2nd,(V),Joe Dumars,Dan Majerle,Hakeem Olajuwon,Scottie Pippen,John Stockton,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1989-90,NBA,1st,(V),Joe Dumars,Michael Jordan,Hakeem Olajuwon,Dennis Rodman,Buck Williams,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1989-90,NBA,2nd,(V),Derek Harper,Rick Mahorn,Kevin McHale,Alvin Robertson,David Robinson,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1988-89,NBA,1st,(V),Joe Dumars,Mark Eaton,Michael Jordan,Larry Nance,Dennis Rodman,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1988-89,NBA,2nd,(V),Patrick Ewing,A.C. Green,Kevin McHale,Alvin Robertson,John Stockton,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1987-88,NBA,1st,(V),Michael Cooper,Michael Jordan,Rodney McCray,Kevin McHale,Hakeem Olajuwon,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1987-88,NBA,2nd,(V),Fat Lever,Karl Malone,Alvin Robertson,Buck Williams,"Mark Eaton, Patrick Ewing (T)",All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1986-87,NBA,1st,(V),Michael Cooper,Dennis Johnson,Kevin McHale,Hakeem Olajuwon,Alvin Robertson,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1986-87,NBA,2nd,(V),Maurice Cheeks,Mark Eaton,Derek Harper,Rodney McCray,Paul Pressey,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1985-86,NBA,1st,(V),Maurice Cheeks,Mark Eaton,Kevin McHale,Sidney Moncrief,Paul Pressey,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1985-86,NBA,2nd,(V),Manute Bol,Michael Cooper,Bill Hanzlik,Dennis Johnson,Alvin Robertson,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1984-85,NBA,1st,(V),Maurice Cheeks,Michael Cooper,Mark Eaton,Sidney Moncrief,Paul Pressey,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1984-85,NBA,2nd,(V),T.R. Dunn,Dennis Johnson,Bobby Jones,Hakeem Olajuwon,Danny Vranes,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1983-84,NBA,1st,(V),Maurice Cheeks,Michael Cooper,Bobby Jones,Sidney Moncrief,Tree Rollins,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1983-84,NBA,2nd,(V),Kareem Abdul-Jabbar,Larry Bird,T.R. Dunn,Dennis Johnson,Dan Roundfield,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1982-83,NBA,1st,(V),Bobby Jones,Moses Malone,Sidney Moncrief,Dan Roundfield,"Maurice Cheeks, Dennis Johnson (T)",All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1982-83,NBA,2nd,(V),Larry Bird,Michael Cooper,T.R. Dunn,Kevin McHale,Tree Rollins,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1981-82,NBA,1st,(V),Michael Cooper,Dennis Johnson,Bobby Jones,Caldwell Jones,Dan Roundfield,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1981-82,NBA,2nd,(V),Larry Bird,Quinn Buckner,Sidney Moncrief,Lonnie Shelton,Jack Sikma,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1980-81,NBA,1st,(V),Kareem Abdul-Jabbar,Dennis Johnson,Bobby Jones,Caldwell Jones,Michael Ray Richardson,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1980-81,NBA,2nd,(V),Quinn Buckner,George Johnson,Dan Roundfield,Kermit Washington,"Dudley Bradley, Michael Cooper (T)",All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1979-80,NBA,1st,(V),Kareem Abdul-Jabbar,Dennis Johnson,Bobby Jones,Dan Roundfield,"Don Buse, Michael Ray Richardson (T)",All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1979-80,NBA,2nd,(V),Quinn Buckner,Dave Cowens,Eddie Johnson,Kermit Washington,Scott Wedman,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1978-79,NBA,1st,(V),Kareem Abdul-Jabbar,Don Buse,Bob Dandridge,Dennis Johnson,Bobby Jones,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1978-79,NBA,2nd,(V),M.L. Carr,Lionel Hollins,Eddie Johnson,Maurice Lucas,Moses Malone,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1977-78,NBA,1st,(V),Don Buse,Lionel Hollins,Bobby Jones,Maurice Lucas,Bill Walton,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1977-78,NBA,2nd,(V),Quinn Buckner,E.C. Coleman,Bob Gross,Norm Van Lier,"Kareem Abdul-Jabbar, Artis Gilmore (T)",All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1976-77,NBA,1st,(V),Don Buse,E.C. Coleman,Bobby Jones,Norm Van Lier,Bill Walton,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1976-77,NBA,2nd,(V),Kareem Abdul-Jabbar,Jim Brewer,Don Chaney,Brian Taylor,Jamaal Wilkes,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1975-76,NBA,1st,(V),Dave Cowens,John Havlicek,Paul Silas,Norm Van Lier,Slick Watts,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1975-76,NBA,2nd,(V),Kareem Abdul-Jabbar,Jim Brewer,Jim Cleamons,Phil Smith,Jamaal Wilkes,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1975-76,ABA,1st,,Don Buse,Julius Erving,Artis Gilmore,Bobby Jones,Brian Taylor,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1975-76,ABA,2nd,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1974-75,NBA,1st,(V),Kareem Abdul-Jabbar,Walt Frazier,John Havlicek,Paul Silas,Jerry Sloan,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1974-75,NBA,2nd,(V),Don Chaney,Dave Cowens,Elvin Hayes,Bob Love,Norm Van Lier,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1974-75,ABA,1st,,Don Buse,Artis Gilmore,Bobby Jones,Wil Jones,Brian Taylor,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1974-75,ABA,2nd,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1973-74,NBA,1st,(V),Kareem Abdul-Jabbar,Dave DeBusschere,John Havlicek,Norm Van Lier,"Walt Frazier, Jerry Sloan (T)",All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1973-74,NBA,2nd,(V),Don Chaney,Elvin Hayes,Bob Love,Nate Thurmond,"Jim Price, Dick Van Arsdale (T)",All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1973-74,ABA,1st,,Artis Gilmore,Julius Keye,Ted McClain,Willie Wise,"Mike Gale, Fatty Taylor (T)",All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1973-74,ABA,2nd,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1972-73,NBA,1st,(V),Wilt Chamberlain,Dave DeBusschere,Walt Frazier,John Havlicek,Jerry West,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1972-73,NBA,2nd,(V),Don Chaney,Mike Riordan,Paul Silas,Nate Thurmond,Norm Van Lier,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1972-73,ABA,1st,,Mike Gale,Artis Gilmore,Fatty Taylor,Willie Wise,"Joe Caldwell, Julius Keye (T)",All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1972-73,ABA,2nd,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1971-72,NBA,1st,(V),Wilt Chamberlain,Dave DeBusschere,John Havlicek,Jerry West,"Walt Frazier, Jerry Sloan (T)",All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1971-72,NBA,2nd,(V),Don Chaney,Bob Love,Paul Silas,Nate Thurmond,Norm Van Lier,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1970-71,NBA,1st,(V),Dave DeBusschere,Walt Frazier,Gus Johnson,Nate Thurmond,Jerry West,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1970-71,NBA,2nd,(V),Kareem Abdul-Jabbar,John Havlicek,Paul Silas,Jerry Sloan,Norm Van Lier,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1969-70,NBA,1st,(V),Dave DeBusschere,Walt Frazier,Gus Johnson,Willis Reed,Jerry West,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1969-70,NBA,2nd,(V),Kareem Abdul-Jabbar,Bill Bridges,Joe Caldwell,John Havlicek,Jerry Sloan,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1968-69,NBA,1st,(V),Dave DeBusschere,Walt Frazier,Bill Russell,Jerry Sloan,Nate Thurmond,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,1968-69,NBA,2nd,(V),Bill Bridges,John Havlicek,Rudy LaRusso,Tom Sanders,Jerry West,All-Defensive Team
+,,,,,,,,,,,,,,,,,,,2024-25,NBA,1st,(V),Stephon Castle,Zach Edey,Zaccharie Risacher,Alex Sarr,Jaylen Wells,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2024-25,NBA,2nd,(V),Matas Buzelis,Bub Carrington,Donovan Clingan,Yves Missi,Kel'el Ware,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2023-24,NBA,1st,(V),Chet Holmgren,Jaime Jaquez,Brandon Miller,Brandin Podziemski,Victor Wembanyama,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2023-24,NBA,2nd,(V),Dereck Lively,Gregory Jackson,Keyonte George,Amen Thompson,Cason Wallace,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2022-23,NBA,1st,(V),Paolo Banchero,Walker Kessler,Bennedict Mathurin,Keegan Murray,Jalen Williams,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2022-23,NBA,2nd,(V),Jalen Duren,Tari Eason,Jaden Ivey,Jabari Smith,Jeremy Sochan,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2021-22,NBA,1st,(V),Scottie Barnes,Cade Cunningham,Evan Mobley,Franz Wagner,Jalen Green,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2021-22,NBA,2nd,(V),Herbert Jones,Josh Giddey,Bones Hyland,Ayo Dosunmu,Chris Duarte,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2020-21,NBA,1st,(V),LaMelo Ball,Saddiq Bey,Anthony Edwards,Tyrese Haliburton,Jae'Sean Tate,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2020-21,NBA,2nd,(V),Desmond Bane,Isaac Okoro,Immanuel Quickley,Isaiah Stewart,Patrick Williams,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2019-20,NBA,1st,(V),Ja Morant,Kendrick Nunn,Brandon Clarke,Zion Williamson,Eric Paschall,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2019-20,NBA,2nd,(V),Tyler Herro,Terence Davis,Coby White,P.J. Washington,Rui Hachimura,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2018-19,NBA,1st,(V),Luka DonÄiÄ,Trae Young,Deandre Ayton,Jaren Jackson,Marvin Bagley,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2018-19,NBA,2nd,(V),Shai Gilgeous-Alexander,Collin Sexton,Landry Shamet,Mitchell Robinson,Kevin Huerter,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2017-18,NBA,1st,(V),Donovan Mitchell,Ben Simmons,Jayson Tatum,Kyle Kuzma,Lauri Markkanen,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2017-18,NBA,2nd,(V),Dennis Smith,Lonzo Ball,John Collins,Bogdan BogdanoviÄ,Josh Jackson,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2016-17,NBA,1st,(V),Malcolm Brogdon,Dario Å ariÄ,Joel Embiid,Buddy Hield,Willy HernangÃ³mez,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2016-17,NBA,2nd,(V),Jamal Murray,Jaylen Brown,Marquese Chriss,Brandon Ingram,Yogi Ferrell,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2015-16,NBA,1st,(V),Karl-Anthony Towns,Kristaps PorziÅÄ£is,Devin Booker,Nikola JokiÄ,Jahlil Okafor,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2015-16,NBA,2nd,(V),Justise Winslow,D'Angelo Russell,Emmanuel Mudiay,Myles Turner,Willie Cauley-Stein,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2014-15,NBA,1st,(V),Andrew Wiggins,Nikola MirotiÄ,Nerlens Noel,Elfrid Payton,Jordan Clarkson,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2014-15,NBA,2nd,(V),Marcus Smart,Zach LaVine,Bojan BogdanoviÄ,Jusuf NurkiÄ,Langston Galloway,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2013-14,NBA,1st,(V),Michael Carter-Williams,Victor Oladipo,Trey Burke,Mason Plumlee,Tim Hardaway,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2013-14,NBA,2nd,(V),Kelly Olynyk,Giannis Antetokounmpo,Gorgui Dieng,Cody Zeller,Steven Adams,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2012-13,NBA,1st,(V),Harrison Barnes,Bradley Beal,Anthony Davis,Damian Lillard,Dion Waiters,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2012-13,NBA,2nd,(V),Andre Drummond,Michael Kidd-Gilchrist,Kyle Singler,Jonas ValanÄiÅ«nas,Tyler Zeller,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2011-12,NBA,1st,(V),Kenneth Faried,Kyrie Irving,Ricky Rubio,Klay Thompson,"Brandon Knight, Kawhi Leonard, Iman Shumpert (T)",All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2011-12,NBA,2nd,(V),MarShon Brooks,Chandler Parsons,Isaiah Thomas,Tristan Thompson,Derrick Williams,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2010-11,NBA,1st,(V),DeMarcus Cousins,Landry Fields,Blake Griffin,Gary Neal,John Wall,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2010-11,NBA,2nd,(V),Eric Bledsoe,Derrick Favors,Paul George,Wesley Johnson,Greg Monroe,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2009-10,NBA,1st,(V),Darren Collison,Stephen Curry,Tyreke Evans,Taj Gibson,Brandon Jennings,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2009-10,NBA,2nd,(V),DeJuan Blair,Jonny Flynn,James Harden,Jonas Jerebko,Marcus Thornton,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2008-09,NBA,1st,(V),Michael Beasley,Brook Lopez,O.J. Mayo,Derrick Rose,Russell Westbrook,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2008-09,NBA,2nd,(V),Mario Chalmers,Marc Gasol,Eric Gordon,Kevin Love,"D.J. Augustin, Rudy FernÃ¡ndez (T)",All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2007-08,NBA,1st,(V),Kevin Durant,Jeff Green,Al Horford,Luis Scola,Al Thornton,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2007-08,NBA,2nd,(V),Carl Landry,Jamario Moon,Juan Carlos Navarro,Rodney Stuckey,Thaddeus Young,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2006-07,NBA,1st,(V),Andrea Bargnani,Randy Foye,Rudy Gay,Brandon Roy,"LaMarcus Aldridge, Jorge Garbajosa (T)",All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2006-07,NBA,2nd,(V),Paul Millsap,Adam Morrison,Craig Smith,Tyrus Thomas,"Walter Herrmann, Rajon Rondo, Marcus Williams (T)",All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2005-06,NBA,1st,(V),Andrew Bogut,Channing Frye,Chris Paul,Charlie Villanueva,Deron Williams,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2005-06,NBA,2nd,(V),Raymond Felton,Ryan Gomes,Danny Granger,Luther Head,Marvin Williams,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2004-05,NBA,1st,(V),Luol Deng,Ben Gordon,Dwight Howard,Andre Iguodala,Emeka Okafor,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2004-05,NBA,2nd,(V),Josh Childress,Al Jefferson,Nenad KrstiÄ,Jameer Nelson,Josh Smith,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2003-04,NBA,1st,(V),Carmelo Anthony,Chris Bosh,Kirk Hinrich,LeBron James,Dwyane Wade,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2003-04,NBA,2nd,(V),Marquis Daniels,T.J. Ford,Udonis Haslem,Jarvis Hayes,Josh Howard,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2002-03,NBA,1st,(V),Caron Butler,Drew Gooden,NenÃª HilÃ¡rio,Yao Ming,Amar'e Stoudemire,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2002-03,NBA,2nd,(V),Carlos Boozer,J.R. Bremer,Manu GinÃ³bili,Gordan GiriÄek,Jay Williams,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2001-02,NBA,1st,(V),Shane Battier,Pau Gasol,Andrei Kirilenko,Tony Parker,Jason Richardson,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2001-02,NBA,2nd,(V),Eddie Griffin,Richard Jefferson,Å½eljko RebraÄa,Jamaal Tinsley,"Joe Johnson, Vladimir RadmanoviÄ (T)",All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2000-01,NBA,1st,(V),Marc Jackson,Kenyon Martin,Darius Miles,Mike Miller,Morris Peterson,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,2000-01,NBA,2nd,(V),Courtney Alexander,Marcus Fizer,Desmond Mason,Chris Mihm,Hedo TÃ¼rkoÄlu,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1999-00,NBA,1st,(V),Elton Brand,Steve Francis,Andre Miller,Lamar Odom,Wally Szczerbiak,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1999-00,NBA,2nd,(V),Metta World Peace,Chucky Atkins,Shawn Marion,James Posey,Jason Terry,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1998-99,NBA,1st,(V),Mike Bibby,Vince Carter,Matt Harpring,Paul Pierce,Jason Williams,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1998-99,NBA,2nd,(V),Michael Dickerson,Michael Doleac,Antawn Jamison,Cuttino Mobley,Michael Olowokandi,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1997-98,NBA,1st,(V),Tim Duncan,Zydrunas Ilgauskas,Brevin Knight,Ron Mercer,Keith Van Horn,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1997-98,NBA,2nd,(V),Derek Anderson,Cedric Henderson,Bobby Jackson,Maurice Taylor,Tim Thomas,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1996-97,NBA,1st,(V),Shareef Abdur-Rahim,Marcus Camby,Allen Iverson,Stephon Marbury,Antoine Walker,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1996-97,NBA,2nd,(V),Ray Allen,Kobe Bryant,Kerry Kittles,Travis Knight,Matt Maloney,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1995-96,NBA,1st,(V),Antonio McDyess,Joe Smith,Jerry Stackhouse,Damon Stoudamire,"Michael Finley, Arvydas Sabonis (T)",All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1995-96,NBA,2nd,(V),Brent Barry,Tyus Edney,Kevin Garnett,Bryant Reeves,Rasheed Wallace,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1994-95,NBA,1st,(V),Brian Grant,Grant Hill,Eddie Jones,Jason Kidd,Glenn Robinson,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1994-95,NBA,2nd,(V),Juwan Howard,Eric Montross,Wesley Person,Jalen Rose,"Donyell Marshall, Sharone Wright (T)",All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1993-94,NBA,1st,(V),Vin Baker,Anfernee Hardaway,Jamal Mashburn,Isaiah Rider,Chris Webber,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1993-94,NBA,2nd,(V),Shawn Bradley,Lindsey Hunter,Toni KukoÄ,Dino Radja,Nick Van Exel,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1992-93,NBA,1st,(V),LaPhonso Ellis,Tom Gugliotta,Christian Laettner,Alonzo Mourning,Shaquille O'Neal,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1992-93,NBA,2nd,(V),Richard Dumas,Robert Horry,Latrell Sprewell,Clarence Weatherspoon,Walt Williams,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1991-92,NBA,1st,(V),Stacey Augmon,Larry Johnson,Dikembe Mutombo,Billy Owens,Steve Smith,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1991-92,NBA,2nd,(V),Terrell Brandon,Rick Fox,Mark Macon,Stanley Roberts,Larry Stewart,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1990-91,NBA,1st,(V),Dee Brown,Derrick Coleman,Kendall Gill,Dennis Scott,Lionel Simmons,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1990-91,NBA,2nd,(V),Mahmoud Abdul-Rauf,Willie Burton,Travis Mays,Gary Payton,Felton Spencer,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1989-90,NBA,1st,(V),Vlade Divac,Sherman Douglas,Tim Hardaway,Pooh Richardson,David Robinson,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1989-90,NBA,2nd,(V),Blue Edwards,Sean Elliott,Stacey King,J.R. Reid,Glen Rice,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1988-89,NBA,1st,(V),Willie Anderson,Hersey Hawkins,Mitch Richmond,Charles Smith,Rik Smits,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1988-89,NBA,2nd,(V),Rex Chapman,Kevin Edwards,Chris Morris,Brian Shaw,Rod Strickland,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1987-88,NBA,1st,(V),Greg Anderson,Armen Gilliam,Mark Jackson,Derrick McKey,Kenny Smith,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1986-87,NBA,1st,(V),Brad Daugherty,Ron Harper,Chuck Person,Roy Tarpley,Hot Rod Williams,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1985-86,NBA,1st,(V),Joe Dumars,Patrick Ewing,Karl Malone,Xavier McDaniel,Charles Oakley,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1984-85,NBA,1st,(V),Charles Barkley,Sam Bowie,Michael Jordan,Hakeem Olajuwon,Sam Perkins,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1983-84,NBA,1st,(V),Jeff Malone,Ralph Sampson,Byron Scott,Steve Stipanovich,"Thurl Bailey, Darrell Walker (T)",All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1982-83,NBA,1st,(V),Terry Cummings,Quintin Dailey,Clark Kellogg,Dominique Wilkins,James Worthy,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1981-82,NBA,1st,(V),Jeff Ruland,Isiah Thomas,Kelly Tripucka,Jay Vincent,Buck Williams,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1980-81,NBA,1st,(V),Joe Barry Carroll,Darrell Griffith,Kevin McHale,Kelvin Ransey,Larry Smith,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1979-80,NBA,1st,(V),Larry Bird,Bill Cartwright,Dave Greenwood,Magic Johnson,Calvin Natt,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1978-79,NBA,1st,(V),Ron Brewer,Phil Ford,Reggie Theus,Mychal Thompson,Terry Tyler,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1977-78,NBA,1st,(V),Walter Davis,Marques Johnson,Bernard King,Norm Nixon,Jack Sikma,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1976-77,NBA,1st,(V),Adrian Dantley,Mitch Kupchak,Ron Lee,John Lucas,Scott May,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1975-76,NBA,1st,(V),Alvan Adams,Lionel Hollins,Joe Meriweather,John Shumate,Gus Williams,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1975-76,ABA,1st,,Ticky Burden,M.L. Carr,Kim Hughes,Mark Olberding,David Thompson,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1974-75,NBA,1st,(V),Tom Burleson,John Drew,Scott Wedman,Jamaal Wilkes,Brian Winters,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1974-75,ABA,1st,,Marvin Barnes,Gus Gerard,Bobby Jones,Billy Knight,Moses Malone,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1973-74,NBA,1st,(V),Mike Bantom,Ron Behagen,John Brown,Ernie DiGregorio,Nick Weatherspoon,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1973-74,ABA,1st,,Mike Green,Larry Kenon,Bo Lamar,Swen Nater,John Williamson,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1972-73,NBA,1st,(V),Freddie Boyd,Dwight Davis,Bob McAdoo,Lloyd Neal,Jim Price,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1972-73,ABA,1st,,Jim Chones,George Gervin,James Silas,Brian Taylor,Dennis Wuycik,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1971-72,NBA,1st,(V),Austin Carr,Phil Chenier,Clifford Ray,Elmore Smith,Sidney Wicks,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1971-72,ABA,1st,,Julius Erving,Artis Gilmore,George McGinnis,Johnny Neumann,John Roche,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1970-71,NBA,1st,(V),Dave Cowens,Bob Lanier,Pete Maravich,Calvin Murphy,Geoff Petrie,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1970-71,ABA,1st,,Joe Hamilton,Dan Issel,Wendell Ladner,Sam Robinson,Charlie Scott,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1969-70,NBA,1st,(V),Kareem Abdul-Jabbar,Bob Dandridge,Mike Davis,Dick Garrett,Jo Jo White,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1969-70,ABA,1st,,Mike Barrett,John Brisker,Mack Calvin,Spencer Haywood,Willie Wise,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1968-69,NBA,1st,(V),Gary Gregor,Art Harris,Elvin Hayes,Bill Hewitt,Wes Unseld,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1968-69,ABA,1st,,Ron Boone,Warren Jabali,Larry Miller,Gene Moore,Walt Piatkowski,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1967-68,NBA,1st,(V),Walt Frazier,Phil Jackson,Earl Monroe,Bob Rule,Al Tucker,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1967-68,ABA,1st,,Louie Dampier,Mel Daniels,Jimmy Jones,Bob Netolicky,Trooper Washington,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1966-67,NBA,1st,(V),Dave Bing,Lou Hudson,Jack Marin,Erwin Mueller,Cazzie Russell,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1965-66,NBA,1st,(V),Rick Barry,Billy Cunningham,Fred Hetzel,Dick Van Arsdale,Tom Van Arsdale,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1964-65,NBA,1st,(V),Jim Barnes,Luke Jackson,Howard Komives,Willis Reed,"Joe Caldwell, Wali Jones (T)",All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1963-64,NBA,1st,(V),Art Heyman,Gus Johnson,Jerry Lucas,Rod Thorn,Nate Thurmond,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,All-Rookie Team
+,,,,,,,,,,,,,,,,,,,1962-63,NBA,1st,(V),Zelmo Beaty,Dave DeBusschere,Terry Dischinger,John Havlicek,Chet Walker,All-Rookie Team

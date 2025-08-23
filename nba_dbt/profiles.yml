@@ -3,9 +3,9 @@ nba_dbt:
   outputs:
     dev:
       type: snowflake
-      account: mqdzlku-cz12184
-      user: cubix1818
-      password: AbukSpox11..005
+      account: uxqdofj-rz91466
+      user: cubix181818
+      password: AbukSpox11..11
       role: ACCOUNTADMIN
       database: NBA_DB
       warehouse: COMPUTE_WH

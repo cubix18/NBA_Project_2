@@ -42,3 +42,7 @@ sources:
         description: "Dane dotyczące zespołów. Zawiera podstawowe informacje oraz rok założenia."
       - name: STG_SEASON_TEAM_SUMMARY2425
         description: "Sumaryczne statystyki na sezon 24-25 z basketball reference. Jako dodatek"
+      - name: STG_SEASON_PLAYER_DATASET
+        description: "Dane obejmujące całą historie wraz z statystykami per sezon"
+      - name: STG_SEASON_PLAYER_AWARDS
+        description: "Dane obejmujące wszystkie najważniejsze nagrody indywidualne zawodników"
