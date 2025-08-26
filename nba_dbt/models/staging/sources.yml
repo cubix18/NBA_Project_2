@@ -46,3 +46,5 @@ sources:
         description: "Dane obejmujące całą historie wraz z statystykami per sezon"
       - name: STG_SEASON_PLAYER_AWARDS
         description: "Dane obejmujące wszystkie najważniejsze nagrody indywidualne zawodników"
+      - name: STG_ALL_COMMON_PLAYER_INFO_2324_EXTENDED
+        description: "Dane draftowe obejmujące zawodników z lat 2023 oraz 2024"
