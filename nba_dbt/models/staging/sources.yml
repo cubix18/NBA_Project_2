@@ -48,3 +48,5 @@ sources:
         description: "Dane obejmujące wszystkie najważniejsze nagrody indywidualne zawodników"
       - name: STG_ALL_COMMON_PLAYER_INFO_2324_EXTENDED
         description: "Dane draftowe obejmujące zawodników z lat 2023 oraz 2024"
+      - name: STG_ALL_COMMON_PLAYER_INFO_REST_PLAYER_PACKAGE
+        description: "Dane dogrywane dla pozostałych zawodników. Uzyskane przez skrypt Pythona."
