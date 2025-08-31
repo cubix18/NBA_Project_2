@@ -1,0 +1,720 @@
+PLAYER_NAME,DRAFT_YEAR,TEAM,COLLEGE,PICK_NUMBER,POSITION,HEIGHT,WEIGHT,BIRTH_DATE,COUNTRY,TEAM_ABBREVIATION,TEAM_CITY
+Vince Carter,1998,Raptors,,5,Guard-Forward,6-6,220,1977-01-26T00:00:00,USA,TOR,Toronto
+Reggie Miller,1987,Pacers,,11,Guard,6-7,195,1965-08-24T00:00:00,USA,IND,Indiana
+Russell Westbrook,2008,Nuggets,,4,Guard,6-4,200,1988-11-12T00:00:00,USA,DEN,Denver
+Ray Allen,1996,Bucks,,5,Guard,6-5,205,1975-07-20T00:00:00,USA,MIL,Milwaukee
+Dwyane Wade,2003,Heat,,5,Guard,6-4,220,1982-01-17T00:00:00,USA,MIA,Miami
+Hal Greer,1958,76ers,,13,Guard,6-2,175,1936-06-26T00:00:00,USA,PHI,Philadelphia
+Antawn Jamison,1998,,,4,Forward,6-9,235,1976-06-12T00:00:00,USA,,
+Bob Lanier,1970,Pistons,,1,Center,6-11,250,1948-09-10T00:00:00,USA,DET,Detroit
+Tracy Mcgrady,1997,Rockets,,9,Guard-Forward,6-8,225,1979-05-24T00:00:00,USA,HOU,Houston
+Dave Bing,1966,Pistons,,2,Guard,6-3,180,1943-11-24T00:00:00,USA,DET,Detroit
+Paul George,2010,76ers,,10,Forward,6-8,220,1990-05-02T00:00:00,USA,PHI,Philadelphia
+Rolando Blackman,1981,Mavericks,,9,Guard,6-6,190,1959-02-26T00:00:00,USA,DAL,Dallas
+Earl Monroe,1967,Knicks,,2,Guard,6-3,185,1944-11-21T00:00:00,USA,NYK,New York
+Jack Sikma,1977,SuperSonics,,8,Center,6-11,230,1955-11-14T00:00:00,USA,SEA,Seattle
+Elton Brand,1999,Clippers,,1,Forward,6-9,254,1979-03-11T00:00:00,USA,LAC,Los Angeles
+Brook Lopez,2008,Clippers,,10,Center,7-1,282,1988-04-01T00:00:00,USA,LAC,LA
+Joe Dumars,1985,Pistons,,18,Guard,6-3,195,1963-05-24T00:00:00,USA,DET,Detroit
+Randy Smith,1971,Clippers,,104,Guard,6-3,180,1948-12-12T00:00:00,USA,SDC,San Diego
+Pete Maravich,1970,Jazz,,3,Guard,6-5,197,1947-06-22T00:00:00,USA,UTA,Utah
+Richard Hamilton,1999,Pistons,,7,Guard,6-7,193,1978-02-14T00:00:00,USA,DET,Detroit
+Larry Nance,1981,Suns,,20,Forward,6-10,205,1959-02-12T00:00:00,USA,PHX,Phoenix
+Jeff Hornacek,1986,Jazz,,46,Guard,6-4,190,1963-05-03T00:00:00,USA,UTA,Utah
+Sam Cassell,1993,Bucks,,24,Guard,6-3,185,1969-11-18T00:00:00,USA,MIL,Milwaukee
+Sam Jones,1957,Celtics,,8,Guard,6-4,198,1933-06-24T00:00:00,USA,BOS,Boston
+Dick Barnett,1959,Knicks,,4,Guard,6-4,190,1936-10-02T00:00:00,USA,NYK,New York
+Sam Perkins,1984,Mavericks,,4,Center-Forward,6-9,260,1961-06-14T00:00:00,USA,DAL,Dallas
+Richard Jefferson,2001,Nets,,13,Forward,6-7,233,1980-06-21T00:00:00,USA,NJN,New Jersey
+James Edwards,1977,Pacers,,46,Center,7-1,252,1955-11-22T00:00:00,USA,IND,Indiana
+Dan Issel,1970,Nuggets,,122,Center,6-9,235,1948-10-25T00:00:00,USA,DEN,Denver
+Cj Mccollum,2013,Wizards,,10,Guard,6-3,190,1991-09-19T00:00:00,USA,WAS,Washington
+Jerry Lucas,1962,Royals,,,Forward,6-8,230,1940-03-30T00:00:00,USA,CIN,Cincinnati
+Andre Iguodala,2004,Warriors,,9,Guard-Forward,6-6,215,1984-01-28T00:00:00,USA,GSW,Golden State
+Orlando Woolridge,1981,Bulls,,6,Forward,6-9,215,1959-12-16T00:00:00,USA,CHI,Chicago
+Jeff Mullins,1964,Warriors,,5,Guard,6-4,190,1942-03-18T00:00:00,USA,GOS,Golden State
+Horace Grant,1987,Bulls,,10,Center,6-10,245,1965-07-04T00:00:00,USA,CHI,Chicago
+Sidney Wicks,1971,Trail Blazers,,2,Forward,6-9,225,1949-09-19T00:00:00,USA,POR,Portland
+Derrick Rose,2008,Grizzlies,,1,Guard,6-3,200,1988-10-04T00:00:00,USA,MEM,Memphis
+Jack Marin,1966,Bullets,,5,Forward,6-6,200,1944-10-12T00:00:00,USA,BLT,Baltimore
+Marc Gasol,2007,Grizzlies,,48,Center,6-11,255,1985-01-29T00:00:00,Spain,MEM,Memphis
+Mike Newlin,1971,Rockets,,24,Guard,6-4,200,1949-01-02T00:00:00,USA,HOU,Houston
+Joe Barry Carroll,1980,Warriors,,1,Center,7-0,225,1958-07-24T00:00:00,USA,GOS,Golden State
+Johnny Green,1959,Knicks,,5,Forward,6-5,200,1933-12-08T00:00:00,USA,NYK,New York
+Julius Randle,2014,Timberwolves,,7,Forward-Center,6-9,250,1994-11-29T00:00:00,USA,MIN,Minnesota
+Jj Redick,2006,76ers,,11,Guard,6-3,200,1984-06-24T00:00:00,USA,PHI,Philadelphia
+Danny Ainge,1981,Celtics,,31,Guard,6-5,175,1959-03-17T00:00:00,USA,BOS,Boston
+Kyle Korver,2003,76ers,,51,Guard-Forward,6-7,212,1981-03-17T00:00:00,USA,PHI,Philadelphia
+Damon Stoudamire,1995,Trail Blazers,,7,Guard,5-10,171,1973-09-03T00:00:00,USA,POR,Portland
+Dick Snyder,1966,SuperSonics,,14,Guard,6-5,207,1944-02-01T00:00:00,USA,SEA,Seattle
+Serge Ibaka,2008,,,24,Forward,6-11,235,1989-09-18T00:00:00,Democratic Republic of the Congo,,
+Bill Bridges,1961,Hawks,,32,Forward,6-5,228,1939-04-04T00:00:00,USA,ATL,Atlanta
+Nene,2002,Nuggets,,7,Center-Forward,6-11,250,1982-09-13T00:00:00,Brazil,DEN,Denver
+Billy Knight,1974,Pacers,,21,Forward,6-6,195,1952-06-09T00:00:00,USA,IND,Indiana
+Guy Rodgers,1958,Warriors,,,Guard,6-0,185,1935-09-01T00:00:00,USA,SFW,San Francisco
+Sam Lacey,1970,Kings,,5,Center,6-10,235,1948-03-28T00:00:00,USA,KCK,Kansas City
+Calvin Natt,1979,Trail Blazers,,8,Forward,6-6,220,1957-01-08T00:00:00,USA,POR,Portland
+Vern Fleming,1984,Pacers,,18,Guard,6-5,185,1962-02-04T00:00:00,USA,IND,Indiana
+Gene Shue,1954,Pistons,,3,Guard,6-2,170,1931-12-18T00:00:00,USA,DET,Detroit
+Charlie Scott,1970,Suns,,106,Guard,6-5,175,1948-12-15T00:00:00,USA,PHX,Phoenix
+Marcus Morris Sr,2011,Cavaliers,,14,Forward,6-8,218,1989-09-02T00:00:00,USA,CLE,Cleveland
+Phil Chenier,Undrafted,Bullets,,Undrafted,Guard,6-3,180,1950-10-30T00:00:00,USA,WAS,Washington
+Grant Long,1988,,,33,Forward,6-9,240,1966-03-12T00:00:00,USA,,
+Rodney Rogers,1993,Clippers,,9,Forward,6-7,270,1971-06-20T00:00:00,USA,LAC,Los Angeles
+Fred Carter,1969,76ers,,43,Guard,6-3,185,1945-02-14T00:00:00,USA,PHI,Philadelphia
+Jon Mcglocklin,1965,Bucks,,24,Guard,6-5,205,1943-06-10T00:00:00,USA,MIL,Milwaukee
+Leandro Barbosa,2003,Suns,,28,Guard,6-3,194,1982-11-28T00:00:00,Brazil,PHX,Phoenix
+Rodney Mccray,1983,Rockets,,3,Forward,6-8,220,1961-08-29T00:00:00,USA,HOU,Houston
+Jerami Grant,2014,Trail Blazers,,39,Forward,6-7,210,1994-03-12T00:00:00,USA,POR,Portland
+Cedric Ceballos,1990,Suns,,48,Forward,6-7,220,1969-08-02T00:00:00,USA,PHX,Phoenix
+Larry Kenon,1973,Spurs,,50,Forward,6-9,205,1952-12-13T00:00:00,USA,SAS,San Antonio
+Marco Belinelli,2007,Spurs,,18,Guard,6-5,220,1986-03-25T00:00:00,Italy,SAS,San Antonio
+Olden Polynice,1987,,,8,Center-Forward,6-10,250,1964-11-21T00:00:00,USA,,
+Rodney Stuckey,2007,,,15,Guard,6-5,205,1986-04-21T00:00:00,USA,,
+Patty Mills,2009,Clippers,,55,Guard,6-2,180,1988-08-11T00:00:00,Australia,LAC,LA
+Andrea Bargnani,2006,,,1,Center-Forward,7-0,245,1985-10-26T00:00:00,Italy,,
+Lasalle Thompson,1982,,,5,Center,6-10,245,1961-06-23T00:00:00,USA,,
+Brandon Jennings,2009,Bucks,,10,Guard,6-1,170,1989-09-23T00:00:00,USA,MIL,Milwaukee
+Rick Mahorn,1980,Bullets,,35,Forward,6-10,260,1958-09-21T00:00:00,USA,WAS,Washington
+Morris Peterson,2000,,,21,Guard,6-7,220,1977-08-26T00:00:00,USA,,
+Ricky Rubio,2009,Cavaliers,,5,Guard,6-2,190,1990-10-21T00:00:00,Spain,CLE,Cleveland
+Michael Beasley,2008,,,2,Forward,6-9,235,1989-01-09T00:00:00,USA,,
+Howard Komives,1964,Knicks,,13,Guard,6-1,185,1941-05-09T00:00:00,USA,NYK,New York
+Kevin Grevey,1975,Bullets,,18,Guard,6-5,210,1953-05-12T00:00:00,USA,WAS,Washington
+Fred Vanvleet,Undrafted,Rockets,,Undrafted,Guard,6-0,197,1994-02-25T00:00:00,USA,HOU,Houston
+Ramon Sessions,2007,Hornets,,56,Guard,6-3,190,1986-04-11T00:00:00,USA,CHA,Charlotte
+Connie Dierking,1958,Royals,,5,Center,6-10,222,1936-10-02T00:00:00,USA,CIN,Cincinnati
+Ralph Sampson,1983,Rockets,,1,Center,7-4,228,1960-07-07T00:00:00,USA,HOU,Houston
+Vinny Del Negro,1988,,,29,Guard,,,1966-08-09T00:00:00,USA,,
+Javale Mcgee,2008,Kings,,18,Center-Forward,7-0,270,1988-01-19T00:00:00,USA,SAC,Sacramento
+Malcolm Brogdon,2016,Wizards,,36,Guard,6-4,229,1992-12-11T00:00:00,USA,WAS,Washington
+Voshon Lenard,1994,Heat,,46,Guard,6-4,215,1973-05-14T00:00:00,USA,MIA,Miami
+Roy Hibbert,2008,Pacers,,17,Center,7-2,270,1986-12-11T00:00:00,USA,IND,Indiana
+Bogdan Bogdanovic,2014,Clippers,,27,Guard,6-5,225,1992-08-18T00:00:00,Serbia,LAC,LA
+Caldwell Jones,1973,76ers,,32,Center,6-11,217,1950-08-04T00:00:00,USA,PHI,Philadelphia
+Collin Sexton,2018,Hornets,,8,Guard,6-3,190,1999-01-04T00:00:00,USA,CHA,Charlotte
+Andy Phillip,1947,Pistons,,,Guard,6-3,195,1922-03-07T00:00:00,USA,FTW,Ft. Wayne Zollner
+Alvin Attles,1960,Warriors,,39,Guard,6-1,175,1936-11-07T00:00:00,USA,SFW,San Francisco
+Mark West,1983,,,30,Center,6-10,230,1960-11-05T00:00:00,USA,,
+Ben Wallace,Undrafted,Pistons,,Undrafted,Forward-Center,6-9,240,1974-09-10T00:00:00,USA,DET,Detroit
+Bill Walton,1974,Trail Blazers,,1,Center,6-11,210,1952-11-05T00:00:00,USA,POR,Portland
+Connie Simmons,Undrafted,Knicks,,Undrafted,Center,6-8,222,1925-03-15T00:00:00,USA,NYK,New York
+Nazr Mohammed,1998,Bobcats,,29,Center,6-10,250,1977-09-05T00:00:00,USA,CHA,Charlotte
+Jeff Ruland,1980,Bullets,,25,Center,6-10,240,1958-12-16T00:00:00,USA,WAS,Washington
+Jim Pollard,1947,Lakers,,,Forward,6-3,185,1922-07-09T00:00:00,USA,MNL,Minneapolis
+Ish Smith,Undrafted,,,Undrafted,Guard,6-0,175,1988-07-05T00:00:00,USA,,
+Al Bianchi,1954,76ers,,18,Guard,6-3,185,1932-03-26T00:00:00,USA,PHI,Philadelphia
+Johnny Egan,1961,Bullets,,12,Guard,6-0,180,1939-01-31T00:00:00,USA,BLT,Baltimore
+Steve Kerr,1988,Bulls,,50,Guard,6-1,180,1965-09-27T00:00:00,USA,CHI,Chicago
+Kenneth Faried,2011,Nuggets,,22,Forward-Center,6-8,220,1989-11-19T00:00:00,USA,DEN,Denver
+Brevin Knight,1997,Cavaliers,,16,Guard,5-10,166,1975-11-08T00:00:00,USA,CLE,Cleveland
+Ollie Johnson,1972,Kings,,30,Forward,6-6,200,1949-05-11T00:00:00,USA,KCK,Kansas City
+John Battle,1985,Hawks,,84,Guard,6-2,175,1962-11-09T00:00:00,USA,ATL,Atlanta
+Travis Outlaw,2003,Trail Blazers,,23,Forward,6-9,207,1984-09-18T00:00:00,USA,POR,Portland
+John Salley,1986,Pistons,,11,Center-Forward,6-11,255,1964-05-16T00:00:00,USA,DET,Detroit
+Mark Eaton,1982,Jazz,,72,Center,7-4,275,1957-01-24T00:00:00,USA,UTA,Utah
+Othella Harrington,1996,Knicks,,30,Forward-Center,6-9,235,1974-01-31T00:00:00,USA,NYK,New York
+Bobby Phills,1991,,,45,Guard,6-5,210,1969-12-20T00:00:00,USA,,
+Tyler Herro,2019,Heat,,13,Guard,6-5,195,2000-01-20T00:00:00,USA,MIA,Miami
+Eric Murdock,1991,,,21,Guard,6-1,190,1968-06-14T00:00:00,USA,,
+Taurean Prince,2016,Bucks,,12,Forward,6-6,218,1994-03-22T00:00:00,USA,MIL,Milwaukee
+Jim Price,1972,Lakers,,16,Guard,6-3,195,1949-11-27T00:00:00,USA,LAL,Los Angeles
+Jj Hickson,2008,Cavaliers,,19,Center-Forward,6-9,242,1988-09-04T00:00:00,USA,CLE,Cleveland
+Thabo Sefolosha,2006,Thunder,,13,Forward-Guard,6-6,215,1984-05-02T00:00:00,Switzerland,OKC,Oklahoma City
+Kevin Huerter,2018,Bulls,,19,Guard-Forward,6-7,198,1998-08-27T00:00:00,USA,CHI,Chicago
+Jamaal Magloire,2000,Hornets,,19,Center,6-11,265,1978-05-21T00:00:00,Canada,NOH,New Orleans
+Jerryd Bayless,2008,Bucks,,11,Guard,6-3,200,1988-08-20T00:00:00,USA,MIL,Milwaukee
+Gary Trent Jr,2018,Bucks,,37,Guard,6-5,204,1999-01-18T00:00:00,USA,MIL,Milwaukee
+Lloyd Neal,1972,Trail Blazers,,31,Forward,6-7,225,1950-12-10T00:00:00,USA,POR,Portland
+Tyrese Maxey,2020,76ers,,21,Guard,6-2,200,2000-11-04T00:00:00,USA,PHI,Philadelphia
+Winston Garland,1987,Warriors,,40,Guard,6-2,170,1964-12-19T00:00:00,USA,GOS,Golden State
+Keldon Johnson,2019,Spurs,,29,Forward-Guard,6-5,220,1999-10-11T00:00:00,USA,SAS,San Antonio
+Lance Stephenson,2010,Pacers,,40,Forward,6-5,210,1990-09-05T00:00:00,USA,IND,Indiana
+Sean Rooks,1992,Clippers,,30,Center,6-10,260,1969-09-09T00:00:00,USA,LAC,Los Angeles
+Dwight Powell,2014,Mavericks,,45,Forward-Center,6-10,240,1991-07-20T00:00:00,Canada,DAL,Dallas
+Dorell Wright,2004,Heat,,19,Forward-Guard,6-9,205,1985-12-02T00:00:00,USA,MIA,Miami
+Tom Boerwinkle,1968,Bulls,,4,Center,7-0,265,1945-08-23T00:00:00,USA,CHI,Chicago
+Curtis Perry,1970,Suns,,35,Forward,6-7,220,1948-09-13T00:00:00,USA,PHX,Phoenix
+Mike Evans,1978,Nuggets,,21,Guard,6-1,170,1955-04-19T00:00:00,USA,DEN,Denver
+Trey Lyles,2015,Kings,,12,Forward,6-9,234,1995-11-05T00:00:00,Canada,SAC,Sacramento
+Josh Hart,2017,Knicks,,30,Guard,6-4,215,1995-03-06T00:00:00,USA,NYK,New York
+Gary Grant,1988,,,15,Guard,,,1965-04-21T00:00:00,USA,,
+Marquis Daniels,Undrafted,Mavericks,,Undrafted,Forward,6-6,200,1981-01-07T00:00:00,USA,DAL,Dallas
+Ed Davis,2010,Cavaliers,,13,Center-Forward,6-9,218,1989-06-05T00:00:00,USA,CLE,Cleveland
+Maurice Harkless,2012,Kings,,15,Forward-Guard,6-7,220,1993-05-11T00:00:00,USA,SAC,Sacramento
+Michael Porter Jr,2018,Nets,,14,Forward,6-10,218,1998-06-29T00:00:00,USA,BKN,Brooklyn
+Marvin Webster,1975,Knicks,,3,Center,7-1,225,1952-04-13T00:00:00,USA,NYK,New York
+Chucky Brown,1989,Cavaliers,,43,Forward,6-8,220,1968-02-29T00:00:00,USA,CLE,Cleveland
+Franz Wagner,2021,Magic,,8,Forward,6-10,220,2001-08-27T00:00:00,Germany,ORL,Orlando
+Fred Foster,1968,76ers,,28,Forward,6-5,210,1946-03-18T00:00:00,USA,PHI,Philadelphia
+Clint Richardson,1979,76ers,,36,Guard,6-3,195,1956-08-07T00:00:00,USA,PHI,Philadelphia
+Fred Schaus,1949,Pistons,,,Forward,6-5,205,1925-06-30T00:00:00,USA,FTW,Ft. Wayne Zollner
+Kenny Gattison,1986,Hornets,,55,Forward,6-8,225,1964-05-23T00:00:00,USA,CHH,Charlotte
+Jonas Jerebko,2009,Pistons,,39,Forward,6-10,231,1987-03-02T00:00:00,Sweden,DET,Detroit
+Kosta Koufos,2008,Kings,,23,Center,7-0,245,1989-02-24T00:00:00,USA,SAC,Sacramento
+Mitchell Wiggins,1983,Rockets,,23,Guard,6-4,185,1959-09-28T00:00:00,USA,HOU,Houston
+Aaron James,1974,Jazz,,28,Forward,6-8,210,1952-10-05T00:00:00,USA,UTA,New Orleans
+Billy Mckinney,1977,Nuggets,,115,Guard,6-0,160,1955-06-05T00:00:00,USA,DEN,Denver
+Trenton Hassell,2001,Timberwolves,,29,Forward-Guard,6-5,227,1979-03-04T00:00:00,USA,MIN,Minnesota
+Will Perdue,1988,Bulls,,11,Center,7-0,240,1965-08-29T00:00:00,USA,CHI,Chicago
+Jeff Turner,1984,Magic,,17,Forward,6-9,230,1962-04-09T00:00:00,USA,ORL,Orlando
+Juan Dixon,2002,Wizards,,17,Guard,6-3,165,1978-10-09T00:00:00,USA,WAS,Washington
+Earl Cureton,1979,,,58,Forward,6-9,210,1957-09-03T00:00:00,USA,,
+Leon Douglas,1976,Pistons,,4,Center,6-10,230,1954-08-26T00:00:00,USA,DET,Detroit
+Chris Dudley,1987,Trail Blazers,,75,Center,6-11,260,1965-02-22T00:00:00,USA,POR,Portland
+Ervin Johnson,1993,Bucks,,23,Center,6-11,245,1967-12-21T00:00:00,USA,MIL,Milwaukee
+George Senesky,Undrafted,Warriors,,Undrafted,Guard,6-2,179,1922-04-04T00:00:00,USA,PHW,Philadelphia
+Steve Colter,1984,Bullets,,33,Guard,6-3,165,1962-07-24T00:00:00,USA,WAS,Washington
+Roger Mason Jr,2002,,,30,Guard,6-5,205,1980-09-10T00:00:00,USA,,
+Chris Mihm,2000,Cavaliers,,7,Center,7-0,265,1979-07-16T00:00:00,USA,CLE,Cleveland
+Devin Vassell,2020,Spurs,,11,Guard-Forward,6-5,200,2000-08-23T00:00:00,USA,SAS,San Antonio
+Willie Norwood,1969,Pistons,,19,Forward,6-7,220,1947-08-08T00:00:00,USA,DET,Detroit
+Charlie Bell,Undrafted,Bucks,,Undrafted,Guard,6-3,200,1979-03-12T00:00:00,USA,MIL,Milwaukee
+George Ratkovicz,Undrafted,Nationals,,Undrafted,Forward,6-7,220,1922-11-13T00:00:00,USA,PHI,Syracuse
+Daniel Gibson,2006,Cavaliers,,42,Guard,6-2,200,1986-02-27T00:00:00,USA,CLE,Cleveland
+Alvin Scott,1977,Suns,,136,Forward,6-7,185,1955-09-14T00:00:00,USA,PHX,Phoenix
+Matt Carroll,Undrafted,,,Undrafted,Guard,6-6,212,1980-08-28T00:00:00,USA,,
+Anthony Carter,Undrafted,,,Undrafted,Guard,6-1,190,1975-06-16T00:00:00,USA,,
+Brandan Wright,2007,,,8,Forward-Center,6-10,235,1987-10-05T00:00:00,USA,,
+Anthony Bowie,1986,Magic,,66,Guard,6-6,200,1963-11-09T00:00:00,USA,ORL,Orlando
+Fred Hoiberg,1995,Bulls,,52,Guard,6-5,210,1972-10-15T00:00:00,USA,CHI,Chicago
+Moritz Wagner,2018,Magic,,25,Forward-Center,6-11,245,1997-04-26T00:00:00,Germany,ORL,Orlando
+Bob Feerick,Undrafted,Capitols,,Undrafted,Guard,6-3,190,1920-01-02T00:00:00,USA,WAS,Washington
+Alex Groza,1949,Olympians,,2,Center,6-7,218,1926-10-07T00:00:00,USA,INO,Indianapolis
+Coby Dietrick,1970,Spurs,,155,Center,6-11,220,1948-07-23T00:00:00,USA,SAS,San Antonio
+Gary Gregor,1968,Trail Blazers,,8,Forward,6-7,225,1945-08-13T00:00:00,USA,POR,Portland
+Brian Skinner,1998,,,22,Forward-Center,6-9,255,1976-05-19T00:00:00,USA,,
+Tyler Zeller,2012,Celtics,,17,Forward-Center,6-11,250,1990-01-17T00:00:00,USA,BOS,Boston
+Yi Jianlian,2007,Nets,,6,Forward,7-0,250,1987-10-27T00:00:00,China,NJN,New Jersey
+Ernie Vandeweghe,1949,Knicks,,,Forward,6-3,195,1928-09-12T00:00:00,USA,NYK,New York
+Bill Hewitt,1968,Pistons,,11,Forward,6-7,210,1944-08-08T00:00:00,USA,DET,Detroit
+Kenrich Williams,Undrafted,Thunder,,Undrafted,Guard-Forward,6-6,210,1994-12-02T00:00:00,USA,OKC,Oklahoma City
+Lance Thomas,Undrafted,Knicks,,Undrafted,Forward,6-8,225,1988-04-24T00:00:00,USA,NYK,New York
+Tom Tolbert,1988,Warriors,,34,Forward,6-7,235,1965-10-16T00:00:00,USA,GOS,Golden State
+Larry Stewart,Undrafted,Bullets,,Undrafted,Forward,6-8,230,1968-09-21T00:00:00,USA,WAS,Washington
+Joe Strawder,1964,Pistons,,34,Center,6-10,235,1940-09-21T00:00:00,USA,DET,Detroit
+Ernie Calverley,Undrafted,Steamrollers,,Undrafted,Guard,5-10,145,1924-01-30T00:00:00,USA,PRO,Providence
+Eddie Robinson,Undrafted,Bulls,,Undrafted,Forward,6-9,210,1976-04-19T00:00:00,USA,CHI,Chicago
+Ryan Hollins,2006,,,50,Center,7-0,240,1984-10-10T00:00:00,USA,,
+Shammond Williams,1998,SuperSonics,,34,Guard,6-1,201,1975-04-05T00:00:00,USA,SEA,Seattle
+Quinton Ross,Undrafted,,,Undrafted,Forward-Guard,6-6,193,1981-04-30T00:00:00,USA,,
+Keith Askins,Undrafted,Heat,,Undrafted,Forward-Guard,6-8,215,1967-12-15T00:00:00,USA,MIA,Miami
+Richie Regan,1953,Royals,,4,Guard,6-2,180,1930-11-30T00:00:00,USA,CIN,Cincinnati
+Eldridge Recasner,1992,,,,Guard,,,1967-12-14T00:00:00,USA,,
+Francisco Elson,1999,,,41,Center-Forward,7-0,240,1976-02-28T00:00:00,Netherlands,,
+Juancho Hernangomez,2016,,,15,Forward,6-9,214,1995-09-28T00:00:00,Spain,,
+Jerian Grant,2015,Bulls,,19,Guard,6-4,198,1992-10-09T00:00:00,USA,CHI,Chicago
+Courtney Alexander,2000,Wizards,,13,Guard,6-5,205,1977-04-27T00:00:00,USA,WAS,Washington
+Isaiah Joe,2020,Thunder,,49,Guard,6-3,165,1999-07-02T00:00:00,USA,OKC,Oklahoma City
+Justin Jackson,2017,,,15,Forward,6-8,220,1995-03-28T00:00:00,USA,,
+Chris Crawford,1997,Hawks,,50,Forward,6-9,235,1975-05-13T00:00:00,USA,ATL,Atlanta
+Ime Udoka,Undrafted,,,Undrafted,Guard-Forward,6-5,220,1977-08-09T00:00:00,USA,,
+David Nwaba,Undrafted,Rockets,,Undrafted,Guard-Forward,6-5,219,1993-01-14T00:00:00,USA,HOU,Houston
+Shelden Williams,2006,Hawks,,5,Center-Forward,6-9,250,1983-10-21T00:00:00,USA,ATL,Atlanta
+Quincy Pondexter,2010,Grizzlies,,26,Forward,6-7,230,1988-03-10T00:00:00,USA,MEM,Memphis
+Mel Riebe,Undrafted,Celtics,,Undrafted,Guard,5-11,180,1916-07-12T00:00:00,USA,BOS,Boston
+Lou Dampier,1967,Spurs,,38,Guard,6-0,170,1944-11-20T00:00:00,USA,SAS,San Antonio
+Steve Patterson,1971,Cavaliers,,18,Center,6-9,225,1948-06-24T00:00:00,USA,CLE,Cleveland
+Jerome James,1998,SuperSonics,,36,Center,7-1,285,1975-11-17T00:00:00,USA,SEA,Seattle
+Larry Sanders,2010,,,15,Forward-Center,6-11,230,1988-11-21T00:00:00,USA,,
+Jeff Judkins,1978,Celtics,,30,Guard,6-6,185,1956-03-23T00:00:00,USA,BOS,Boston
+Rodney Buford,1999,Nets,,53,Forward-Guard,6-5,195,1977-11-02T00:00:00,USA,NJN,New Jersey
+Amir Coffey,Undrafted,Bucks,,Undrafted,Guard-Forward,6-7,210,1997-06-17T00:00:00,USA,MIL,Milwaukee
+Marko Todorovich,Undrafted,Blackhawks,,Undrafted,Forward,6-5,220,1923-06-11T00:00:00,USA,TCB,Tri-Cities
+Luke Kornet,Undrafted,Spurs,,Undrafted,Center-Forward,7-1,250,1995-07-15T00:00:00,USA,SAS,San Antonio
+Vonteego Cummings,1999,,,26,,,,1976-02-29T00:00:00,USA,,
+Paul Thompson,1983,Cavaliers,,50,Guard,6-6,210,1961-05-25T00:00:00,USA,CLE,Cleveland
+Ekpe Udoh,2010,Bucks,,6,Center-Forward,6-10,245,1987-05-20T00:00:00,USA,MIL,Milwaukee
+Andrew Nembhard,2022,Pacers,,31,Guard-Forward,6-4,191,2000-01-16T00:00:00,Canada,IND,Indiana
+Brook Steppe,1982,Kings,,17,Guard,6-5,195,1959-11-07T00:00:00,USA,SAC,Sacramento
+Salim Stoudamire,2005,Hawks,,31,Guard,6-1,175,1982-10-11T00:00:00,USA,ATL,Atlanta
+Trendon Watford,Undrafted,76ers,,Undrafted,Guard-Forward,6-8,237,2000-11-09T00:00:00,USA,PHI,Philadelphia
+Kenny Williams,1990,Pacers,,46,Forward,6-9,205,1969-06-09T00:00:00,USA,IND,Indiana
+Cartier Martin,Undrafted,Wizards,,Undrafted,Forward,6-7,220,1984-11-20T00:00:00,USA,WAS,Washington
+John Wetzel,1966,Hawks,,75,Guard,6-5,190,1944-10-22T00:00:00,USA,ATL,Atlanta
+Terence Stansbury,1984,Pacers,,15,Guard,6-5,170,1961-02-27T00:00:00,USA,IND,Indiana
+Gene Tormohlen,1959,Hawks,,11,Center,6-8,230,1937-05-12T00:00:00,USA,ATL,Atlanta
+Chuma Okeke,2019,Cavaliers,,16,Forward,6-7,229,1998-08-18T00:00:00,USA,CLE,Cleveland
+Dirk Minniefield,1983,Cavaliers,,33,Guard,6-3,180,1961-01-17T00:00:00,USA,CLE,Cleveland
+Desagana Diop,2001,Mavericks,,8,Center,7-0,280,1982-01-30T00:00:00,Senegal,DAL,Dallas
+Bob Warlick,Undrafted,Warriors,,Undrafted,Guard,6-5,200,1941-03-20T00:00:00,USA,SFW,San Francisco
+Stan Stutz,Undrafted,Knicks,,Undrafted,Guard,5-10,170,1920-04-14T00:00:00,USA,NYK,New York
+Malachi Flynn,2020,,,29,Guard,6-1,185,1998-05-09T00:00:00,USA,,
+Jerome Lane,1988,Nuggets,,23,Forward,6-6,230,1966-12-04T00:00:00,USA,DEN,Denver
+Earl Clark,2009,Magic,,14,Forward,6-10,234,1988-01-17T00:00:00,USA,ORL,Orlando
+Robert Smith,1977,Nuggets,,65,Guard,5-11,165,1955-03-10T00:00:00,USA,DEN,Denver
+Fred Hilton,1971,Braves,,19,Guard,6-3,185,1948-01-15T00:00:00,USA,BUF,Buffalo
+Bob Kinney,Undrafted,Celtics,,Undrafted,Center,6-6,215,1920-09-16T00:00:00,USA,BOS,Boston
+Vladimir Stepania,1998,Heat,,27,Center,7-1,255,1976-05-08T00:00:00,Georgia,MIA,Miami
+Keith Lee,1985,Cavaliers,,11,Forward,6-10,215,1962-12-28T00:00:00,USA,CLE,Cleveland
+Chris Quinn,Undrafted,Heat,,Undrafted,Guard,6-2,175,1983-09-27T00:00:00,USA,MIA,Miami
+Paul Reed,2020,Pistons,,58,Forward,6-9,210,1999-06-14T00:00:00,USA,DET,Detroit
+Richard Dumas,1991,Suns,,46,Forward,6-7,225,1969-05-19T00:00:00,USA,PHX,Phoenix
+Gary Melchionni,1973,Suns,,33,Guard,6-2,185,1951-01-19T00:00:00,USA,PHX,Phoenix
+Von Wafer,2005,Rockets,,39,Guard,6-5,209,1985-07-21T00:00:00,USA,HOU,Houston
+Jack Givens,1978,Hawks,,16,Forward,6-5,205,1956-09-21T00:00:00,USA,ATL,Atlanta
+Paul Armstrong,Undrafted,Pistons,,Undrafted,Guard,5-11,170,1918-11-01T00:00:00,USA,FTW,Ft. Wayne Zollner
+Rudy Macklin,1981,Hawks,,52,Forward,6-7,205,1958-02-19T00:00:00,USA,ATL,Atlanta
+Don Putman,Undrafted,Bombers,,Undrafted,Guard,6-1,170,1922-11-13T00:00:00,USA,BOM,St. Louis
+Trevor Ruffin,Undrafted,76ers,,Undrafted,Guard,6-1,199,1970-09-26T00:00:00,USA,PHI,Philadelphia
+Nick Jones,1967,Warriors,,31,Guard,6-2,190,1945-03-28T00:00:00,USA,GOS,Golden State
+Bob Elliott,1977,Nets,,42,Center,6-9,225,1955-08-18T00:00:00,USA,NJN,New Jersey
+Bob Brown,Undrafted,Nuggets,,Undrafted,Forward,6-4,205,1923-11-12T00:00:00,USA,DN ,Denver
+Johnny Macknowski,1948,Nationals,,,Guard,6-1,180,1923-01-07T00:00:00,USA,PHI,Syracuse
+Bob Quick,1968,Pistons,,18,Forward,6-5,215,1946-03-05T00:00:00,USA,DET,Detroit
+Jeffery Taylor,2012,,,31,,,,1989-05-23T00:00:00,Sweden,,
+Goebel Ritter,1948,Knicks,,,Guard,6-2,185,1924-02-26T00:00:00,USA,NYK,New York
+George Thompson,1969,Bucks,,66,Guard,6-2,200,1947-11-29T00:00:00,USA,MIL,Milwaukee
+Jack Stephens,1955,Hawks,,7,Guard,6-3,185,1933-05-18T00:00:00,USA,STL,St. Louis
+Tate George,1990,Nets,,22,Guard,6-5,190,1968-05-29T00:00:00,USA,NJN,New Jersey
+John Janisch,Undrafted,Falcons,,Undrafted,Forward,6-3,200,1920-03-15T00:00:00,USA,DEF,Detroit
+Michael Ruffin,1999,Wizards,,32,Forward-Center,6-8,248,1977-01-21T00:00:00,USA,WAS,Washington
+Eric Washington,1997,Nuggets,,46,Forward-Guard,6-4,190,1974-03-24T00:00:00,USA,DEN,Denver
+Nate Bowman,1965,Knicks,,7,Center,6-10,230,1943-03-19T00:00:00,USA,NYK,New York
+Gg Jackson,2023,Grizzlies,,45,Forward,6-9,210,2004-12-17T00:00:00,USA,MEM,Memphis
+Salah Mejri,Undrafted,Mavericks,,Undrafted,Center,7-2,235,1986-06-15T00:00:00,Tunisia,DAL,Dallas
+Kira Lewis Jr,2020,Jazz,,13,Guard,6-1,170,2001-04-06T00:00:00,USA,UTA,Utah
+Chasson Randle,2015,Magic,,,Guard,6-2,185,1993-02-05T00:00:00,USA,ORL,Orlando
+Bob Carrington,1976,Nets,,28,Guard,6-6,195,1953-07-03T00:00:00,USA,NJN,New Jersey
+Loren Meyer,1995,Mavericks,,24,Center-Forward,6-10,260,1972-12-30T00:00:00,USA,DAL,Dallas
+Sid Tannenbaum,Undrafted,Knicks,,Undrafted,Guard,6-0,160,1925-10-08T00:00:00,USA,NYK,New York
+Kenny Battle,1989,Suns,,27,Guard,6-6,210,1964-10-10T00:00:00,USA,PHX,Phoenix
+Duop Reath,Undrafted,Trail Blazers,,Undrafted,Center,6-9,245,1996-06-26T00:00:00,South Sudan,POR,Portland
+Bo Ellis,1977,Nuggets,,17,Forward,6-9,197,1954-08-08T00:00:00,USA,DEN,Denver
+Granville Waiters,1983,Pacers,,39,Center,6-11,225,1961-01-08T00:00:00,USA,IND,Indiana
+Jack Burmaster,1948,Redskins,,,Guard,6-3,190,1926-12-23T00:00:00,USA,SHE,Sheboygan
+Zendon Hamilton,Undrafted,,,Undrafted,Forward-Center,6-11,254,1975-04-29T00:00:00,USA,,
+Jaylin Williams,2022,Thunder,,34,Forward,6-9,240,2002-06-29T00:00:00,USA,OKC,Oklahoma City
+Ronald Dupree,Undrafted,,,Undrafted,Forward,6-7,209,1981-01-26T00:00:00,USA,,
+Dwight Morrison,1954,Celtics,,14,Forward,6-8,220,1932-04-26T00:00:00,USA,BOS,Boston
+Bryce Mcgowens,2022,Pelicans,,40,Guard,6-6,190,2002-11-08T00:00:00,USA,NOP,New Orleans
+Jerome Robinson,2018,Warriors,,13,Guard,6-5,190,1997-02-22T00:00:00,USA,GSW,Golden State
+Mal Mcmullan,Undrafted,Olympians,,Undrafted,,,,1927-08-23T00:00:00,USA,INO,Indianapolis
+Toumani Camara,2023,Trail Blazers,,52,Forward,6-7,229,2000-05-08T00:00:00,Belgium,POR,Portland
+Gary Clark,Undrafted,Pelicans,,Undrafted,Forward,6-6,225,1994-11-16T00:00:00,USA,NOP,New Orleans
+Keith Edmonson,1982,Spurs,,10,Guard,6-5,195,1960-09-28T00:00:00,USA,SAS,San Antonio
+Carl Meinhold,Undrafted,Bullets,,Undrafted,Guard,6-2,185,1926-03-29T00:00:00,USA,BAL,Baltimore
+Kedrick Brown,2001,,,11,Guard-Forward,6-7,222,1981-03-18T00:00:00,USA,,
+Dave Lattin,1967,Suns,,10,Forward,6-6,225,1943-12-23T00:00:00,USA,PHX,Phoenix
+Dick Holub,1947,Knicks,,5,Center,6-6,205,1921-10-29T00:00:00,USA,NYK,New York
+Richie Frahm,Undrafted,,,Undrafted,Guard,6-5,202,1977-08-14T00:00:00,USA,,
+Bo Lamar,1973,Lakers,,44,Guard,6-1,180,1951-04-07T00:00:00,USA,LAL,Los Angeles
+Mel Bennett,Undrafted,Pacers,,Undrafted,Forward,6-7,200,1955-01-04T00:00:00,USA,IND,Indiana
+Rusty Larue,Undrafted,,,Undrafted,Guard,6-3,185,1973-12-10T00:00:00,USA,,
+Ivan Rabb,2017,Grizzlies,,35,Forward,6-10,220,1997-02-04T00:00:00,USA,MEM,Memphis
+Mychal Mulder,Undrafted,Heat,,Undrafted,Guard,6-3,195,1994-06-12T00:00:00,Canada,MIA,Miami
+Mike Batiste,Undrafted,,,Undrafted,,,,1977-11-21T00:00:00,USA,,
+Kessler Edwards,2021,Nuggets,,44,Forward,6-7,203,2000-08-09T00:00:00,USA,DEN,Denver
+Stojko Vrankovic,Undrafted,,,Undrafted,Center,7-2,260,1964-01-22T00:00:00,Croatia,,
+Ron Knight,1970,Trail Blazers,,76,Forward,6-7,215,1947-08-04T00:00:00,USA,POR,Portland
+Luka Garza,2021,Celtics,,52,Center,6-10,243,1998-12-27T00:00:00,USA,BOS,Boston
+Chris Mcnealy,1983,Knicks,,38,Forward,6-7,210,1961-07-15T00:00:00,USA,NYK,New York
+Deyonta Davis,2016,,,31,Center-Forward,6-11,237,1996-12-02T00:00:00,USA,,
+Nando De Colo,2009,Spurs,,53,Guard,6-5,195,1987-06-23T00:00:00,France,SAS,San Antonio
+Isaiah Taylor,2016,Hawks,,,Guard,6-3,170,1994-07-11T00:00:00,USA,ATL,Atlanta
+Lucas Nogueira,2013,Raptors,,16,Center,7-0,220,1992-07-26T00:00:00,Brazil,TOR,Toronto
+Alexander Johnson,2006,Grizzlies,,45,Forward,6-9,240,1983-02-08T00:00:00,USA,MEM,Memphis
+Oleksiy Pecherov,2006,Wizards,,18,Forward-Center,7-0,234,1985-12-08T00:00:00,Ukraine,WAS,Washington
+Cal Bowdler,1999,Hawks,,17,Forward,6-10,253,1977-03-31T00:00:00,USA,ATL,Atlanta
+Jay Arnette,1960,Royals,,9,Guard,6-2,175,1938-12-19T00:00:00,USA,CIN,Cincinnati
+Litterial Green,1992,,,39,Guard,6-1,185,1970-03-07T00:00:00,USA,,
+Vasilije Micic,2014,Suns,,52,Guard,6-3,188,1994-01-13T00:00:00,Serbia,PHX,Phoenix
+Anthony Cook,1989,Nuggets,,24,Forward,6-9,205,1967-03-19T00:00:00,USA,DEN,Denver
+Art Hillhouse,Undrafted,Warriors,,Undrafted,Center,6-7,220,1916-06-12T00:00:00,USA,PHW,Philadelphia
+Jeremy Pargo,2009,,,0,Guard,6-2,219,1986-03-17T00:00:00,USA,,
+Max Christie,2022,Mavericks,,35,Guard,6-5,190,2003-02-10T00:00:00,USA,DAL,Dallas
+Don Martin,Undrafted,Bombers,,Undrafted,Center,6-7,210,1920-02-07T00:00:00,USA,BOM,St. Louis
+Nathan Knight,Undrafted,Timberwolves,,Undrafted,Forward-Center,6-8,253,1997-09-20T00:00:00,USA,MIN,Minnesota
+Rich Rinaldi,1971,Bullets,,43,Guard,6-3,195,1949-08-03T00:00:00,USA,CAP,Capital
+Brad Branson,1980,Pacers,,45,Forward,6-10,220,1958-09-24T00:00:00,USA,IND,Indiana
+Mike Price,1970,Knicks,,17,Guard,6-3,200,1948-09-11T00:00:00,USA,NYK,New York
+Adrian Caldwell,Undrafted,,,Undrafted,Forward,6-8,265,1966-07-04T00:00:00,USA,,
+David Rivers,1988,Clippers,,25,Guard,6-0,170,1965-01-20T00:00:00,USA,LAC,Los Angeles
+James Bouknight,2021,,,11,Guard,6-4,190,2000-09-18T00:00:00,USA,,
+Ashraf Amaya,Undrafted,,,Undrafted,Forward,6-8,230,1971-11-23T00:00:00,USA,,
+Chuck Aleksinas,1982,Warriors,,76,Center,6-11,260,1959-02-26T00:00:00,USA,GOS,Golden State
+Brian Evans,1996,,,27,Forward,6-8,220,1973-09-13T00:00:00,USA,,
+Dexter Cambridge,Undrafted,Mavericks,,Undrafted,Forward,6-7,224,1970-01-29T00:00:00,USA,DAL,Dallas
+Art Long,Undrafted,SuperSonics,,Undrafted,Forward,6-9,250,1972-10-01T00:00:00,USA,SEA,Seattle
+Joey Dorsey,2008,,,33,,,,1983-12-16T00:00:00,USA,,
+Bob Faught,Undrafted,Rebels,,Undrafted,Forward,6-5,185,1921-09-02T00:00:00,USA,CLR,Cleveland
+Gene Rhodes,1952,Olympians,,,Guard,6-1,170,1927-09-02T00:00:00,USA,INO,Indianapolis
+Roylee Hamilton,1979,Pistons,,10,Guard,6-2,180,1957-07-20T00:00:00,USA,DET,Detroit
+Jerome Allen,1995,Pacers,,49,Guard,6-4,184,1973-01-28T00:00:00,USA,IND,Indiana
+Orlando Johnson,2012,,,36,Guard,6-5,220,1989-03-11T00:00:00,USA,,
+Ousmane Dieng,2022,Thunder,,11,Forward,6-9,185,2003-05-21T00:00:00,France,OKC,Oklahoma City
+Kenny Satterfield,2001,Nuggets,,53,Guard,6-2,170,1981-04-10T00:00:00,USA,DEN,Denver
+Johnny Simmons,Undrafted,Celtics,,Undrafted,Guard,6-1,184,1924-07-07T00:00:00,USA,BOS,Boston
+Paul Dawkins,1979,Jazz,,185,Forward,6-5,190,1957-06-10T00:00:00,USA,UTA,Utah
+Bob Mullens,Undrafted,Huskies,,Undrafted,Guard,6-1,175,1922-11-01T00:00:00,USA,HUS,Toronto
+Frank Gates,Undrafted,Packers,,Undrafted,Guard,6-0,160,1920-04-12T00:00:00,USA,AND,Anderson
+Scotty Pippen Jr,Undrafted,Grizzlies,,Undrafted,Guard,6-1,170,2000-11-10T00:00:00,USA,MEM,Memphis
+Mark Pope,1996,Bucks,,52,Center-Forward,6-10,235,1972-09-11T00:00:00,USA,MIL,Milwaukee
+Craig Porter Jr,Undrafted,Cavaliers,,Undrafted,Guard,6-1,180,2000-02-26T00:00:00,USA,CLE,Cleveland
+Jackson Vroman,2004,,,31,Forward-Center,6-10,220,1981-06-06T00:00:00,USA,,
+Matt Ryan,Undrafted,,,Undrafted,Forward,6-6,215,1997-04-17T00:00:00,USA,,
+Jack Dwan,Undrafted,Lakers,,Undrafted,Forward,6-4,200,1921-05-03T00:00:00,USA,MNL,Minneapolis
+Jerald Honeycutt,1997,Bucks,,38,Forward-Guard,6-9,254,1974-10-20T00:00:00,USA,MIL,Milwaukee
+Otto Schnellbacher,Undrafted,Steamrollers,,Undrafted,Forward,6-4,185,1923-04-15T00:00:00,USA,PRO,Providence
+Lindsay Hairston,1975,Pistons,,64,Forward,6-7,180,1951-12-08T00:00:00,USA,DET,Detroit
+Anthony Roberson,Undrafted,Knicks,,Undrafted,Guard,6-2,180,1983-02-14T00:00:00,USA,NYK,New York
+John Thompson,1964,Celtics,,25,Forward,6-10,225,1941-09-02T00:00:00,USA,BOS,Boston
+Victor Claver,2009,,,22,,,,1988-08-30T00:00:00,Spain,,
+Curtis Borchardt,2002,Jazz,,18,Center,7-0,242,1980-09-13T00:00:00,USA,UTA,Utah
+Linton Townes,1982,Trail Blazers,,33,Forward,6-7,190,1959-11-30T00:00:00,USA,POR,Portland
+Derrick Dial,1998,Spurs,,52,Guard,6-4,184,1975-12-20T00:00:00,USA,SAS,San Antonio
+Randy Allen,Undrafted,Kings,,Undrafted,Forward,6-8,220,1965-01-26T00:00:00,USA,SAC,Sacramento
+Chuck Nevitt,1982,Pistons,,63,Center,7-5,217,1959-06-13T00:00:00,USA,DET,Detroit
+Cliff Anderson,1967,Lakers,,35,Guard,6-2,200,1944-09-07T00:00:00,USA,LAL,Los Angeles
+Tyler Cook,Undrafted,Bulls,,Undrafted,Forward,6-8,255,1997-09-23T00:00:00,USA,CHI,Chicago
+Del Beshore,Undrafted,Bulls,,Undrafted,Guard,5-11,165,1956-11-29T00:00:00,USA,CHI,Chicago
+Anthony Tucker,1996,Bullets,,,Forward,6-8,220,1969-04-04T00:00:00,USA,WAS,Washington
+Bob Fitzgerald,Undrafted,Huskies,,Undrafted,Forward,6-5,190,1923-03-14T00:00:00,USA,HUS,Toronto
+Jawun Evans,2017,Clippers,,39,Guard,6-0,190,1996-07-26T00:00:00,USA,LAC,LA
+Peter Maravich,Undrafted,Ironmen,,Undrafted,Guard,6-0,185,1920-08-20T00:00:00,USA,PIT,Pittsburgh
+Sasha Vezenkov,2017,Kings,,57,Forward,6-8,225,1995-08-06T00:00:00,Bulgaria,SAC,Sacramento
+Carlos Clark,1983,Celtics,,91,Guard,6-4,210,1960-08-10T00:00:00,USA,BOS,Boston
+Kobi Simmons,Undrafted,,,Undrafted,Guard,6-5,180,1997-07-04T00:00:00,USA,,
+Brandon Hunter,2003,Celtics,,56,Forward,6-7,266,1980-11-24T00:00:00,USA,BOS,Boston
+Andre Barrett,Undrafted,,,Undrafted,Guard,5-10,173,1982-02-21T00:00:00,USA,,
+James Young,2014,,,17,Guard-Forward,6-6,215,1995-08-16T00:00:00,USA,,
+Leroy Combs,1983,Pacers,,26,Forward,6-8,210,1961-01-01T00:00:00,USA,IND,Indiana
+Jalen Wilson,2023,Nets,,51,Forward,6-6,220,2000-11-04T00:00:00,USA,BKN,Brooklyn
+Dave Johnson,1992,Trail Blazers,,26,Guard,6-7,210,1970-11-16T00:00:00,USA,POR,Portland
+Loy Petersen,1968,Bulls,,17,Guard,6-5,205,1945-07-26T00:00:00,USA,CHI,Chicago
+Ivano Newbill,1994,Hawks,,,Center,6-10,245,1970-12-12T00:00:00,USA,ATL,Atlanta
+Clarence Kea,1980,Mavericks,,169,Forward,6-6,218,1959-02-02T00:00:00,USA,DAL,Dallas
+Jordan Williams,2011,Nets,,36,Center,6-10,260,1990-10-11T00:00:00,USA,NJN,New Jersey
+Andre Brown,Undrafted,,,Undrafted,Forward,6-9,245,1981-05-12T00:00:00,USA,,
+Chris Silva,Undrafted,,,Undrafted,Forward,6-8,234,1996-09-19T00:00:00,Gabon,,
+Tom Kropp,1975,Bulls,,48,Guard,6-3,205,1953-02-12T00:00:00,USA,CHI,Chicago
+Ralph Polson,1952,Warriors,,5,Forward,6-7,200,1929-10-26T00:00:00,USA,PHW,Philadelphia
+Alize Johnson,2018,,,50,Forward,6-8,212,1996-04-22T00:00:00,USA,,
+Michael Jackson,1986,Kings,,47,Guard,6-2,183,1964-07-13T00:00:00,USA,SAC,Sacramento
+Matt Fish,1992,,,50,Center,6-11,235,1969-11-18T00:00:00,USA,,
+Jacob Gilyard,Undrafted,Nets,,Undrafted,Guard,5-8,160,1998-07-14T00:00:00,USA,BKN,Brooklyn
+Mel Mcgaha,1948,Knicks,,,Guard,6-1,190,1926-09-26T00:00:00,USA,NYK,New York
+Killian Tillie,Undrafted,Grizzlies,,Undrafted,Forward-Center,6-9,220,1998-03-05T00:00:00,France,MEM,Memphis
+Marko Guduric,Undrafted,Grizzlies,,Undrafted,Guard,6-6,201,1995-03-08T00:00:00,Serbia,MEM,Memphis
+Ricky Council Iv,Undrafted,76ers,,Undrafted,Guard,6-6,207,2001-08-03T00:00:00,USA,PHI,Philadelphia
+Rex Morgan,1970,Celtics,,21,Guard,6-5,190,1948-10-27T00:00:00,USA,BOS,Boston
+Trey Jemison Iii,Undrafted,Lakers,,Undrafted,Center,6-11,270,1999-11-28T00:00:00,USA,LAL,Los Angeles
+Cory Carr,1998,Bulls,,49,Guard,6-4,210,1975-12-05T00:00:00,USA,CHI,Chicago
+Melvin Booker,Undrafted,Warriors,,Undrafted,Guard,6-2,185,1972-08-20T00:00:00,USA,GSW,Golden State
+Kyle Guy,2019,,,55,Guard,6-1,167,1997-08-11T00:00:00,USA,,
+Justin Williams,Undrafted,,,Undrafted,Forward-Center,6-10,260,1984-05-12T00:00:00,USA,,
+Harold Kottman,Undrafted,Celtics,,Undrafted,Center,6-8,220,1922-08-22T00:00:00,USA,BOS,Boston
+Paul Huston,1947,Stags,,8,Forward,6-3,175,1925-06-02T00:00:00,USA,CHS,Chicago
+Jermareo Davidson,2007,Bobcats,,36,Forward,6-10,230,1984-11-15T00:00:00,USA,CHA,Charlotte
+Khyri Thomas,2018,Pistons,,38,Guard,6-3,210,1996-05-08T00:00:00,USA,DET,Detroit
+Wally Anderzunas,1969,Royals,,25,Center,6-7,220,1946-01-11T00:00:00,USA,CIN,Cincinnati
+Josh Grant,1993,Warriors,,43,Forward,6-9,223,1967-08-07T00:00:00,USA,GOS,Golden State
+Elijah Hughes,2020,Trail Blazers,,39,Guard,6-5,215,1998-03-10T00:00:00,USA,POR,Portland
+Rayan Rupert,2023,Trail Blazers,,43,Guard-Forward,6-6,195,2004-05-31T00:00:00,France,POR,Portland
+Mario West,Undrafted,Hawks,,Undrafted,Guard,6-5,210,1984-06-19T00:00:00,USA,ATL,Atlanta
+Jim Riffey,1950,Pistons,,,Forward,6-4,200,1923-12-14T00:00:00,USA,FTW,Ft. Wayne Zollner
+Brodric Thomas,Undrafted,Celtics,,Undrafted,Guard,6-5,185,1997-01-28T00:00:00,USA,BOS,Boston
+Howard Wood,1981,Jazz,,27,Forward,6-7,235,1959-05-20T00:00:00,USA,UTA,Utah
+Mfiondu Kabengele,2019,Celtics,,27,Center,6-10,250,1997-08-14T00:00:00,Canada,BOS,Boston
+Malcolm Lee,2011,,,43,Guard,6-5,200,1990-05-22T00:00:00,USA,,
+Alex Bradley,1981,Knicks,,86,Forward,6-6,215,1959-10-30T00:00:00,USA,NYK,New York
+Roger Brown,1971,Pistons,,64,Center,6-11,225,1950-02-23T00:00:00,USA,DET,Detroit
+Andy Kostecka,1948,Jets,,,Forward,6-3,203,1921-02-10T00:00:00,USA,JET,Indianapolis
+Levi Fontaine,1970,Warriors,,70,Guard,6-4,190,1948-11-01T00:00:00,USA,SFW,San Francisco
+Bob Anderegg,1959,Knicks,,20,Forward,6-3,200,1937-08-24T00:00:00,USA,NYK,New York
+Bubba Wells,1997,Mavericks,,34,Forward,6-5,230,1974-07-26T00:00:00,USA,DAL,Dallas
+Jared Rhoden,Undrafted,Raptors,,Undrafted,Guard,6-5,210,1999-08-27T00:00:00,USA,TOR,Toronto
+Olumide Oyedeji,2000,,,42,,,,1981-05-11T00:00:00,Nigeria,,
+Andre Jackson Jr,2023,Bucks,,36,Guard,6-6,209,2001-11-13T00:00:00,USA,MIL,Milwaukee
+Todd Mitchell,1988,Heat,,43,Forward,6-7,205,1966-07-26T00:00:00,USA,MIA,Miami
+Esteban Batista,Undrafted,Hawks,,Undrafted,Forward-Center,6-10,268,1983-09-02T00:00:00,Uruguay,ATL,Atlanta
+Bill Zopf,1970,Bucks,,33,Guard,6-1,170,1948-06-07T00:00:00,USA,MIL,Milwaukee
+Bert Cook,1952,Knicks,,,Guard,6-3,185,1929-04-26T00:00:00,USA,NYK,New York
+Rich Niemann,1968,Bucks,,42,Center,7-0,245,1946-07-02T00:00:00,USA,MIL,Milwaukee
+Antonis Fotsis,2001,Grizzlies,,47,Forward,6-10,219,1981-04-01T00:00:00,Greece,MEM,Memphis
+Damone Brown,2001,,,36,Forward,6-8,202,1979-06-28T00:00:00,USA,,
+Marko Milic,1997,,,33,Guard,6-6,235,1977-05-05T00:00:00,Slovenia,,
+Billy Donovan,1987,Knicks,,68,Guard,5-11,171,1965-05-30T00:00:00,USA,NYK,New York
+Mouhamed Sene,2006,Thunder,,10,Center,6-11,230,1986-05-12T00:00:00,Senegal,OKC,Oklahoma City
+Tosan Evbuomwan,Undrafted,Nets,,Undrafted,Forward,6-7,217,2001-02-16T00:00:00,United Kingdom,BKN,Brooklyn
+Reggie Smith,1992,Trail Blazers,,31,Forward,6-10,240,1970-08-21T00:00:00,USA,POR,Portland
+Tharon Mayes,Undrafted,76ers,,Undrafted,Guard,6-3,175,1968-09-09T00:00:00,USA,PHI,Philadelphia
+Jay Scrubb,2020,,,55,Guard,6-5,220,2000-09-01T00:00:00,USA,,
+Rodney Purvis,Undrafted,Magic,,Undrafted,Guard,6-4,205,1994-02-14T00:00:00,USA,ORL,Orlando
+Johnny Orr,1949,Bombers,,,Forward,6-3,195,1927-06-10T00:00:00,USA,BOM,St. Louis
+Corey Williams,1992,Bulls,,33,Guard,6-3,190,1977-08-08T00:00:00,USA,CHI,Chicago
+Jack Tingle,1947,Capitols,,,Forward,6-4,205,1924-12-30T00:00:00,USA,WAS,Washington
+Dave Zeller,1961,Royals,,61,Guard,6-1,175,1939-06-08T00:00:00,USA,CIN,Cincinnati
+Julian Phillips,2023,Bulls,,35,Forward,6-8,198,2003-11-05T00:00:00,USA,CHI,Chicago
+Quinndary Weatherspoon,2019,Warriors,,49,Guard,6-3,205,1996-09-10T00:00:00,USA,GSW,Golden State
+Jarell Eddie,Undrafted,Wizards,,Undrafted,Guard-Forward,6-7,218,1991-10-30T00:00:00,USA,WAS,Washington
+Zavier Simpson,Undrafted,,,Undrafted,Guard,6-0,190,1997-02-11T00:00:00,USA,,
+Tristan Vukcevic,2023,Wizards,,42,Forward,7-0,220,2003-03-11T00:00:00,Italy,WAS,Washington
+Predrag Savovic,Undrafted,Nuggets,,Undrafted,Guard,6-6,225,1976-05-21T00:00:00,Serbia,DEN,Denver
+Dru Smith,Undrafted,Heat,,Undrafted,Guard,6-2,203,1997-12-30T00:00:00,USA,MIA,Miami
+Gui Santos,2022,Warriors,,55,Forward,6-6,185,2002-06-22T00:00:00,Brazil,GSW,Golden State
+Julyan Stone,Undrafted,Nuggets,,Undrafted,Guard,6-6,200,1988-12-07T00:00:00,USA,DEN,Denver
+Onuralp Bitim,Undrafted,Bulls,,Undrafted,Forward,6-6,215,1999-03-31T00:00:00,Turkey,CHI,Chicago
+Bj Johnson,Undrafted,,,Undrafted,Forward,6-6,200,1995-12-21T00:00:00,USA,,
+Justin Minaya,Undrafted,Trail Blazers,,Undrafted,Forward,6-5,205,1999-03-26T00:00:00,USA,POR,Portland
+Sergei Monia,2004,,,23,Forward,6-8,220,1983-04-15T00:00:00,Russia,,
+Tom Stith,1961,Knicks,,2,Forward,6-5,210,1939-01-21T00:00:00,USA,NYK,New York
+Ron Horn,1961,Lakers,,16,Forward,6-7,220,1938-05-24T00:00:00,USA,LAL,Los Angeles
+Darnell Mee,1993,Nuggets,,34,Guard,6-5,175,1971-02-11T00:00:00,USA,DEN,Denver
+Nate Hinton,Undrafted,Rockets,,Undrafted,Guard-Forward,6-5,210,1999-06-08T00:00:00,USA,HOU,Houston
+Deb Smith,Undrafted,Bombers,,Undrafted,Forward,6-3,180,1920-01-07T00:00:00,USA,BOM,St. Louis
+Kiwane Garris,Undrafted,Nuggets,,Undrafted,Guard,6-2,183,1974-09-24T00:00:00,USA,DEN,Denver
+Scott Meents,1986,SuperSonics,,74,Forward,6-10,225,1964-01-04T00:00:00,USA,SEA,Seattle
+Everette Stephens,1988,Pacers,,31,Guard,6-2,175,1966-10-21T00:00:00,USA,IND,Indiana
+Pat Dunn,1956,Warriors,,,Guard,6-2,170,1931-03-17T00:00:00,USA,PHW,Philadelphia
+Leaky Black,Undrafted,Hornets,,Undrafted,Forward,6-6,209,1999-06-14T00:00:00,USA,CHA,Charlotte
+Walter Jordan,1978,Cavaliers,,84,Forward,6-7,198,1956-02-19T00:00:00,USA,CLE,Cleveland
+Soumaila Samake,2000,Nets,,36,Center,6-10,240,1978-03-18T00:00:00,Mali,NJN,New Jersey
+Paul Mcconnell,Undrafted,Hawks,,Undrafted,Guard,5-10,170,1928-07-01T00:00:00,USA,MIH,Milwaukee
+Jerome Dyson,Undrafted,Hornets,,Undrafted,Guard,6-3,180,1987-05-01T00:00:00,USA,NOH,New Orleans
+Joel Ingram,Undrafted,Lakers,,Undrafted,Forward,6-0,210,1931-08-31T00:00:00,USA,MNL,Minneapolis
+Devin Gray,1995,,,,Forward,6-7,240,1972-05-18T00:00:00,USA,,
+Eugene Kennedy,1971,Rockets,,139,Forward,6-5,205,1949-08-23T00:00:00,USA,HOU,Houston
+Colby Jones,2023,Pistons,,34,Guard,6-6,207,2002-05-28T00:00:00,USA,DET,Detroit
+Thomas Barr,Undrafted,Royals,,Undrafted,Guard,6-4,195,1944-06-19T00:00:00,USA,CIN,Cincinnati
+Quenton Jackson,Undrafted,Pacers,,Undrafted,Guard,6-5,173,1998-09-15T00:00:00,USA,IND,Indiana
+Josh Magette,2012,,,0,Guard,6-1,160,1989-11-28T00:00:00,USA,,
+John Schweitz,1982,SuperSonics,,138,Guard,6-6,210,1960-04-19T00:00:00,USA,SEA,Seattle
+Ben Hansbrough,Undrafted,Pacers,,Undrafted,Guard,6-3,203,1987-12-23T00:00:00,USA,IND,Indiana
+Luke Schenscher,Undrafted,Bulls,,Undrafted,Center,7-1,265,1981-12-31T00:00:00,USA,CHI,Chicago
+Jared Reiner,Undrafted,Bucks,,Undrafted,Center,6-11,255,1982-04-08T00:00:00,USA,MIL,Milwaukee
+John Holland,Undrafted,,,Undrafted,Guard,6-5,205,1988-11-06T00:00:00,USA,,
+Tim Young,1999,Warriors,,56,Center,7-2,270,1976-02-06T00:00:00,USA,GSW,Golden State
+Eric Johnson,Undrafted,Jazz,,Undrafted,Guard,6-2,205,1966-02-07T00:00:00,USA,UTA,Utah
+George Feigenbaum,Undrafted,Bullets,,Undrafted,Guard,6-1,185,1929-07-02T00:00:00,USA,BAL,Baltimore
+Terquavion Smith,Undrafted,76ers,,Undrafted,Guard,6-4,160,2002-12-31T00:00:00,USA,PHI,Philadelphia
+Aj Hammons,2016,Mavericks,,46,Center,7-0,260,1992-08-27T00:00:00,USA,DAL,Dallas
+Maozinha Pereira,Undrafted,,,Undrafted,Forward,6-8,177,2000-08-28T00:00:00,Brazil,,
+Alex Garcia,Undrafted,,,Undrafted,Guard-Forward,6-3,195,1980-03-04T00:00:00,Brazil,,
+Sidy Cissoko,2023,Trail Blazers,,44,Guard,6-6,200,2004-04-02T00:00:00,France,POR,Portland
+Chuck Lowery,1971,Bucks,,125,Guard,6-3,185,1949-11-12T00:00:00,USA,MIL,Milwaukee
+John Butler Jr,Undrafted,Trail Blazers,,Undrafted,Forward,7-0,190,2002-12-04T00:00:00,USA,POR,Portland
+Cameron Bairstow,2014,Bulls,,49,Forward-Center,6-9,250,1990-12-07T00:00:00,Australia,CHI,Chicago
+Harry Barnes,1968,Rockets,,37,Forward,6-3,205,1945-07-25T00:00:00,USA,SDR,San Diego
+Robert Franks,2019,,,,Forward,6-7,225,1996-12-18T00:00:00,USA,,
+Amile Jefferson,2017,,,,Forward,6-9,222,1993-05-07T00:00:00,USA,,
+Jalen Pickett,2023,Nuggets,,32,Guard,6-2,202,1999-10-22T00:00:00,USA,DEN,Denver
+Emoni Bates,2023,Cavaliers,,49,Forward,6-8,202,2004-01-28T00:00:00,USA,CLE,Cleveland
+Stanley Jackson,Undrafted,Timberwolves,,Undrafted,Guard,6-3,185,1970-10-10T00:00:00,USA,MIN,Minnesota
+Xavier Cooks,Undrafted,Wizards,,Undrafted,Forward,6-8,183,1995-08-19T00:00:00,Australia,WAS,Washington
+Omar Cook,2001,Trail Blazers,,31,Guard,6-1,190,1982-01-28T00:00:00,USA,POR,Portland
+Rich Yonakor,1980,Spurs,,61,Forward,6-9,220,1958-10-03T00:00:00,USA,SAS,San Antonio
+Nathan Mensah,Undrafted,,,Undrafted,Center,6-9,230,1998-04-09T00:00:00,Ghana,,
+Mac Mcclung,Undrafted,Magic,,Undrafted,Guard,6-2,185,1999-01-06T00:00:00,USA,ORL,Orlando
+Mirsad Turkcan,1998,Bucks,,18,Forward,6-9,216,1976-06-07T00:00:00,Turkey,MIL,Milwaukee
+Rick Weitzman,1967,Celtics,,110,Guard,6-2,175,1946-04-30T00:00:00,USA,BOS,Boston
+Joel Bolomboy,2016,,,52,Forward-Center,6-9,235,1994-01-28T00:00:00,Ukraine,,
+Jared Terrell,Undrafted,Timberwolves,,Undrafted,Guard,6-3,227,1995-02-10T00:00:00,USA,MIN,Minnesota
+Joe Mullaney,1949,Celtics,,,Guard,6-0,165,1925-11-17T00:00:00,USA,BOS,Boston
+Norman Richardson,Undrafted,Bulls,,Undrafted,Guard,6-5,200,1977-07-24T00:00:00,USA,CHI,Chicago
+Dontell Jefferson,Undrafted,Bobcats,,Undrafted,Guard,6-5,195,1983-12-15T00:00:00,USA,CHA,Charlotte
+Leonard Miller,2023,Timberwolves,,33,Forward,6-10,220,2003-11-26T00:00:00,Canada,MIN,Minnesota
+Bob Armstrong,1955,Warriors,,,Center,6-8,220,1933-06-17T00:00:00,USA,PHW,Philadelphia
+Bruce Kuczenski,1983,Nets,,59,Forward,6-10,230,1961-02-03T00:00:00,USA,NJN,New Jersey
+Zoran Dragic,Undrafted,Heat,,Undrafted,Guard-Forward,6-5,200,1989-06-22T00:00:00,Slovenia,MIA,Miami
+Oscar Tshiebwe,Undrafted,Jazz,,Undrafted,Forward-Center,6-8,255,1999-11-27T00:00:00,DRC,UTA,Utah
+Chris Livingston,2023,Bucks,,58,Forward,6-6,220,2003-10-15T00:00:00,USA,MIL,Milwaukee
+Jerry Baskerville,Undrafted,76ers,,Undrafted,Forward,6-7,190,1951-11-10T00:00:00,USA,PHI,Philadelphia
+Ray Epps,1977,Warriors,,104,Forward,6-6,195,1956-08-20T00:00:00,USA,GOS,Golden State
+Nemanja Nedovic,2013,Warriors,,30,Guard,6-3,192,1991-06-16T00:00:00,Serbia,GSW,Golden State
+Jim Bostic,1975,Pistons,,139,Forward,6-7,225,1953-01-28T00:00:00,USA,DET,Detroit
+Tibor Pleiss,2010,Jazz,,31,Center,7-3,256,1989-11-02T00:00:00,Germany,UTA,Utah
+Colin Castleton,Undrafted,Magic,,Undrafted,Center,6-10,250,2000-05-25T00:00:00,USA,ORL,Orlando
+Mouhamed Gueye,2023,Hawks,,39,Forward,6-10,210,2002-11-09T00:00:00,Senegal,ATL,Atlanta
+Zhou Qi,2016,,,43,Forward-Center,7-1,210,1996-01-16T00:00:00,China,,
+Willie Williams,1970,Celtics,,38,Forward,6-7,200,1946-07-28T00:00:00,USA,BOS,Boston
+Amari Bailey,2023,Hornets,,41,Guard,6-3,185,2004-02-17T00:00:00,USA,CHA,Charlotte
+Dominic Pressley,1986,Bullets,,99,Guard,6-2,170,1964-05-30T00:00:00,USA,WAS,Washington
+Demetris Nichols,2007,,,53,Forward,6-8,216,1984-09-04T00:00:00,USA,,
+Kaniel Dickens,2000,,,50,Forward,6-8,215,1978-07-21T00:00:00,USA,,
+Dexter Dennis,Undrafted,,,Undrafted,Guard,6-5,210,1999-02-09T00:00:00,USA,,
+Jim Reid,Undrafted,76ers,,Undrafted,Center,6-6,210,1945-08-03T00:00:00,USA,PHI,Philadelphia
+Cornelius Cash,1975,Pistons,,24,Forward,6-8,215,1952-03-03T00:00:00,USA,DET,Detroit
+Jermaine Samuels Jr,Undrafted,Rockets,,Undrafted,Forward,6-6,230,1998-11-13T00:00:00,USA,HOU,Houston
+Hunter Tyson,2023,Nuggets,,37,Forward,6-8,215,2000-06-13T00:00:00,USA,DEN,Denver
+Devon Hall,2018,Thunder,,53,Guard,6-5,215,1995-07-07T00:00:00,USA,OKC,Oklahoma City
+John Pinone,1983,Hawks,,58,Forward,6-8,230,1961-02-19T00:00:00,USA,ATL,Atlanta
+Gary Alexander,Undrafted,Cavaliers,,Undrafted,Forward,6-7,240,1969-11-01T00:00:00,USA,CLE,Cleveland
+Malik Williams,Undrafted,Raptors,,Undrafted,Center,6-11,250,1998-08-26T00:00:00,USA,TOR,Toronto
+Dan King,Undrafted,Bullets,,Undrafted,Forward,6-6,220,1931-01-07T00:00:00,USA,BAL,Baltimore
+Craig Spitzer,Undrafted,Bulls,,Undrafted,Center,7-0,225,1945-12-18T00:00:00,USA,CHI,Chicago
+Taze Moore,Undrafted,,,Undrafted,Guard,6-5,195,1998-06-29T00:00:00,USA,,
+Jack Rocker,Undrafted,Warriors,,Undrafted,Center,6-5,185,1922-08-12T00:00:00,USA,PHW,Philadelphia
+Tony Dawson,Undrafted,Kings,,Undrafted,Forward,6-7,215,1967-08-25T00:00:00,USA,SAC,Sacramento
+Grant Jerrett,2013,Thunder,,40,Forward,6-10,232,1993-07-08T00:00:00,USA,OKC,Oklahoma City
+Harold Johnson,Undrafted,Falcons,,Undrafted,Center,6-6,240,1920-01-20T00:00:00,USA,DEF,Detroit
+Gabriel Lundberg,Undrafted,Suns,,Undrafted,Guard,6-4,203,1994-12-04T00:00:00,Denmark,PHX,Phoenix
+Timmy Allen,Undrafted,,,Undrafted,Forward,6-6,210,2000-01-09T00:00:00,USA,,
+Jordan Ford,Undrafted,Kings,,Undrafted,Guard,6-1,175,1998-05-26T00:00:00,USA,SAC,Sacramento
+George Mcleod,1952,Bullets,,,Forward,6-5,200,1931-01-03T00:00:00,USA,BAL,Baltimore
+Sam Sibert,1972,Kings,,19,Forward,6-7,215,1949-02-11T00:00:00,USA,KCK,Kansas City-Omaha
+Ken Austin,1983,Pistons,,101,Forward,6-9,205,1961-07-15T00:00:00,USA,DET,Detroit
+Dick Wehr,1948,Jets,,,Forward,6-4,180,1925-12-09T00:00:00,USA,JET,Indianapolis
+Phil Martin,1954,Hawks,,29,Guard,6-3,190,1928-04-02T00:00:00,USA,MIH,Milwaukee
+Fred Diute,1951,Hawks,,27,Guard,6-3,210,1929-01-09T00:00:00,USA,MIH,Milwaukee
+Leonard Taylor,Undrafted,Warriors,,Undrafted,Forward,6-8,220,1966-05-02T00:00:00,USA,GOS,Golden State
+Drew Peterson,Undrafted,Hornets,,Undrafted,Forward,6-9,205,1999-11-09T00:00:00,USA,CHA,Charlotte
+Henri Drell,Undrafted,Bulls,,Undrafted,Forward,6-9,220,2000-04-25T00:00:00,Estonia,CHI,Chicago
+Maxwell Lewis,2023,Nets,,40,Forward,6-7,215,2002-07-27T00:00:00,USA,BKN,Brooklyn
+Keyontae Johnson,2023,Thunder,,50,Forward,6-4,230,2000-05-24T00:00:00,USA,OKC,Oklahoma City
+Tom Brennan,1952,Warriors,,,Forward,6-3,195,1930-08-06T00:00:00,USA,PHW,Philadelphia
+Perry Warbington,1974,76ers,,145,Guard,6-2,165,1952-09-07T00:00:00,USA,PHI,Philadelphia
+Taylor Griffin,2009,Suns,,48,Forward,6-7,238,1986-04-18T00:00:00,USA,PHX,Phoenix
+Zach Norvell Jr,2019,,,,Guard-Forward,6-5,205,1997-12-09T00:00:00,USA,,
+Curtis Kitchen,1986,SuperSonics,,122,Forward,6-9,235,1964-01-30T00:00:00,USA,SEA,Seattle
+Trevor Hudgins,Undrafted,Rockets,,Undrafted,Guard,6-0,180,1999-03-23T00:00:00,USA,HOU,Houston
+Josh Reaves,Undrafted,Mavericks,,Undrafted,Guard-Forward,6-4,214,1997-06-04T00:00:00,USA,DAL,Dallas
+Jalen Slawson,2023,Kings,,54,Forward,6-7,215,1999-10-22T00:00:00,USA,SAC,Sacramento
+Chance Comanche,Undrafted,,,Undrafted,Center,6-10,210,1996-04-14T00:00:00,USA,,
+Reggie Hanson,1998,Celtics,,,Forward,6-8,195,1968-10-08T00:00:00,USA,BOS,Boston
+Hank Biasatti,1947,Huskies,,,Guard,5-11,175,1922-01-14T00:00:00,Canada,HUS,Toronto
+Keith Appling,Undrafted,,,Undrafted,Guard,6-1,185,1992-02-13T00:00:00,USA,,
+Cozell Mcqueen,1985,Pistons,,91,Forward,6-11,235,1962-01-18T00:00:00,USA,DET,Detroit
+Eric Mika,2017,,,,Center-Forward,6-10,233,1995-01-05T00:00:00,USA,,
+Trevon Scott,Undrafted,,,Undrafted,Forward,6-8,225,1996-11-25T00:00:00,USA,,
+Richard Morton,Undrafted,Pacers,,Undrafted,Forward,6-3,190,1966-02-02T00:00:00,USA,IND,Indiana
+Sun Yue,2007,Lakers,,40,Guard,6-9,205,1985-11-06T00:00:00,China,LAL,Los Angeles
+Jeff Lebo,Undrafted,Spurs,,Undrafted,Forward,6-2,180,1966-10-05T00:00:00,USA,SAS,San Antonio
+Courtney Sims,Undrafted,,,Undrafted,Center,6-11,245,1983-10-21T00:00:00,USA,,
+Ed Searcy,1974,Celtics,,82,Forward,6-6,210,1952-04-17T00:00:00,USA,BOS,Boston
+Branden Dawson,2015,Clippers,,56,Forward,6-6,225,1993-02-01T00:00:00,USA,LAC,LA
+Jesse Branson,1965,76ers,,13,Forward,6-7,195,1942-01-07T00:00:00,USA,PHI,Philadelphia
+Mark Minor,1972,Celtics,,165,Forward,6-6,215,1950-05-14T00:00:00,USA,BOS,Boston
+Guillermo Diaz,2006,,,52,,,,1985-03-04T00:00:00,USA,,
+Tahjere Mccall,2017,,,,Guard,6-5,190,1994-08-17T00:00:00,USA,,
+Tariq Owens,Undrafted,Suns,,Undrafted,Forward,6-10,205,1995-06-30T00:00:00,USA,PHX,Phoenix
+Ricky Grace,1988,Hawks,,67,Guard,6-1,180,1967-08-20T00:00:00,USA,ATL,Atlanta
+Izaiah Brockington,Undrafted,,,Undrafted,Guard,6-4,196,1999-07-12T00:00:00,USA,,
+Keith Mccord,1979,Bullets,,198,Guard,6-7,210,1957-06-22T00:00:00,USA,WAS,Washington
+Donovan Williams,Undrafted,Hawks,,Undrafted,Guard,6-6,190,2001-09-06T00:00:00,USA,ATL,Atlanta
+Herm Hedderick,1952,Knicks,,,Guard,6-5,170,1930-01-01T00:00:00,USA,NYK,New York
+Sharrod Ford,Undrafted,,,Undrafted,Forward,6-9,235,1982-01-09T00:00:00,USA,,
+Filip Petrusev,2021,,,50,Center,6-11,225,2000-04-15T00:00:00,Serbia,,
+George Carter,1967,Pistons,,81,Forward,6-4,210,1944-01-18T00:00:00,USA,DET,Detroit
+Ernest Brown,2000,Heat,,52,Center,7-0,244,1979-05-17T00:00:00,USA,MIA,Miami
+Pete Nance,Undrafted,Bucks,,Undrafted,Forward,6-10,225,2000-02-19T00:00:00,USA,MIL,Milwaukee
+Adam Flagler,Undrafted,Spurs,,Undrafted,Guard,6-3,180,1999-12-01T00:00:00,USA,SAS,San Antonio
+Paul Gordon,1949,Bullets,,,Forward,6-3,185,1927-04-08T00:00:00,USA,BAL,Baltimore
+Ed Stokes,1993,,,35,Center,7-0,264,1971-09-03T00:00:00,USA,,
+Shane Edwards,Undrafted,,,Undrafted,Forward,6-7,220,1987-05-31T00:00:00,USA,,
+Trey Gilder,Undrafted,,,Undrafted,Forward,6-9,205,1985-01-24T00:00:00,USA,,
+Markquis Nowell,Undrafted,,,Undrafted,Guard,5-7,160,1999-12-25T00:00:00,USA,,
+Isaiah Wong,2023,,,55,Guard,6-3,185,2001-01-28T00:00:00,USA,,
+Mike Hall,Undrafted,Wizards,,Undrafted,Forward,6-8,230,1984-06-05T00:00:00,USA,WAS,Washington
+Randy Holcomb,2002,,,56,Forward,6-9,220,1979-08-08T00:00:00,USA,,
+Jacob Pullen,Undrafted,,,Undrafted,Guard,6-1,200,1989-11-10T00:00:00,USA,,
+Steven Hill,Undrafted,,,Undrafted,Center,7-0,245,1985-11-14T00:00:00,USA,,
+Ben Goldfaden,Undrafted,Capitols,,Undrafted,Forward,6-1,185,1913-09-06T00:00:00,USA,WAS,Washington
+Roger Powell,Undrafted,,,Undrafted,Forward,6-6,220,1983-01-15T00:00:00,USA,,
+Dick Shrider,1948,Knicks,,,Guard,6-2,190,1923-02-07T00:00:00,USA,NYK,New York
+Ernie Killum,1970,Lakers,,30,Guard,6-3,180,1948-06-11T00:00:00,USA,LAL,Los Angeles
+Stan Washington,1974,Bullets,,66,Guard,6-4,190,1952-01-23T00:00:00,USA,WAS,Washington
+Jaquori Mclaughlin,Undrafted,,,Undrafted,Guard,6-4,190,1998-01-29T00:00:00,USA,,
+Dmytro Skapintsev,Undrafted,,,Undrafted,Center,7-1,215,1998-05-12T00:00:00,Ukraine,,
+Rob Rensberger,Undrafted,Stags,,Undrafted,Forward,6-2,170,1921-03-07T00:00:00,USA,CHS,Chicago
+Andrew Funk,Undrafted,Bulls,,Undrafted,Guard,6-5,200,1999-09-21T00:00:00,USA,CHI,Chicago
+Ray Radziszewski,1957,Warriors,,30,Forward,6-5,210,1935-03-01T00:00:00,USA,PHW,Philadelphia
+Kaiser Gates,2018,,,,Forward,6-7,225,1996-11-08T00:00:00,USA,,
+Malcolm Cazalon,Undrafted,,,Undrafted,Guard,6-6,185,2001-08-27T00:00:00,France,,
+Chet Mcnabb,Undrafted,Bullets,,Undrafted,,,,1905-04-04T00:00:00,USA,BAL,Baltimore
+Paul Walther,1949,Olympians,,,Guard,6-2,160,1927-03-23T00:00:00,USA,INO,Indianapolis
+Deni Avdija,2020,Trail Blazers,,9,Forward,6-9,240,2001-01-03T00:00:00,Israel,POR,Portland
+Stanley Johnson,2015,,,8,Forward-Guard,6-6,242,1996-05-29T00:00:00,USA,,
+Sasha Pavlovic,2003,Cavaliers,,19,Guard-Forward,6-7,235,1983-11-15T00:00:00,Montenegro,CLE,Cleveland
+Jaden Mcdaniels,2020,Timberwolves,,28,Forward,6-9,185,2000-09-29T00:00:00,USA,MIN,Minnesota
+Ken Charles,1973,Braves,,38,Guard,6-3,180,1951-07-10T00:00:00,USA,BUF,Buffalo
+Hub Reed,1958,Royals,,14,Center,6-9,215,1936-10-04T00:00:00,USA,CIN,Cincinnati
+Bob Houbregs,1953,Pistons,,2,Center,6-8,210,1932-03-12T00:00:00,USA,DET,Detroit
+Lee Mayberry,1992,,,23,Guard,6-1,172,1970-06-12T00:00:00,USA,,
+Kevin Seraphin,2010,Wizards,,17,Forward-Center,6-10,278,1989-12-07T00:00:00,France,WAS,Washington
+Jonathan Kuminga,2021,Warriors,,7,Forward,6-7,225,2002-10-06T00:00:00,DRC,GSW,Golden State
+Jim Spanarkel,1979,Mavericks,,16,Guard,6-5,190,1957-06-28T00:00:00,USA,DAL,Dallas
+Tony Smith,1990,,,51,Guard,,,1968-06-14T00:00:00,USA,,
+Shabazz Muhammad,2013,Timberwolves,,14,Guard-Forward,6-6,221,1992-11-13T00:00:00,USA,MIN,Minnesota
+Pete Chilcutt,1991,Grizzlies,,27,Forward,6-10,245,1968-09-14T00:00:00,USA,VAN,Vancouver
+Joe Wolf,1987,,,13,Forward,6-11,230,1964-12-17T00:00:00,USA,,
+Brent Price,1992,Bullets,,32,Guard,6-1,185,1968-12-09T00:00:00,USA,WAS,Washington
+Johnny Mccarthy,1956,Hawks,,,Guard,6-1,185,1934-04-25T00:00:00,USA,STL,St. Louis
+Shabazz Napier,2014,Trail Blazers,,24,Guard,6-0,175,1991-07-14T00:00:00,USA,POR,Portland
+Kj Martin,2020,Jazz,,52,Forward,6-6,215,2001-01-06T00:00:00,USA,UTA,Utah
+Josh Mcroberts,2007,,,37,Forward-Center,6-10,240,1987-02-28T00:00:00,USA,,
+Mo Bamba,2018,,,6,Center,7-0,231,1998-05-12T00:00:00,USA,,
+Brian Cook,2003,Lakers,,24,Center-Forward,6-9,250,1980-12-04T00:00:00,USA,LAL,Los Angeles
+Nik Stauskas,2014,Celtics,,8,Guard,6-6,207,1993-10-07T00:00:00,Canada,BOS,Boston
+John Hummer,1970,Braves,,15,Forward,6-9,230,1948-05-04T00:00:00,USA,BUF,Buffalo
+Ronny Turiaf,2005,,,37,Center,6-10,249,1983-01-13T00:00:00,France,,
+Carlos Rogers,1994,Raptors,,11,Forward-Center,6-11,232,1971-02-06T00:00:00,USA,TOR,Toronto
+Tony Brown,1982,Bucks,,82,Forward,6-6,185,1960-07-29T00:00:00,USA,MIL,Milwaukee
+Ennis Whatley,1983,,,13,Guard,6-3,177,1962-08-11T00:00:00,USA,,
+Mark Madsen,2000,Timberwolves,,29,Forward,6-9,255,1976-01-28T00:00:00,USA,MIN,Minnesota
+Stephen Graham,Undrafted,Pacers,,Undrafted,Guard-Forward,6-6,215,1982-06-11T00:00:00,USA,IND,Indiana
+William Bedford,1986,Pistons,,6,Center,7-0,225,1963-12-14T00:00:00,USA,DET,Detroit
+Ed Leede,1949,Celtics,,,Guard,6-3,185,1927-07-17T00:00:00,USA,BOS,Boston
+Pablo Prigioni,Undrafted,Knicks,,Undrafted,Guard,6-3,185,1977-05-17T00:00:00,Argentina,NYK,New York
+Fred Lacour,1960,Hawks,,22,Guard,6-5,210,1938-02-07T00:00:00,USA,STL,St. Louis
+Hank Beenders,Undrafted,Steamrollers,,Undrafted,Center,6-5,185,1916-06-02T00:00:00,USA,PRO,Providence
+Walt Kirk,Undrafted,Hawks,,Undrafted,Guard,6-3,173,1924-09-03T00:00:00,USA,MIH,Milwaukee
+Juan Carlos Navarro,2002,,,39,,,,1980-06-13T00:00:00,Spain,,
+Mike Flynn,1975,Pacers,,113,Guard,6-2,180,1953-07-31T00:00:00,USA,IND,Indiana
+Yuta Watanabe,Undrafted,Grizzlies,,Undrafted,Guard-Forward,6-9,215,1994-10-13T00:00:00,Japan,MEM,Memphis
+Jack Toomay,Undrafted,Nuggets,,Undrafted,Center,6-6,215,1922-08-09T00:00:00,USA,DN ,Denver
+Jabari Walker,2022,76ers,,57,Forward,6-7,237,2002-07-30T00:00:00,USA,PHI,Philadelphia
+Todd Mundt,Undrafted,Hawks,,Undrafted,Center,7-0,255,1970-05-17T00:00:00,USA,ATL,Atlanta
+Bobby Smith,1959,Lakers,,18,Guard,6-4,190,1937-08-20T00:00:00,USA,LAL,Los Angeles
+John Celestand,1999,Lakers,,30,Guard,6-3,190,1977-03-06T00:00:00,USA,LAL,Los Angeles
+Nate Driggers,Undrafted,Celtics,,Undrafted,Guard-Forward,6-5,215,1973-10-12T00:00:00,USA,BOS,Boston
+Adama Sanogo,Undrafted,,,Undrafted,Forward,6-9,245,2002-02-12T00:00:00,Mali,,
+Bob Priddy,1952,Bullets,,,Forward,6-3,190,1930-03-24T00:00:00,USA,BAL,Baltimore
+Fennis Dembo,1988,Pistons,,30,Forward,6-5,215,1966-01-24T00:00:00,USA,DET,Detroit
+Alphonso Ford,1993,SuperSonics,,32,Forward,6-1,190,1971-10-31T00:00:00,USA,SEA,Seattle
+Jd Davison,2022,Rockets,,53,Guard,6-1,195,2002-10-03T00:00:00,USA,HOU,Houston
+Barry Nelson,1971,Bucks,,85,Center,6-10,230,1949-09-19T00:00:00,USA,MIL,Milwaukee
+Tim Quarterman,2016,,,,Guard,6-6,190,1994-10-27T00:00:00,USA,,
+Ibou Badji,Undrafted,Trail Blazers,,Undrafted,Center,7-0,240,2002-10-13T00:00:00,Senegal,POR,Portland
+Antonius Cleveland,Undrafted,Mavericks,,Undrafted,Guard,6-5,195,1994-02-02T00:00:00,USA,DAL,Dallas
+Dick Murphy,Undrafted,Knicks,,Undrafted,Guard,6-1,175,1921-03-10T00:00:00,USA,NYK,New York
+Ed Burton,Undrafted,Knicks,,Undrafted,Forward,6-6,225,1939-08-13T00:00:00,USA,NYK,New York
+Alex Fudge,Undrafted,Mavericks,,Undrafted,Forward,6-8,200,2003-05-06T00:00:00,USA,DAL,Dallas
+Jordan Walsh,2023,Celtics,,38,Guard,6-6,205,2004-03-03T00:00:00,USA,BOS,Boston
+Seth Lundy,2023,Clippers,,46,Guard-Forward,6-4,220,2000-04-02T00:00:00,USA,LAC,LA
+Red Dehnert,Undrafted,Steamrollers,,Undrafted,,,,1905-04-07T00:00:00,USA,PRO,Providence
+Keith Starr,1976,Bulls,,52,Guard,6-6,190,1954-03-14T00:00:00,USA,CHI,Chicago
+Luis Montero,Undrafted,,,Undrafted,Guard,6-7,200,1993-04-06T00:00:00,Dominican Republic,,
+Adonis Thomas,Undrafted,Magic,,Undrafted,Guard-Forward,6-7,240,1993-03-25T00:00:00,USA,ORL,Orlando
+Petr Cornelie,2016,,,53,Forward,6-11,220,1995-07-26T00:00:00,France,,
+Erik Daniels,Undrafted,,,Undrafted,,,,1982-04-01T00:00:00,USA,,
+Chris Munk,Undrafted,Jazz,,Undrafted,Forward,6-9,225,1967-08-05T00:00:00,USA,UTA,Utah
+Jordan Miller,2023,Clippers,,48,Guard,6-5,194,2000-01-23T00:00:00,USA,LAC,LA
+Kyle Wiltjer,Undrafted,Rockets,,Undrafted,Forward,6-10,240,1992-10-20T00:00:00,Canada,HOU,Houston
+Jacob Toppin,Undrafted,Hawks,,Undrafted,Forward,6-8,200,2000-05-08T00:00:00,USA,ATL,Atlanta
+Mel Gibson,1963,Lakers,,16,Guard,6-3,180,1940-12-30T00:00:00,USA,LAL,Los Angeles
+Mahmoud Abdul-Rauf,1990,Nuggets,,3,Guard,6-1,162,1969-03-09T00:00:00,USA,DEN,Denver
+Al-Farouq Aminu,2010,Trail Blazers,,8,Forward,6-8,220,1990-09-21T00:00:00,USA,POR,Portland
+T.R. Dunn,1977,Nuggets,,41,Guard,6-4,192,1955-02-01T00:00:00,USA,DEN,Denver
+Zaid Abdul-Aziz,1968,Rockets,,5,Center,6-9,235,1946-04-07T00:00:00,USA,HOU,Houston
+Dorian Finney-Smith,Undrafted,Rockets,,Undrafted,Forward,6-7,220,1993-05-04T00:00:00,USA,HOU,Houston
+P.J. Washington,2019,Mavericks,,12,Forward,6-6,230,1998-08-23T00:00:00,USA,DAL,Dallas
+Rondae Hollis-Jefferson,2015,Nets,,23,Forward,6-6,217,1995-01-03T00:00:00,USA,BKN,Brooklyn
+Keita Bates-Diop,2018,Nets,,48,Forward,6-8,229,1996-01-23T00:00:00,USA,BKN,Brooklyn
+Kevin O'Shea,1950,Bullets,,10,Guard,6-2,175,1925-07-10T00:00:00,USA,BAL,Baltimore
+Dick O'Keefe,1947,Capitols,,9,Guard,6-2,185,1923-09-29T00:00:00,USA,WAS,Washington
+Day'Ron Sharpe,2021,Nets,,29,Center,6-9,265,2001-11-06T00:00:00,USA,BKN,Brooklyn
+Trayce Jackson-Davis,2023,Warriors,,57,Forward,6-9,245,2000-02-22T00:00:00,USA,GSW,Golden State
+Johnny O'Bryant III,2014,,,36,Forward,6-9,257,1993-06-01T00:00:00,USA,,
+A.J. Guyton,2000,Bulls,,32,Guard,6-2,185,1978-02-12T00:00:00,USA,CHI,Chicago
+C.J. Williams,2012,Clippers,,0,Guard,6-5,226,1990-02-06T00:00:00,USA,LAC,LA
+Javon Freeman-Liberty,Undrafted,Raptors,,Undrafted,Guard,6-3,190,1999-10-20T00:00:00,USA,TOR,Toronto
+Charles O'Bannon,1997,Pistons,,31,Guard,6-5,209,1975-02-22T00:00:00,USA,DET,Detroit
+Ha Seung-Jin,2004,Trail Blazers,,46,Center,7-3,305,1985-08-04T00:00:00,South Korea,POR,Portland
+Grady O'Malley,1969,Hawks,,214,Forward,6-5,205,1948-04-25T00:00:00,USA,ATL,Atlanta
+Willie Jones Jr,1960,Pistons,,36,Guard,6-3,185,1936-06-29T00:00:00,USA,DET,Detroit
+D'Moi Hodge,Undrafted,,,Undrafted,Guard,6-3,188,1998-12-20T00:00:00,British Virgin Islands,,
+D.J. Carton,Undrafted,,,Undrafted,Guard,6-3,200,2000-08-05T00:00:00,USA,,
+E.J. Liddell,2022,Bulls,,41,Forward,6-6,240,2000-12-18T00:00:00,USA,CHI,Chicago
+Walker Russell Jr,1982,Pistons,,78,Guard,6-5,195,1960-10-26T00:00:00,USA,DET,Detroit
+Paul  The Bear  Hoffman,1947,Raptors,,60,Guard,6-2,195,1925-05-05T00:00:00,USA,TOR,Toronto
