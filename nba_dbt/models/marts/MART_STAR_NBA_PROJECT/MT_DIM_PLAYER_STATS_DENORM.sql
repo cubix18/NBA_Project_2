@@ -50,12 +50,14 @@ GROUPING_CLAUSE as (
 ),
 
 DIM_PLAYER AS (
-select 
-    *
+SELECT  
+    {{ dbt_utils.generate_surrogate_key(['PLAYER_FULL_NAME', 'PLAYER_BIRTH_DATE']) }} as PLAYER_ID,
+    * 
+    , TO_TIMESTAMP(CURRENT_TIMESTAMP ) AS LOAD_DATE
+    , 'NBA_DB.CORE_NBA_DATA.MT_SEASON_PLAYER_STATS_WITH_DRAFT_NORMALIZED' AS SOURCE_TABLE
 from GROUPING_CLAUSE
 )
 
 SELECT 
-    {{ dbt_utils.generate_surrogate_key(['PLAYER_FULL_NAME', 'PLAYER_BIRTH_DATE']) }} as PLAYER_ID,
-    * 
+    *
 FROM DIM_PLAYER
