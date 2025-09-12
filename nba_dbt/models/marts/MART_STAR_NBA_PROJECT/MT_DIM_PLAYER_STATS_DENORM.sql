@@ -1,3 +1,11 @@
+{{
+  config(
+    materialized = "table",
+    tags = ["STAR_SCHEMA"]
+  )
+}}
+
+
 WITH RAW AS (
 
     SELECT 
