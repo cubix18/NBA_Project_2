@@ -16,12 +16,12 @@ clean-targets:
 
 dispatch:
   - macro_namespace: dbt
-    search_order: ['nba_dbt', 'dbt']  # <- szukaj najpierw w Twoim projekcie
+    search_order: ['nba_dbt', 'dbt'] 
 
 models:
   nba_dbt:
     +database: NBA_DB
-    +schema: PLAYER_DATA  # domyślnie
+    +schema: PLAYER_DATA
     staging:
       +schema: STAGING_NBA_DATA
       +materialized: table

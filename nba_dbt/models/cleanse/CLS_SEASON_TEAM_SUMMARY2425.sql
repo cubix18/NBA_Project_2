@@ -1,3 +1,11 @@
+{{
+  config(
+    materialized = 'table',
+    tags = ['TEAM', 'CLEANSE', 'NBA_PROJECT', 'TEAM_ORIENTED', 'REGULAR_SEASON']
+  )
+}}
+
+
 with source as (
     select * 
     from {{ source('STAGING_NBA_DATA', 'STG_SEASON_TEAM_SUMMARY2425') }}

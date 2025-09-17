@@ -1,3 +1,11 @@
+{{
+  config(
+    materialized = 'table',
+    tags = ['PLAYER', 'CLEANSE', 'NBA_PROJECT', 'PLAYER_ORIENTED', 'REGULAR_SEASON']
+  )
+}}
+
+
 with STG_SEASON_PLAYER_DATASET as (
     select * 
     from {{ source('STAGING_NBA_DATA', 'STG_SEASON_PLAYER_DATASET') }}

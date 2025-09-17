@@ -1,6 +1,14 @@
-with source as (
-    select * 
-    from {{ source('STAGING_NBA_DATA', 'STG_ALL_PLAYER_DETAILINFO') }}
+{{
+  config(
+    materialized = 'table',
+    tags = ['PLAYER', 'CLEANSE', 'NBA_PROJECT', 'PLAYER_ORIENTED']
+  )
+}}
+
+WITH SOURCE AS (
+    SELECT 
+        * 
+    FROM {{ source('STAGING_NBA_DATA', 'STG_ALL_PLAYER_DETAILINFO') }}
 ),
 
 CLS_ALL_PLAYER_DETAILINFO as (
@@ -16,7 +24,7 @@ CLS_ALL_PLAYER_DETAILINFO as (
      , 1 AS IS_VALID
      , TO_TIMESTAMP(CURRENT_TIMESTAMP ) AS LOAD_DATE
     , 'STAGING_NBA_DATA.STG_ALL_PLAYER_DETAILINFO' AS SOURCE_TABLE
-    from source
+    FROM SOURCE
 )
 
-select * from CLS_ALL_PLAYER_DETAILINFO
+SELECT * FROM CLS_ALL_PLAYER_DETAILINFO

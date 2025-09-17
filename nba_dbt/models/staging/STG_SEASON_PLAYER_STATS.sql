@@ -1,3 +1,11 @@
+{{
+  config(
+    materialized = 'table',
+    tags = ['PLAYER', 'STAGE', 'NBA_PROJECT', 'PLAYER_ORIENTED']
+  )
+}}
+
+
 SELECT 
     SEASON_YEAR
     , GAME_DATE

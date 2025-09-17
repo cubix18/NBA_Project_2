@@ -1,3 +1,11 @@
+{{
+  config(
+    materialized = 'table',
+    tags = ['TEAM', 'CLEANSE', 'NBA_PROJECT', 'TEAM_ORIENTED', 'WHOLE_SEASON']
+  )
+}}
+
+
 with CLS_SEASON_PLAYER_STATS as (
     select *, 'SEASON_GAME' AS GAME_TYPE
     from {{ ref('CLS_SEASON_PLAYER_STATS') }}

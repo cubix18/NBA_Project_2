@@ -1,6 +1,15 @@
-with source as (
-    select * 
-    from {{ source('STAGING_NBA_DATA', 'STG_ALL_TEAM_SCORELINE') }}
+{{
+  config(
+    materialized = 'table',
+    tags = ['TEAM', 'CLEANSE', 'NBA_PROJECT', 'TEAM_ORIENTED']
+  )
+}}
+
+
+WITH SOURCE AS (
+    SELECT 
+        * 
+    FROM {{ source('STAGING_NBA_DATA', 'STG_ALL_TEAM_SCORELINE') }}
 ),
 
 CLS_ALL_TEAM_SCORELINE as (
@@ -56,7 +65,7 @@ CLS_ALL_TEAM_SCORELINE as (
         , 1 AS IS_VALID
         , TO_TIMESTAMP(CURRENT_TIMESTAMP ) AS LOAD_DATE
         , 'STAGING_NBA_DATA.STG_ALL_TEAM_SCORELINE' AS SOURCE_TABLE
-    from source
+    FROM SOURCE
 )
 
-select * from CLS_ALL_TEAM_SCORELINE
+SELECT * FROM CLS_ALL_TEAM_SCORELINE

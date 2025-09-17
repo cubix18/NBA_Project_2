@@ -1,6 +1,15 @@
-with source as (
-    select * 
-    from {{ source('STAGING_NBA_DATA', 'STG_ALL_TEAM_ARENA_ATTENDANCE') }}
+{{
+  config(
+    materialized = 'table',
+    tags = ['TEAM', 'CLEANSE', 'NBA_PROJECT', 'TEAM_ORIENTED', 'WHOLE_SEASON']
+  )
+}}
+
+
+WITH SOURCE AS (
+    SELECT 
+        * 
+    FROM {{ source('STAGING_NBA_DATA', 'STG_ALL_TEAM_ARENA_ATTENDANCE') }}
 ),
 
 CTE AS (
@@ -20,7 +29,7 @@ CTE AS (
             WHEN NOTES IS NULL AND TO_DATE(DATE, 'DY, MON DD, YYYY') <= '2025-04-18' THEN 'Regular Season'
             ELSE NOTES
         END AS MATCH_TYPE
-    FROM source
+    FROM SOURCE
 ),
 
 CLS_ALL_TEAM_ARENA_ATTENDANCE as (
@@ -49,4 +58,4 @@ CLS_ALL_TEAM_ARENA_ATTENDANCE as (
     FROM CTE
 )
 
-select * from CLS_ALL_TEAM_ARENA_ATTENDANCE
+SELECT * FROM CLS_ALL_TEAM_ARENA_ATTENDANCE

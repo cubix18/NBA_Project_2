@@ -1,3 +1,11 @@
+{{
+  config(
+    materialized = 'table',
+    tags = ['PLAYER', 'CLEANSE', 'NBA_PROJECT', 'PLAYER_ORIENTED', 'DRAFT']
+  )
+}}
+
+
 WITH STAGING_NBA_DRAFT_DATA AS (
     SELECT * 
     FROM {{ source('STAGING_NBA_DATA', 'STG_DRAFT_PLAYER_STATS') }}
