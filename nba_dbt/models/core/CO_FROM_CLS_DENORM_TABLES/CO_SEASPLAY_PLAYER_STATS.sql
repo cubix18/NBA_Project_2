@@ -1,3 +1,11 @@
+{{
+  config(
+    materialized = 'table',
+    tags = ['PLAYER', 'CORE', 'NBA_PROJECT', 'PLAYER_ORIENTED', 'SEASON']
+  )
+}}
+
+
 with cte as (
     SELECT 
         * 

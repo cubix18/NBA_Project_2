@@ -1,14 +1,14 @@
 {{
   config(
     materialized = 'table',
-    tags = ['PLAYER', 'CLEANSE', 'NBA_PROJECT', 'PLAYER_ORIENTED', 'REGULAR_SEASON']
+    tags = ['PLAYER', 'CLEANSE', 'NBA_PROJECT', 'PLAYER_ORIENTED']
   )
 }}
 
-
-with source as (
-    select * 
-    from {{ source('STAGING_NBA_DATA', 'STG_SEASON_PLAYER_AWARDS') }}
+WITH SOURCE AS (
+    SELECT
+        *
+    FROM {{ source('STAGING_NBA_DATA', 'STG_SEASON_PLAYER_AWARDS') }}
 ),
 
 CLS_SEASON_PLAYER_AWARDS as (

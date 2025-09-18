@@ -1,21 +1,25 @@
 {{
   config(
     materialized = 'table',
-    tags = ['TEAM', 'CLEANSE', 'NBA_PROJECT', 'TEAM_ORIENTED', 'WHOLE_SEASON']
+    tags = ['TEAM', 'CLEANSE', 'NBA_PROJECT', 'TEAM_ORIENTED']
   )
 }}
 
 
 with CLS_SEASON_PLAYER_STATS as (
-    select *, 'SEASON_GAME' AS GAME_TYPE
-    from {{ ref('CLS_SEASON_PLAYER_STATS') }}
+    SELECT
+        *
+        , 'SEASON_GAME' AS GAME_TYPE
+    FROM {{ ref('CLS_SEASON_PLAYER_STATS') }}
 ),
 
 CLS_PLAYOFFS_PLAYER_STATS as (
-    select *, 'PLAYOFFS_GAME' AS GAME_TYPE
-    from {{ ref('CLS_PLAYOFFS_PLAYER_STATS') }}
+    SELECT
+        *
+        , 'PLAYOFFS_GAME' AS GAME_TYPE
+    FROM {{ ref('CLS_PLAYOFFS_PLAYER_STATS') }}
 )
 
-select * from CLS_SEASON_PLAYER_STATS
+SELECT * FROM CLS_SEASON_PLAYER_STATS
 UNION ALL
 SELECT * FROM CLS_PLAYOFFS_PLAYER_STATS

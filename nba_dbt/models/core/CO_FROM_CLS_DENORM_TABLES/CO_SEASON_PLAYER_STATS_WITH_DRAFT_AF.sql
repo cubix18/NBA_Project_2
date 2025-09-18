@@ -1,3 +1,11 @@
+{{
+  config(
+    materialized = 'table',
+    tags = ['PLAYER', 'CORE', 'NBA_PROJECT', 'PLAYER_ORIENTED', 'SEASON']
+  )
+}}
+
+
 with cte as (
 select * FROM {{ ref('CLS_ALL_COMMON_PLAYER_INFO') }}
 where is_same_name = 'Regular'

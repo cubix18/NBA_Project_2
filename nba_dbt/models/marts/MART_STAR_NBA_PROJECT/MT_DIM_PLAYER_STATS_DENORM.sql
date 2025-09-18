@@ -1,7 +1,7 @@
 {{
   config(
-    materialized = "table",
-    tags = ["STAR_SCHEMA"]
+    materialized = 'table',
+    tags = ['PLAYER', 'MART', 'NBA_PROJECT', 'PLAYER_ORIENTED', 'SEASON', 'STAR_SCHEMA']
   )
 }}
 

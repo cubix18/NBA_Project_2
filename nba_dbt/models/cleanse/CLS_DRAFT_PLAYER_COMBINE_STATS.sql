@@ -5,7 +5,6 @@
   )
 }}
 
-
 WITH SOURCE AS (
     SELECT 
         * 

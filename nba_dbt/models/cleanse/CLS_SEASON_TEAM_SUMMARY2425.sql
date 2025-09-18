@@ -1,14 +1,14 @@
 {{
   config(
     materialized = 'table',
-    tags = ['TEAM', 'CLEANSE', 'NBA_PROJECT', 'TEAM_ORIENTED', 'REGULAR_SEASON']
+    tags = ['TEAM', 'CLEANSE', 'NBA_PROJECT', 'TEAM_ORIENTED']
   )
 }}
 
-
-with source as (
-    select * 
-    from {{ source('STAGING_NBA_DATA', 'STG_SEASON_TEAM_SUMMARY2425') }}
+WITH SOURCE AS (
+    SELECT
+        *
+    FROM {{ source('STAGING_NBA_DATA', 'STG_SEASON_TEAM_SUMMARY2425') }}
 ),
 
 CLS_SEASON_TEAM_SUMMARY2425 as (
@@ -40,7 +40,7 @@ CLS_SEASON_TEAM_SUMMARY2425 as (
         , 1 AS IS_VALID
         , TO_TIMESTAMP(CURRENT_TIMESTAMP ) AS LOAD_DATE
         , 'STAGING_NBA_DATA.STG_SEASON_TEAM_SUMMARY2425' AS SOURCE_TABLE
-    from source
+    FROM source
 )
 
-select * from CLS_SEASON_TEAM_SUMMARY2425
+SELECT * FROM CLS_SEASON_TEAM_SUMMARY2425

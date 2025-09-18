@@ -1,10 +1,9 @@
 {{
   config(
     materialized = 'table',
-    tags = ['TEAM', 'CLEANSE', 'NBA_PROJECT', 'TEAM_ORIENTED', 'WHOLE_SEASON']
+    tags = ['TEAM', 'CLEANSE', 'NBA_PROJECT', 'TEAM_ORIENTED']
   )
 }}
-
 
 WITH SOURCE AS (
     SELECT 

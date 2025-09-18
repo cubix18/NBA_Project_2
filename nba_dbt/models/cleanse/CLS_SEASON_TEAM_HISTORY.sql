@@ -1,14 +1,14 @@
 {{
   config(
     materialized = 'table',
-    tags = ['TEAM', 'CLEANSE', 'NBA_PROJECT', 'TEAM_ORIENTED', 'REGULAR_SEASON']
+    tags = ['TEAM', 'CLEANSE', 'NBA_PROJECT', 'TEAM_ORIENTED']
   )
 }}
 
-
-with source as (
-    select * 
-    from {{ source('STAGING_NBA_DATA', 'STG_SEASON_TEAM_HISTORY') }}
+WITH SOURCE AS (
+    SELECT
+        *
+    FROM {{ source('STAGING_NBA_DATA', 'STG_SEASON_TEAM_HISTORY') }}
 ),
 
 CLS_SEASON_TEAM_HISTORY as (
@@ -25,4 +25,4 @@ CLS_SEASON_TEAM_HISTORY as (
     from source
 )
 
-select * from CLS_SEASON_TEAM_HISTORY
+SELECT * FROM CLS_SEASON_TEAM_HISTORY

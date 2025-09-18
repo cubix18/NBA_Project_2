@@ -1,3 +1,11 @@
+{{
+  config(
+    materialized = 'table',
+    tags = ['PLAYER', 'CORE', 'NBA_PROJECT', 'PLAYER_ORIENTED', 'SEASON']
+  )
+}}
+
+
 WITH CTE AS (
 SELECT DISTINCT(PLAYER_ID) AS PLAYER_ID, PLAYER_FULL_NAME
 FROM {{ ref('CLS_SEASON_PLAYER_DATASET') }}

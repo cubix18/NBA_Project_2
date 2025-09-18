@@ -1,3 +1,11 @@
+{{
+  config(
+    materialized = 'table',
+    tags = ['PLAYER', 'MART', 'NBA_PROJECT', 'PLAYER_ORIENTED', 'SEASON', 'DENORMALIZED']
+  )
+}}
+
+
 WITH CTA AS (
     SELECT 
         DAF.PLAYER_FULL_NAME
