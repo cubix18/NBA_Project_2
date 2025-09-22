@@ -1,0 +1,444 @@
+version: 2
+
+models:
+  - name: MT_DIM_PLAYER_STATS_DENORM
+    description: >
+      Dimension table that contains aggregated player attributes and awards
+      across NBA seasons. It includes personal details, draft information,
+      career metadata, and award flags.
+    columns:
+      - name: PLAYER_ID
+        description: "{{ doc('PLAYER_ID') }}"
+      - name: PLAYER_FULL_NAME
+        description: "{{ doc('PLAYER_FULL_NAME') }}"
+      - name: PLAYER_BIRTH_DATE
+        description: "{{ doc('PLAYER_BIRTH_DATE') }}"
+      - name: PLAYER_SCHOOL
+        description: "{{ doc('PLAYER_SCHOOL') }}"
+      - name: PLAYER_COUNTRY
+        description: "{{ doc('PLAYER_COUNTRY') }}"
+      - name: PLAYER_PREVIOUS_TEAM
+        description: "{{ doc('PLAYER_PREVIOUS_TEAM') }}"
+      - name: PLAYER_PREVIOUS_TEAM_COUNTRY
+        description: "{{ doc('PLAYER_PREVIOUS_TEAM_COUNTRY') }}"
+      - name: PLAYER_DRAFT_YEAR
+        description: "{{ doc('PLAYER_DRAFT_YEAR') }}"
+      - name: PLAYER_DRAFT_NUMBER
+        description: "{{ doc('PLAYER_DRAFT_NUMBER') }}"
+      - name: PLAYER_IS_GREATEST_75
+        description: "{{ doc('PLAYER_IS_GREATEST_75') }}"
+      - name: PLAYER_HEIGHT_IN_CM
+        description: "{{ doc('HEIGHT_CM') }}"
+      - name: PLAYER_WEIGHT_IN_KG
+        description: "{{ doc('WEIGHT_KG') }}"
+      - name: PLAYER_MAIN_POSITION
+        description: "{{ doc('POSITION') }}"
+      - name: PLAYER_SECOND_POSITION
+        description: "{{ doc('SECOND_POSITION') }}"
+      - name: PLAYED_IN_DLEAGUE
+        description: "{{ doc('PLAYED_IN_DLEAGUE') }}"
+      - name: PLAYER_SEASON_EXPERIENCE
+        description: "{{ doc('PLAYER_SEASON_EXPERIENCE') }}"
+      - name: IS_MVP
+        description: "{{ doc('IS_MVP') }}"
+      - name: IS_ROTY
+        description: "{{ doc('IS_ROTY') }}"
+      - name: IS_DPOY
+        description: "{{ doc('IS_DPOY') }}"
+      - name: IS_SIXTH_MAN
+        description: "{{ doc('IS_SIXTH_MAN') }}"
+      - name: IS_MIP
+        description: "{{ doc('IS_MIP') }}"
+      - name: LOAD_DATE
+        description: "{{ doc('LOAD_DATE') }}"
+      - name: SOURCE_TABLE
+        description: "{{ doc('SOURCE_TABLE') }}"
+
+  - name: MT_DIM_SEASON_STATS_DENORM
+    description: >
+      Dimension table that contains NBA season metadata, including season
+      identifiers, eras, and time ranges.
+    columns:
+      - name: SEASON_ID
+        description: "{{ doc('SEASON_ID') }}"
+      - name: SEASON_NAME
+        description: "{{ doc('SEASON_NAME') }}"
+      - name: SEASON_START_YEAR
+        description: "{{ doc('SEASON_START_YEAR') }}"
+      - name: SEASON_END_YEAR
+        description: "{{ doc('SEASON_END_YEAR') }}"
+      - name: NBA_3PT_ERA
+        description: "{{ doc('NBA_3PT_ERA') }}"
+      - name: NBA_ERA
+        description: "{{ doc('NBA_ERA') }}"
+      - name: LOAD_DATE
+        description: "{{ doc('LOAD_DATE') }}"
+      - name: SOURCE_TABLE
+        description: "{{ doc('SOURCE_TABLE') }}"
+
+  - name: MT_DIM_TEAM_STATS_DENORM
+    description: >
+      Dimension table that contains NBA team metadata, including name,
+      abbreviation, city, and league hierarchy.
+    columns:
+      - name: TEAM_ID
+        description: "{{ doc('TEAM_ID') }}"
+      - name: TEAM_NAME
+        description: "{{ doc('TEAM_NAME') }}"
+      - name: TEAM_ABBREVIATION
+        description: "{{ doc('TEAM_ABBREVIATION') }}"
+      - name: TEAM_CITY
+        description: "{{ doc('TEAM_CITY') }}"
+      - name: TEAM_CONFERENCE
+        description: "{{ doc('TEAM_CONFERENCE') }}"
+      - name: TEAM_DIVISION
+        description: "{{ doc('TEAM_DIVISION') }}"
+      - name: TEAM_STATUS
+        description: "{{ doc('TEAM_STATUS') }}"
+      - name: LOAD_DATE
+        description: "{{ doc('LOAD_DATE') }}"
+      - name: SOURCE_TABLE
+        description: "{{ doc('SOURCE_TABLE') }}"
+
+  - name: MT_SEASON_PLAYER_STATS_WITH_DRAFT
+    description: >
+      Season-level player statistics enriched with draft information and award flags.
+      Includes player demographics, draft details, team metadata, season context, and 
+      per-game statistics with calculated advanced metrics.
+    columns:
+      - name: PLAYER_FULL_NAME
+        description: "{{ doc('PLAYER_FULL_NAME') }}"
+      - name: PLAYER_BIRTH_DATE
+        description: "{{ doc('BIRTH_DATE') }}"
+#      - name: PLAYER_SEASON_PLAYED
+#        description: "{{ doc('PLAYER_SEASON_PLAYED') }}"
+      - name: PLAYER_SCHOOL
+        description: "{{ doc('PLAYER_SCHOOL') }}"
+      - name: PLAYER_COUNTRY
+        description: "{{ doc('PLAYER_COUNTRY') }}"
+      - name: PLAYER_PREVIOUS_TEAM
+        description: "{{ doc('PLAYER_PREVIOUS_TEAM') }}"
+      - name: PLAYER_PREVIOUS_TEAM_COUNTRY
+        description: "{{ doc('PLAYER_PREVIOUS_TEAM_COUNTRY') }}"
+      - name: PLAYER_DRAFT_YEAR
+        description: "{{ doc('PLAYER_DRAFT_YEAR') }}"
+      - name: PLAYER_DRAFT_ROUND
+        description: "{{ doc('PLAYER_DRAFT_ROUND') }}"
+      - name: PLAYER_DRAFT_NUMBER
+        description: "{{ doc('PLAYER_DRAFT_NUMBER') }}"
+      - name: PLAYER_IS_GREATEST_75
+        description: "{{ doc('PLAYER_IS_GREATEST_75') }}"
+      - name: SEASON_START_YEAR
+        description: "{{ doc('SEASON_START_YEAR') }}"
+      - name: SEASON_END_YEAR
+        description: "{{ doc('SEASON_END_YEAR') }}"
+      - name: PLAYER_HEIGHT_IN_CM
+        description: "{{ doc('HEIGHT_CM') }}"
+      - name: PLAYER_WEIGHT_IN_KG
+        description: "{{ doc('WEIGHT_KG') }}"
+      - name: PLAYER_SEASON_EXPERIENCE
+        description: "{{ doc('PLAYER_SEASON_EXPERIENCE') }}"
+      - name: PLAYER_MAIN_POSITION
+        description: "{{ doc('POSITION') }}"
+      - name: PLAYER_SECOND_POSITION
+        description: "{{ doc('SECOND_POSITION') }}"
+      - name: PLAYER_ROSTER_STATUS
+        description: "{{ doc('PLAYER_ROSTER_STATUS') }}"
+      - name: PLAYED_IN_DLEAGUE
+        description: "{{ doc('PLAYED_IN_DLEAGUE') }}"
+      - name: IS_MVP
+        description: "{{ doc('IS_MVP') }}"
+      - name: IS_ROTY
+        description: "{{ doc('IS_ROTY') }}"
+      - name: IS_DPOY
+        description: "{{ doc('IS_DPOY') }}"
+      - name: IS_SIXTH_MAN
+        description: "{{ doc('IS_SIXTH_MAN') }}"
+      - name: IS_MIP
+        description: "{{ doc('IS_MIP') }}"
+      - name: NBA_3PT_ERA
+        description: "{{ doc('NBA_3PT_ERA') }}"
+      - name: NBA_ERA
+        description: "{{ doc('NBA_ERA') }}"
+      - name: TEAM_NAME
+        description: "{{ doc('TEAM_NAME') }}"
+      - name: TEAM_ABBREVIATION
+        description: "{{ doc('TEAM_ABBREVIATION') }}"
+      - name: TEAM_CITY
+        description: "{{ doc('TEAM_CITY') }}"
+      - name: TEAM_CONFERENCE
+        description: "{{ doc('TEAM_CONFERENCE') }}"
+      - name: TEAM_DIVISION
+        description: "{{ doc('TEAM_DIVISION') }}"
+      - name: TEAM_STATUS
+        description: "{{ doc('TEAM_STATUS') }}"
+  #    - name: TEAM_FOUND_YEAR
+  #      description: "{{ doc('TEAM_FOUND_YEAR') }}"
+  #    - name: TEAM_TILL_YEAR
+  #      description: "{{ doc('TEAM_TILL_YEAR') }}"
+      - name: PLAYER_AGE
+        description: "{{ doc('PLAYER_AGE') }}"
+      - name: PLAYER_GAMES_PLAYED
+        description: "{{ doc('PLAYER_GAMES_PLAYED') }}"
+      - name: PLAYER_GAMES_STARTED
+        description: "{{ doc('PLAYER_GAMES_STARTED') }}"
+      - name: PLAYER_MINUTES_PLAYED
+        description: "{{ doc('PLAYER_MINUTES_PLAYED') }}"
+      - name: PLAYER_FG_MADE
+        description: "{{ doc('FIELD_GOALS_MADE') }}"
+      - name: PLAYER_FG_ATTEMPTED
+        description: "{{ doc('FIELD_GOALS_ATTEMPTED') }}"
+      - name: PLAYER_FG_PCT
+        description: "{{ doc('PLAYER_FG_PCT') }}"
+      - name: PLAYER_3PT_MADE
+        description: "{{ doc('THREE_POINTS_MADE') }}"
+      - name: PLAYER_3PT_ATTEMPTED
+        description: "{{ doc('THREE_POINTS_ATTEMPTED') }}"
+      - name: PLAYER_3PT_PCT
+        description: "{{ doc('PLAYER_3PT_PCT') }}"
+      - name: PLAYER_FT_MADE
+        description: "{{ doc('FREE_THROWS_MADE') }}"
+      - name: PLAYER_FT_ATTEMMPTED
+        description: "{{ doc('FREE_THROWS_ATTEMPTED') }}"
+      - name: PLAYER_FT_PCT
+        description: "{{ doc('PLAYER_FT_PCT') }}"
+      - name: PLAYER_OFF_REB
+        description: "{{ doc('REBOUNDS_OFF') }}"
+      - name: PLAYER_DEF_REB
+        description: "{{ doc('REBOUNDS_DEF') }}"
+      - name: PLAYER_TOT_REB
+        description: "{{ doc('REBOUNDS') }}"
+      - name: PLAYER_ASSISTS
+        description: "{{ doc('ASSISTS') }}"
+      - name: PLAYER_STEALS
+        description: "{{ doc('STEALS') }}"
+      - name: PLAYER_BLOCKS
+        description: "{{ doc('BLOCKS') }}"
+      - name: PLAYER_TOVERS
+        description: "{{ doc('TURNOVERS') }}"
+      - name: PLAYER_FOULS
+        description: "{{ doc('FOULS') }}"
+      - name: PLAYER_POINTS
+        description: "{{ doc('POINTS') }}"
+      - name: TS_PCT
+        description: "{{ doc('TS_PCT') }}"
+      - name: EFG_PCT
+        description: "{{ doc('EFG_PCT') }}"
+      - name: TOV_PCT
+        description: "{{ doc('TOV_PCT') }}"
+      - name: FTR
+        description: "{{ doc('FTR') }}"
+      - name: THREEPAR
+        description: "{{ doc('THREEPAR') }}"
+      - name: ORB_PCT_EST
+        description: "{{ doc('ORB_PCT_EST') }}"
+      - name: DRB_PCT_EST
+        description: "{{ doc('DRB_PCT_EST') }}"
+      - name: AST_TOV_RATIO
+        description: "{{ doc('AST_TOV_RATIO') }}"
+      - name: LOAD_DATE
+        description: "{{ doc('LOAD_DATE') }}"
+      - name: SOURCE_TABLE_1
+        description: "{{ doc('SOURCE_TABLE') }}"
+
+  - name: MT_SEASON_PLAYER_STATS_WITH_DRAFT_NORMALIZED
+    description: >
+      Normalized version of season player statistics with draft details. Applies formatting, 
+      country and position normalization, and fixes inconsistencies in abbreviations and values.
+    columns:
+      - name: PLAYER_FULL_NAME
+        description: "{{ doc('PLAYER_FULL_NAME') }}"
+      - name: PLAYER_BIRTH_DATE
+        description: "{{ doc('PLAYER_BIRTH_DATE') }}"
+      - name: PLAYER_SEASON_PLAYED
+        description: "{{ doc('PLAYER_SEASON_PLAYED') }}"
+      - name: PLAYER_SCHOOL
+        description: "{{ doc('PLAYER_SCHOOL') }}"
+      - name: PLAYER_COUNTRY
+        description: "{{ doc('PLAYER_COUNTRY') }}"
+      - name: PLAYER_PREVIOUS_TEAM
+        description: "{{ doc('PLAYER_PREVIOUS_TEAM') }}"
+      - name: PLAYER_PREVIOUS_TEAM_COUNTRY
+        description: "{{ doc('PLAYER_PREVIOUS_TEAM_COUNTRY') }}"
+      - name: PLAYER_DRAFT_YEAR
+        description: "{{ doc('PLAYER_DRAFT_YEAR') }}"
+      - name: PLAYER_DRAFT_NUMBER
+        description: "{{ doc('PLAYER_DRAFT_NUMBER') }}"
+      - name: PLAYER_IS_GREATEST_75
+        description: "{{ doc('PLAYER_IS_GREATEST_75') }}"
+      - name: PLAYER_HEIGHT_IN_CM
+        description: "{{ doc('HEIGHT_CM') }}"
+      - name: PLAYER_WEIGHT_IN_KG
+        description: "{{ doc('WEIGHT_KG') }}"
+      - name: PLAYER_SEASON_EXPERIENCE
+        description: "{{ doc('PLAYER_SEASON_EXPERIENCE') }}"
+      - name: PLAYER_MAIN_POSITION
+        description: "{{ doc('POSITION') }}"
+      - name: PLAYER_SECOND_POSITION
+        description: "{{ doc('SECOND_POSITION') }}"
+      - name: PLAYER_ROSTER_STATUS
+        description: "{{ doc('PLAYER_ROSTER_STATUS') }}"
+      - name: PLAYED_IN_DLEAGUE
+        description: "{{ doc('PLAYED_IN_DLEAGUE') }}"
+      - name: IS_MVP
+        description: "{{ doc('IS_MVP') }}"
+      - name: IS_ROTY
+        description: "{{ doc('IS_ROTY') }}"
+      - name: IS_DPOY
+        description: "{{ doc('IS_DPOY') }}"
+      - name: IS_SIXTH_MAN
+        description: "{{ doc('IS_SIXTH_MAN') }}"
+      - name: IS_MIP
+        description: "{{ doc('IS_MIP') }}"
+      - name: TEAM_NAME
+        description: "{{ doc('TEAM_NAME') }}"
+      - name: TEAM_ABBREVIATION
+        description: "{{ doc('TEAM_ABBREVIATION') }}"
+      - name: TEAM_CITY
+        description: "{{ doc('TEAM_CITY') }}"
+      - name: TEAM_CONFERENCE
+        description: "{{ doc('TEAM_CONFERENCE') }}"
+      - name: TEAM_DIVISION
+        description: "{{ doc('TEAM_DIVISION') }}"
+      - name: TEAM_STATUS
+        description: "{{ doc('TEAM_STATUS') }}"
+      - name: PLAYER_AGE
+        description: "{{ doc('PLAYER_AGE') }}"
+      - name: PLAYER_GAMES_PLAYED
+        description: "{{ doc('PLAYER_GAMES_PLAYED') }}"
+      - name: PLAYER_GAMES_STARTED
+        description: "{{ doc('PLAYER_GAMES_STARTED') }}"
+      - name: PLAYER_MINUTES_PLAYED
+        description: "{{ doc('PLAYER_MINUTES_PLAYED') }}"
+      - name: PLAYER_FG_MADE
+        description: "{{ doc('FIELD_GOALS_MADE') }}"
+      - name: PLAYER_FG_ATTEMPTED
+        description: "{{ doc('FIELD_GOALS_ATTEMPTED') }}"
+      - name: PLAYER_FG_PCT
+        description: "{{ doc('PLAYER_FG_PCT') }}"
+      - name: PLAYER_3PT_MADE
+        description: "{{ doc('THREE_POINTS_MADE') }}"
+      - name: PLAYER_3PT_ATTEMPTED
+        description: "{{ doc('THREE_POINTS_ATTEMPTED') }}"
+      - name: PLAYER_3PT_PCT
+        description: "{{ doc('PLAYER_3PT_PCT') }}"
+      - name: PLAYER_FT_MADE
+        description: "{{ doc('FREE_THROWS_MADE') }}"
+      - name: PLAYER_FT_ATTEMMPTED
+        description: "{{ doc('FREE_THROWS_ATTEMPTED') }}"
+      - name: PLAYER_FT_PCT
+        description: "{{ doc('PLAYER_FT_PCT') }}"
+      - name: PLAYER_OFF_REB
+        description: "{{ doc('REBOUNDS_OFF') }}"
+      - name: PLAYER_DEF_REB
+        description: "{{ doc('REBOUNDS_DEF') }}"
+      - name: PLAYER_TOT_REB
+        description: "{{ doc('REBOUNDS') }}"
+      - name: PLAYER_ASSISTS
+        description: "{{ doc('ASSISTS') }}"
+      - name: PLAYER_STEALS
+        description: "{{ doc('STEALS') }}"
+      - name: PLAYER_BLOCKS
+        description: "{{ doc('BLOCKS') }}"
+      - name: PLAYER_TOVERS
+        description: "{{ doc('TURNOVERS') }}"
+      - name: PLAYER_FOULS
+        description: "{{ doc('FOULS') }}"
+      - name: PLAYER_POINTS
+        description: "{{ doc('POINTS') }}"
+      - name: TS_PCT
+        description: "{{ doc('TS_PCT') }}"
+      - name: EFG_PCT
+        description: "{{ doc('EFG_PCT') }}"
+      - name: TOV_PCT
+        description: "{{ doc('TOV_PCT') }}"
+      - name: FTR
+        description: "{{ doc('FTR') }}"
+      - name: THREEPAR
+        description: "{{ doc('THREEPAR') }}"
+      - name: ORB_PCT_EST
+        description: "{{ doc('ORB_PCT_EST') }}"
+      - name: DRB_PCT_EST
+        description: "{{ doc('DRB_PCT_EST') }}"
+      - name: AST_TOV_RATIO
+        description: "{{ doc('AST_TOV_RATIO') }}"
+      - name: LOAD_DATE
+        description: "{{ doc('LOAD_DATE') }}"
+      - name: SOURCE_TABLE
+        description: "{{ doc('SOURCE_TABLE') }}"
+
+  - name: MT_FACT_PLAYER_STATS_WITH_DRAFT_NORMALIZED
+    description: >
+      Fact table that supports star schema modeling. It links player, season, and team 
+      dimensions and contains both basic and advanced per-game statistics.
+    columns:
+      - name: PLAYER_ID
+        description: "{{ doc('PLAYER_ID') }}"
+      - name: SEASON_ID
+        description: "{{ doc('SEASON_ID') }}"
+      - name: TEAM_ID
+        description: "{{ doc('TEAM_ID') }}"
+      - name: PLAYER_AGE
+        description: "{{ doc('PLAYER_AGE') }}"
+      - name: PLAYER_GAMES_PLAYED
+        description: "{{ doc('PLAYER_GAMES_PLAYED') }}"
+      - name: PLAYER_GAMES_STARTED
+        description: "{{ doc('PLAYER_GAMES_STARTED') }}"
+      - name: PLAYER_MINUTES_PLAYED
+        description: "{{ doc('PLAYER_MINUTES_PLAYED') }}"
+      - name: PLAYER_FG_MADE
+        description: "{{ doc('FIELD_GOALS_MADE') }}"
+      - name: PLAYER_FG_ATTEMPTED
+        description: "{{ doc('FIELD_GOALS_ATTEMPTED') }}"
+      - name: PLAYER_FG_PCT
+        description: "{{ doc('PLAYER_FG_PCT') }}"
+      - name: PLAYER_3PT_MADE
+        description: "{{ doc('THREE_POINTS_MADE') }}"
+      - name: PLAYER_3PT_ATTEMPTED
+        description: "{{ doc('THREE_POINTS_ATTEMPTED') }}"
+      - name: PLAYER_3PT_PCT
+        description: "{{ doc('PLAYER_3PT_PCT') }}"
+      - name: PLAYER_FT_MADE
+        description: "{{ doc('FREE_THROWS_MADE') }}"
+      - name: PLAYER_FT_ATTEMMPTED
+        description: "{{ doc('FREE_THROWS_ATTEMPTED') }}"
+      - name: PLAYER_FT_PCT
+        description: "{{ doc('PLAYER_FT_PCT') }}"
+      - name: PLAYER_OFF_REB
+        description: "{{ doc('REBOUNDS_OFF') }}"
+      - name: PLAYER_DEF_REB
+        description: "{{ doc('REBOUNDS_DEF') }}"
+      - name: PLAYER_TOT_REB
+        description: "{{ doc('REBOUNDS') }}"
+      - name: PLAYER_ASSISTS
+        description: "{{ doc('ASSISTS') }}"
+      - name: PLAYER_STEALS
+        description: "{{ doc('STEALS') }}"
+      - name: PLAYER_BLOCKS
+        description: "{{ doc('BLOCKS') }}"
+      - name: PLAYER_TOVERS
+        description: "{{ doc('TURNOVERS') }}"
+      - name: PLAYER_FOULS
+        description: "{{ doc('FOULS') }}"
+      - name: PLAYER_POINTS
+        description: "{{ doc('POINTS') }}"
+      - name: TS_PCT
+        description: "{{ doc('TS_PCT') }}"
+      - name: EFG_PCT
+        description: "{{ doc('EFG_PCT') }}"
+      - name: TOV_PCT
+        description: "{{ doc('TOV_PCT') }}"
+      - name: FTR
+        description: "{{ doc('FTR') }}"
+      - name: THREEPAR
+        description: "{{ doc('THREEPAR') }}"
+      - name: ORB_PCT_EST
+        description: "{{ doc('ORB_PCT_EST') }}"
+      - name: DRB_PCT_EST
+        description: "{{ doc('DRB_PCT_EST') }}"
+      - name: AST_TOV_RATIO
+        description: "{{ doc('AST_TOV_RATIO') }}"
+      - name: LOAD_DATE
+        description: "{{ doc('LOAD_DATE') }}"
+      - name: SOURCE_TABLE
+        description: "{{ doc('SOURCE_TABLE') }}"
