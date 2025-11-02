@@ -4,49 +4,98 @@ sources:
   - name: STAGING_NBA_DATA
     schema: STAGING_NBA_DATA
     tables:
-      - name: STG_SEASON_PLAYER_STATS_V1
-        description: "Dane z sezonu regularnego od sezonu 2010 do sezonu 2024 - część 1"
-      - name: STG_SEASON_PLAYER_STATS_V2
-        description: "Dane z sezonu regularnego od sezonu 2010 do sezonu 2024 - część 2"
-      - name: STG_SEASON_PLAYER_STATS_V3
-        description: "Dane z sezonu regularnego od sezonu 2010 do sezonu 2024 - część 3"
-      - name: STG_SEASON_PLAYER_STATS
-        description: "Dane z sezonu regularnego od sezonu 2010 do sezonu 2024 - połączone V1, V2, V3"
-      - name: STG_SEASON_TEAM_STATS
-        description: "Dane drużyn z sezonów regularnych od 2010 do 2024"
-      - name: STG_PLAYOFFS_PLAYER_STATS
-        description: "Dane zawodników z Playoffs od sezonu 2010 do sezonu 2024"
-      - name: STG_PLAYOFFS_TEAM_STATS
-        description: "Dane drużyn z Playoffs od sezonu 2010 do 2024"
-      - name: STG_DRAFT_PLAYER_STATS
-        description: "Dane z draftów od roku 2010"
+      # source: Snowflake
       - name: STG_ALL_COMMON_PLAYER_INFO
-        description: "Dane dotyczące zawodników. Zawiera całą historię zawodników"
-      - name: STG_ALL_PLAYER_DETAILINFO
-        description: "Tabela podobna co COMMON_PLAYER_INFO tylko, że z mniejszą ilością informacji. "
-      - name: STG_ALL_TEAM_ARENA_ATTENDANCE
-        description: "Tabela dotycząca zespołów z ilością widzów na danym meczu"
-      - name: STG_ALL_TEAM_SCORELINE
-        description: "Tabela z wynikami meczów o 1946 do 2024 roku"
-      - name: STG_DRAFT_PLAYER_COMBINE_STATS
-        description: "Tabela z wynikami z DRAFT COMBINE"
-      - name: STG_DRAFT_PLAYER_HISTORY
-        description: "Historia draftowa, bardzo szczegółowa."
-      - name: STG_SEASON_TEAM_DETAILS
-        description: "Bardzo detaliczne wiadomości o zespołach"
-      - name: STG_SEASON_TEAM_GAMES_ALL
-        description: "Dane na poziomie zespołów, zawierają wszystkie mecze od 1946 do 2025 z podziałem na playffs i regular season"
-      - name: STG_SEASON_TEAM_HISTORY
-        description: "Dane historyczne, aktywne zespoły do 2019 roku, info o nieaktywnych."
-      - name: STG_SEASON_TEAM_NAMES
-        description: "Dane dotyczące zespołów. Zawiera podstawowe informacje oraz rok założenia."
-      - name: STG_SEASON_TEAM_SUMMARY2425
-        description: "Sumaryczne statystyki na sezon 24-25 z basketball reference. Jako dodatek"
-      - name: STG_SEASON_PLAYER_DATASET
-        description: "Dane obejmujące całą historie wraz z statystykami per sezon"
-      - name: STG_SEASON_PLAYER_AWARDS
-        description: "Dane obejmujące wszystkie najważniejsze nagrody indywidualne zawodników"
+        description: "Player data containing the full historical record. File: common_player_info.csv"
+
+      # source: Snowflake
       - name: STG_ALL_COMMON_PLAYER_INFO_2324_EXTENDED
-        description: "Dane draftowe obejmujące zawodników z lat 2023 oraz 2024"
+        description: "Draft data covering players from the 2023 and 2024 seasons. File: nba_draft_2023_2024_full.csv"
+
+      # source: Snowflake
       - name: STG_ALL_COMMON_PLAYER_INFO_REST_PLAYER_PACKAGE
-        description: "Dane dogrywane dla pozostałych zawodników. Uzyskane przez skrypt Pythona."
+        description: "Additional player data generated through a Python script. File: NBA_Data_Rest_Players_Package_python.csv"
+
+      # source: Snowflake
+      - name: STG_ALL_PLAYER_DETAILINFO
+        description: "Similar to COMMON_PLAYER_INFO but with fewer attributes. File: Players.csv"
+
+      # source: Snowflake
+      - name: STG_ALL_TEAM_ARENA_ATTENDANCE
+        description: "Team-level data including audience attendance per game. File: NBA_24_25_Attendance.csv"
+
+      # source: Snowflake
+      - name: STG_ALL_TEAM_SCORELINE
+        description: "Game results from 1946 through 2024. File: line_score.csv"
+
+      # source: Snowflake
+      - name: STG_DRAFT_PLAYER_COMBINE_STATS
+        description: "Player measurements and test results from the NBA Draft Combine. File: draft_combine_stats.csv"
+
+      # source: Snowflake
+      - name: STG_DRAFT_PLAYER_HISTORY
+        description: "Detailed historical draft data. File: draft_history.csv"
+
+      # source: Snowflake
+      - name: STG_DRAFT_PLAYER_STATS
+        description: "Draft statistics covering approximately the last 20 years. File: draft-data-20-years"
+
+      # source: Snowflake
+      - name: STG_PLAYOFFS_PLAYER_STATS
+        description: "Player-level Playoffs statistics from 2010 through 2024. File: play_off_box_scores_2010_2024"
+
+      # source: Snowflake
+      - name: STG_PLAYOFFS_TEAM_STATS
+        description: "Team-level Playoffs statistics from 2010 through 2024. File: play_off_totals_2010_2024"
+
+      # source: Snowflake
+      - name: STG_SEASON_PLAYER_AWARDS
+        description: "All major individual player awards throughout NBA history. File: nba_awards_full_python.csv"
+
+      # source: Snowflake
+      - name: STG_SEASON_PLAYER_DATASET
+        description: "Comprehensive player dataset with per-season statistics. File: NBA_PLAYER_DATASET.csv"
+
+      # source: Snowflake
+      - name: STG_SEASON_PLAYER_STATS
+        description: "Regular season player data (2010–2024), combined from V1, V2, and V3. CONCAT IN STAGE VISUAL"
+
+      # source: Snowflake
+      - name: STG_SEASON_PLAYER_STATSBBALWITH
+        description: "Player statistics for the 2024/25 season from Basketball-Reference. File: NBA_Player_Stats_2425.csv"
+
+      # source: Snowflake
+      - name: STG_SEASON_PLAYER_STATS_V1
+        description: "Regular season player data (2010–2024), part 1. File: regular_season_box_scores_2010_2024_part_1"
+
+      # source: Snowflake
+      - name: STG_SEASON_PLAYER_STATS_V2
+        description: "Regular season player data (2010–2024), part 2. File: regular_season_box_scores_2010_2024_part_2"
+
+      # source: Snowflake
+      - name: STG_SEASON_PLAYER_STATS_V3
+        description: "Regular season player data (2010–2024), part 3. File: regular_season_box_scores_2010_2024_part_3"
+
+      # source: Snowflake
+      - name: STG_SEASON_TEAM_DETAILS
+        description: "Detailed information about NBA teams. File: team_details"
+
+      # source: Snowflake
+      - name: STG_SEASON_TEAM_GAMES_ALL
+        description: "Team-level data for all games from 1946 to 2025, including both Regular Season and Playoffs. File: Games.csv"
+
+      # source: Snowflake
+      - name: STG_SEASON_TEAM_HISTORY
+        description: "Historical data on active and inactive teams up to 2019. File: team_history.csv"
+
+      # source: Snowflake
+      - name: STG_SEASON_TEAM_NAMES
+        description: "Basic team information including year founded. File: team.csv"
+
+      # source: Snowflake
+      - name: STG_SEASON_TEAM_STATS
+        description: "Regular season team statistics from 2010 through 2024. File: regular_season_totals_2010_2024.csv"
+
+      # source: Snowflake
+      - name: STG_SEASON_TEAM_SUMMARY2425
+        description: "Aggregated team statistics for the 2024/25 regular season (Basketball Reference). File: NBA Reg Season 24-25 Total.csv"

@@ -12,7 +12,7 @@ models:
       - name: PLAYER_FULL_NAME
         description: "{{ doc('PLAYER_FULL_NAME') }}"
       - name: PLAYER_BIRTH_DATE
-        description: "{{ doc('PLAYER_BIRTH_DATE') }}"
+        description: "{{ doc('BIRTH_DATE') }}"
       - name: PLAYER_SCHOOL
         description: "{{ doc('PLAYER_SCHOOL') }}"
       - name: PLAYER_COUNTRY
@@ -183,7 +183,7 @@ models:
       - name: PLAYER_GAMES_STARTED
         description: "{{ doc('PLAYER_GAMES_STARTED') }}"
       - name: PLAYER_MINUTES_PLAYED
-        description: "{{ doc('PLAYER_MINUTES_PLAYED') }}"
+        description: "{{ doc('MINUTES_PLAYED') }}"
       - name: PLAYER_FG_MADE
         description: "{{ doc('FIELD_GOALS_MADE') }}"
       - name: PLAYER_FG_ATTEMPTED
@@ -249,7 +249,7 @@ models:
       - name: PLAYER_FULL_NAME
         description: "{{ doc('PLAYER_FULL_NAME') }}"
       - name: PLAYER_BIRTH_DATE
-        description: "{{ doc('PLAYER_BIRTH_DATE') }}"
+        description: "{{ doc('BIRTH_DATE') }}"
       - name: PLAYER_SEASON_PLAYED
         description: "{{ doc('PLAYER_SEASON_PLAYED') }}"
       - name: PLAYER_SCHOOL
@@ -309,7 +309,7 @@ models:
       - name: PLAYER_GAMES_STARTED
         description: "{{ doc('PLAYER_GAMES_STARTED') }}"
       - name: PLAYER_MINUTES_PLAYED
-        description: "{{ doc('PLAYER_MINUTES_PLAYED') }}"
+        description: "{{ doc('MINUTES_PLAYED') }}"
       - name: PLAYER_FG_MADE
         description: "{{ doc('FIELD_GOALS_MADE') }}"
       - name: PLAYER_FG_ATTEMPTED
@@ -385,7 +385,7 @@ models:
       - name: PLAYER_GAMES_STARTED
         description: "{{ doc('PLAYER_GAMES_STARTED') }}"
       - name: PLAYER_MINUTES_PLAYED
-        description: "{{ doc('PLAYER_MINUTES_PLAYED') }}"
+        description: "{{ doc('MINUTES_PLAYED') }}"
       - name: PLAYER_FG_MADE
         description: "{{ doc('FIELD_GOALS_MADE') }}"
       - name: PLAYER_FG_ATTEMPTED

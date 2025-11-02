@@ -1,72 +1,228 @@
 version: 2
 
 models:
-  - name: CORE_PLAYOFFS_PLAYER_STATS
+  - name: CO_DRAFT_PLAYER_SUMMARY
     description: >
-      Model agregujący statystyki zawodników z fazy play-off na poziomie gracza i meczu.
-      Sumuje i uśrednia metryki wydajnościowe oraz zawiera podstawowe informacje o drużynie i sezonie.
+      Consolidated dataset containing information about NBA draft players,
+      combining data from player history, player stats, and combine measurements.
+    columns:
+      - name: PLAYER_FULL_NAME
+        description: "{{ doc('PLAYER_FULL_NAME') }}"
+      - name: PLAYER_MAIN_POSITION
+        description: "{{ doc('POSITION') }}"
+      - name: PLAYER_SECOND_POSITION
+        description: "{{ doc('SECOND_POSITION') }}"
+      - name: DRAFT_YEAR
+        description: "{{ doc('PLAYER_DRAFT_YEAR') }}"
+      - name: DRAFT_NUMBER
+        description: "{{ doc('PLAYER_DRAFT_NUMBER') }}"
+      - name: DRAFT_TYPE
+        description: Type of draft (e.g., Regular, Supplemental, Unknown).
+      - name: TEAM_NAME
+        description: "{{ doc('TEAM_NAME') }}"
+      - name: TEAM_ABBREVIATION
+        description: "{{ doc('TEAM_ABBREVIATION') }}"
+      - name: TEAM_NICKNAME
+        description: Team nickname or alias.
+      - name: TEAM_CITY
+        description: "{{ doc('TEAM_CITY') }}"
+      - name: COLLEGE_OR_TEAM_NAME
+        description: "{{ doc('PLAYER_SCHOOL') }}"
+      - name: TEAM_ORGANIZTION_TYPE
+        description: Type of organization (e.g., College, International, Unknown).
+      - name: PLAYER_HEIGHT_IN_CM
+        description: "{{ doc('HEIGHT_CM') }}"
+      - name: PLAYER_WEIGHT_IN_KG
+        description: "{{ doc('WEIGHT_KG') }}"
+      - name: PLAYER_WINGSPAN_IN_CM
+        description: Player's wingspan measured in centimeters.
+      - name: PLAYER_STANDING_REACH_IN_CM
+        description: Player's standing reach measured in centimeters.
+      - name: PLAYER_BODY_FAT_PCT
+        description: Player’s body fat percentage from combine data.
+      - name: PLAYER_HAND_LENGTH_IN_CM
+        description: Player’s hand length in centimeters.
+      - name: PLAYER_HAND_WIDTH_IN_CM
+        description: Player’s hand width in centimeters.
+      - name: DRAFT_STANDING_VERTICAL_LEAP_IN_CM
+        description: Standing vertical leap measured during the draft combine (in cm).
+      - name: DRAFT_MAX_VERTICAL_LEAP_IN_CM
+        description: Maximum vertical leap measured during the draft combine (in cm).
+      - name: DRAFT_LANE_AGILITY_TIME
+        description: Lane agility time recorded during combine testing.
+      - name: DRAFT_THREE_QUARTER_SPRINT
+        description: Three-quarter sprint time recorded during combine testing.
+      - name: DRAFT_BENCH_PRESS_RESULT
+        description: Number of bench press repetitions performed during the combine.
+      - name: TOTAL_POINTS
+        description: "{{ doc('POINTS') }}"
+      - name: TOTAL_REBOUNDS
+        description: "{{ doc('REBOUNDS') }}"
+      - name: TOTAL_ASSISTS
+        description: "{{ doc('ASSISTS') }}"
+      - name: POINTS_PER_GAME
+        description: Average points per game.
+      - name: REBOUNDS_PER_GAME
+        description: Average rebounds per game.
+      - name: ASSISTS_PER_GAME
+        description: Average assists per game.
+      - name: WIN_SHARED
+        description: Player’s Win Shares metric estimating contribution to team success.
+      - name: BOX +/-
+        description: Player’s Box Plus/Minus advanced metric.
+      - name: VORP
+        description: Player’s Value Over Replacement Player (VORP) metric.
+      - name: IS_VALID
+        description: Record validity flag.
+      - name: LOAD_DATE
+        description: "{{ doc('LOAD_DATE') }}"
+      - name: SOURCE_TABLE_1
+        description: Reference to CLS_DRAFT_PLAYER_HISTORY.
+      - name: SOURCE_TABLE_2
+        description: Reference to CLS_DRAFT_PLAYER_STATS.
+      - name: SOURCE_TABLE_3
+        description: Reference to CLS_DRAFT_PLAYER_COMBINE_STATS.
+
+  - name: CO_SEASON_PLAYER_STARS_WO_DETAILS
+    description: >
+      Cleaned and standardized dataset of NBA player season performance
+      excluding detailed game-level statistics.
     columns:
       - name: PLAYER_ID
-        description: Unikalny identyfikator zawodnika.
-      - name: GAME_ID
-        description: Unikalny identyfikator meczu.
-      - name: TEAM_ID
-        description: Unikalny identyfikator drużyny.
-      - name: TEAM_NAME
-        description: Pełna nazwa drużyny.
-      - name: TEAM_ABBREVATION
-        description: Skrócona nazwa drużyny.
+        description: "{{ doc('PLAYER_ID') }}"
+      - name: PLAYER_FULL_NAME
+        description: "{{ doc('PLAYER_FULL_NAME') }}"
+      - name: PLAYER_SEASON_PLAYED
+        description: "{{ doc('PLAYER_SEASON_PLAYED') }}"
+      - name: START_OF_SEASON
+        description: "{{ doc('SEASON_START_YEAR') }}"
+      - name: END_OF_SEASON
+        description: "{{ doc('SEASON_END_YEAR') }}"
+      - name: TEAM_FULL_NAME
+        description: "{{ doc('TEAM_NAME') }}"
+      - name: TEAM_ABBREVIATION
+        description: "{{ doc('TEAM_ABBREVIATION') }}"
       - name: TEAM_CITY
-        description: Miasto drużyny.
+        description: "{{ doc('TEAM_CITY') }}"
+      - name: PLAYER_AGE
+        description: "{{ doc('PLAYER_AGE') }}"
+      - name: PLAYER_GAMES_PLAYED
+        description: "{{ doc('PLAYER_GAMES_PLAYED') }}"
+      - name: PLAYER_GAMES_STARTED
+        description: "{{ doc('PLAYER_GAMES_STARTED') }}"
+      - name: PLAYER_MINUTES_PLAYED
+        description: "{{ doc('MINUTES_PLAYED') }}"
+      - name: PLAYER_POINTS
+        description: "{{ doc('POINTS') }}"
+      - name: IS_SAME_NAME
+        description: Flag marking players with identical names ("Regular" or "Other").
+      - name: PROBABLE_DRAFT_YEAR
+        description: "{{ doc('PLAYER_DRAFT_YEAR') }}"
+      - name: IS_VALID
+        description: Record validity flag.
+      - name: LOAD_DATE
+        description: "{{ doc('LOAD_DATE') }}"
+      - name: SOURCE_TABLE
+        description: "{{ doc('SOURCE_TABLE') }}"
+
+  - name: CO_SEASON_PLAYER_STATS_WITH_DRAFT_AF
+    description: >
+      Core model combining season-level player statistics with draft and bio data.
+    columns:
+      - name: PLAYER_FULL_NAME
+        description: "{{ doc('PLAYER_FULL_NAME') }}"
+      - name: PLAYER_BIRTH_DATE
+        description: "{{ doc('BIRTH_DATE') }}"
+      - name: PLAYER_SCHOOL
+        description: "{{ doc('PLAYER_SCHOOL') }}"
+      - name: PLAYER_COUNTRY
+        description: "{{ doc('PLAYER_COUNTRY') }}"
+      - name: PLAYER_PREVIOUS_TEAM
+        description: "{{ doc('PLAYER_PREVIOUS_TEAM') }}"
+      - name: PLAYER_DRAFT_YEAR
+        description: "{{ doc('PLAYER_DRAFT_YEAR') }}"
+      - name: PLAYER_DRAFT_ROUND
+        description: "{{ doc('PLAYER_DRAFT_ROUND') }}"
+      - name: PLAYER_DRAFT_NUMBER
+        description: "{{ doc('PLAYER_DRAFT_NUMBER') }}"
+      - name: PLAYER_MAIN_POSITION
+        description: "{{ doc('POSITION') }}"
+      - name: PLAYER_SECOND_POSITION
+        description: "{{ doc('SECOND_POSITION') }}"
+      - name: PLAYER_HEIGHT_IN_CM
+        description: "{{ doc('HEIGHT_CM') }}"
+      - name: PLAYER_WEIGHT_IN_KG
+        description: "{{ doc('WEIGHT_KG') }}"
+      - name: TEAM_NAME
+        description: "{{ doc('TEAM_NAME') }}"
+      - name: TEAM_ABBREVIATION
+        description: "{{ doc('TEAM_ABBREVIATION') }}"
+      - name: PLAYER_GAMES_PLAYED
+        description: "{{ doc('PLAYER_GAMES_PLAYED') }}"
+      - name: PLAYER_POINTS
+        description: "{{ doc('POINTS') }}"
+      - name: LOAD_DATE
+        description: "{{ doc('LOAD_DATE') }}"
+      - name: SOURCE_TABLE_1
+        description: Reference to CO_SEASON_PLAYER_STARS_WO_DETAILS.
+      - name: SOURCE_TABLE_2
+        description: Reference to CLS_ALL_COMMON_PLAYER_INFO.
+
+  - name: CO_SEASPLAY_PLAYER_STATS
+    description: >
+      Aggregated player performance statistics per season and team.
+    columns:
       - name: SEASON_YEAR
-        description: Rok sezonu.
-      - name: GAME_DATE
-        description: Data meczu.
-      - name: PLAYER_NAME
-        description: Imię i nazwisko zawodnika.
-      - name: POSITION
-        description: Pozycja zawodnika na boisku.
-      - name: COMMENT
-        description: Dodatkowe uwagi/statystyki.
-      - name: TOTAL_MINUTES
-        description: Suma minut rozegranych przez zawodnika.
-      - name: TOTAL_SECONDS
-        description: Suma sekund rozegranych przez zawodnika.
-      - name: TOTAL_FG_MADE
-        description: Suma celnych rzutów z gry.
-      - name: TOTAL_FG_ATTEMPTED
-        description: Suma rzutów z gry.
-      - name: AVG_FG_PCT
-        description: Średnia skuteczność rzutów z gry.
-      - name: TOTAL_FG3_MADE
-        description: Suma celnych rzutów za 3 punkty.
-      - name: TOTAL_FG3_ATTEMPTED
-        description: Suma rzutów za 3 punkty.
-      - name: AVG_FG3_PCT
-        description: Średnia skuteczność rzutów za 3 punkty.
-      - name: TOTAL_FT_MADE
-        description: Suma celnych rzutów wolnych.
-      - name: TOTAL_FT_ATTEMPTED
-        description: Suma rzutów wolnych.
-      - name: AVG_FT_PCT
-        description: Średnia skuteczność rzutów wolnych.
-      - name: TOTAL_OREB
-        description: Suma zbiórek ofensywnych.
-      - name: TOTAL_DREB
-        description: Suma zbiórek defensywnych.
-      - name: TOTAL_ALL_REB
-        description: Suma wszystkich zbiórek.
-      - name: TOTAL_AST
-        description: Suma asyst.
-      - name: TOTAL_STL
-        description: Suma przechwytów.
-      - name: TOTAL_BLK
-        description: Suma bloków.
-      - name: TOTAL_TOV
-        description: Suma strat.
-      - name: TOTAL_PF
-        description: Suma fauli.
-      - name: TOTAL_PTS
-        description: Suma zdobytych punktów.
-      - name: TOTAL_PLUS_MINUS
-        description: Suma współczynnika +/− (różnica punktowa, gdy zawodnik był na boisku).
+        description: "{{ doc('SEASON_END_YEAR') }}"
+      - name: TEAM_NAME
+        description: "{{ doc('TEAM_NAME') }}"
+      - name: PLAYER_FULL_NAME
+        description: "{{ doc('PLAYER_FULL_NAME') }}"
+      - name: GAME_TYPE
+        description: Type of game (e.g., Regular Season, Playoffs).
+      - name: PLAYER_FG_MADE
+        description: "{{ doc('FIELD_GOALS_MADE') }}"
+      - name: PLAYER_FG_ATTEMPTED
+        description: "{{ doc('FIELD_GOALS_ATTEMPTED') }}"
+      - name: PLAYER_FG_PCT
+        description: "{{ doc('PLAYER_FG_PCT') }}"
+      - name: PLAYER_3PT_MADE
+        description: "{{ doc('THREE_POINTS_MADE') }}"
+      - name: PLAYER_3PT_ATTEMPTED
+        description: "{{ doc('THREE_POINTS_ATTEMPTED') }}"
+      - name: PLAYER_3PT_PCT
+        description: "{{ doc('PLAYER_3PT_PCT') }}"
+      - name: PLAYER_FT_MADE
+        description: "{{ doc('FREE_THROWS_MADE') }}"
+      - name: PLAYER_FT_ATTEMPTED
+        description: "{{ doc('FREE_THROWS_ATTEMPTED') }}"
+      - name: PLAYER_FT_PCT
+        description: "{{ doc('PLAYER_FT_PCT') }}"
+      - name: PLAYER_OFF_REB
+        description: "{{ doc('REBOUNDS_OFF') }}"
+      - name: PLAYER_DEF_REB
+        description: "{{ doc('REBOUNDS_DEF') }}"
+      - name: PLAYER_TOTAL_REB
+        description: "{{ doc('REBOUNDS') }}"
+      - name: PLAYER_AST
+        description: "{{ doc('ASSISTS') }}"
+      - name: PLAYER_STL
+        description: "{{ doc('STEALS') }}"
+      - name: PLAYER_BLK
+        description: "{{ doc('BLOCKS') }}"
+      - name: PLAYER_TOV
+        description: "{{ doc('TURNOVERS') }}"
+      - name: PLAYER_FOULS
+        description: "{{ doc('FOULS') }}"
+      - name: PLAYER_PTS
+        description: "{{ doc('POINTS') }}"
+      - name: PLAYER_PLUS_MINUS
+        description: Average plus/minus value across games.
+      - name: PLAYER_GAME_PLAYED
+        description: "{{ doc('PLAYER_GAMES_PLAYED') }}"
+      - name: IS_VALID
+        description: Record validity flag.
+      - name: LOAD_DATE
+        description: "{{ doc('LOAD_DATE') }}"
+      - name: SOURCE_TABLE
+        description: "{{ doc('SOURCE_TABLE') }}"

@@ -186,6 +186,10 @@ College or school attended by the player before entering the NBA.
 The number of NBA seasons the player has participated in.
 {% enddocs %}
 
+{% docs PLAYER_SEASON_PLAYED %}
+Season which player has played.
+{% enddocs %}
+
 {% docs PLAYED_IN_DLEAGUE %}
 Boolean flag indicating if the player participated in the NBA D-League/G-League.
 {% enddocs %}
