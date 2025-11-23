@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: MT_DIM_PLAYER_STATS_DENORM
+  - name: MT_DIM_PLAYER_STATS_STAR
     description: >
       Dimension table that contains aggregated player attributes and awards
       across NBA seasons. It includes personal details, draft information,
@@ -54,7 +54,7 @@ models:
       - name: SOURCE_TABLE
         description: "{{ doc('SOURCE_TABLE') }}"
 
-  - name: MT_DIM_SEASON_STATS_DENORM
+  - name: MT_DIM_SEASON_STATS_STAR
     description: >
       Dimension table that contains NBA season metadata, including season
       identifiers, eras, and time ranges.
@@ -76,7 +76,7 @@ models:
       - name: SOURCE_TABLE
         description: "{{ doc('SOURCE_TABLE') }}"
 
-  - name: MT_DIM_TEAM_STATS_DENORM
+  - name: MT_DIM_TEAM_STATS_STAR
     description: >
       Dimension table that contains NBA team metadata, including name,
       abbreviation, city, and league hierarchy.
@@ -241,7 +241,7 @@ models:
       - name: SOURCE_TABLE_1
         description: "{{ doc('SOURCE_TABLE') }}"
 
-  - name: MT_SEASON_PLAYER_STATS_WITH_DRAFT_NORMALIZED
+  - name: MT_SEASON_PLAYER_STATS_WITH_DRAFT_DENORM
     description: >
       Normalized version of season player statistics with draft details. Applies formatting, 
       country and position normalization, and fixes inconsistencies in abbreviations and values.
@@ -367,7 +367,7 @@ models:
       - name: SOURCE_TABLE
         description: "{{ doc('SOURCE_TABLE') }}"
 
-  - name: MT_FACT_PLAYER_STATS_WITH_DRAFT_NORMALIZED
+  - name: MT_FACT_PLAYER_STATS_WITH_DRAFT_STAR
     description: >
       Fact table that supports star schema modeling. It links player, season, and team 
       dimensions and contains both basic and advanced per-game statistics.

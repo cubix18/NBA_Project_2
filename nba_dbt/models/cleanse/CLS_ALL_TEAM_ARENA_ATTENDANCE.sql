@@ -17,9 +17,9 @@ CTE AS (
         , REPLACE(SPLIT(DATE, ',')[0], '"','') AS DAY_MATCH_DATE
         , REPLACE("Start (ET)", 'p', '') AS START_DATE
         , "Home/Neutral" AS HOME_TEAM
-        ,  PTS_HOME
+        , PTS_HOME
         , "Visitor/Neutral" AS AWAY_TEAM
-        , PTS_VISITOR AS PTS_AWAY
+        , PTS_AWAY
         , COALESCE("Unnamed: 7", 'NORMAL') AS END_OF_MATCH
         , CAST(REPLACE(ATTENDANCE, ',', '.') * 1000 AS NUMBER) AS MATCH_ATTENDANCE
         , INITCAP(ARENA) AS MATCH_ARENA
