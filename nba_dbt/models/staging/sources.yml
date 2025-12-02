@@ -99,3 +99,6 @@ sources:
       # source: Snowflake
       - name: STG_SEASON_TEAM_SUMMARY2425
         description: "Aggregated team statistics for the 2024/25 regular season (Basketball Reference). File: NBA Reg Season 24-25 Total.csv"
+
+      - name: STG_SEASON_PLAYER_FANTASY_2425
+        description: "Aggregated team statistics for the 2024/25 regular season. Was used to predict Fantasy points"
