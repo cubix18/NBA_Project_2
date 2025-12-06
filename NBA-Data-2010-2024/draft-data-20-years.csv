@@ -1,4 +1,4 @@
-"""ID"",""Rk"",""Pk"",""Tm"",""Player"",""College"",""Yrs"",""G"",""TOTMP"",""TOTPTS"",""TOTTRB"",""TOTAST"",""FG%"",""3P%"",""FT%"",""WS"",""WS/48"",""BPM"",""VORP"",""DraftYr"",""MPG"",""PPG"",""RPG"",""APG"",""playerurl"",""DraftYear"""
+"""ID"",""Rk"",""Pk"",""Tm"",""Player"",""College"",""Yrs"",""G"",""TOTMP"",""TOTPTS"",""TOTTRB"",""TOTAST"",""FG%"",""3P%"",""FT%"",""WS"",""WS/48"",""BPM"",""VORP"",""DraftYear"",""MPG"",""PPG"",""RPG"",""APG"",""playerurl"",""DraftYear"""
 "1,1,1,""BRK"",""Derrick Coleman"",""Syracuse"",15,781,25903,12884,7232,1985,0.447,0.295,0.769,64.3,0.119,1.4,22.3,1990,33.2,16.5,9.3,2.5,""https://www.sports-reference.com/cbb/players/derrick-coleman-1.html"",1990"
 "2,2,2,""OKC"",""Gary Payton"",""Oregon State"",17,1335,47117,21813,5269,8966,0.466,0.317,0.729,145.5,0.148,3.3,62.5,1990,35.3,16.3,3.9,6.7,""https://www.sports-reference.com/cbb/players/gary-payton-1.html"",1990"
 "3,3,3,""DEN"",""Mahmoud Abdul-Rauf"",""LSU"",9,586,15628,8553,1087,2079,0.442,0.354,0.905,25.2,0.077,-0.8,4.5,1990,26.7,14.6,1.9,3.5,""https://www.sports-reference.com/cbb/players/mahmoud-abdul-rauf-1.html"",1990"
